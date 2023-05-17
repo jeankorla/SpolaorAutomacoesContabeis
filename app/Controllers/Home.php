@@ -1,6 +1,8 @@
 <?php
 
 namespace App\Controllers;
+use App\Controllers\BaseController;
+use App\Models\UsuarioModel;
 
 class Home extends BaseController
 {
@@ -9,5 +11,24 @@ class Home extends BaseController
         echo view('common/header');
         echo view('login');
         echo view('common/footer');
+    }
+    public function login()
+    {
+        $username = $this->request->getPost('name');
+        $password = $this->request->getPost('password');
+
+        $model = new UsuarioModel();
+
+        $user = $model->getUser($username, $password);
+
+        if ($user) {
+            // Define a variável de sessão 'isLoggedIn' como true
+            session()->set('isLoggedIn', true);
+            // Redireciona para a tela "index"
+            return redirect()->to('base/index');
+        } else {
+            // Caso o login falhe, redireciona de volta para a tela de login
+            return redirect()->back()->with('error', 'Credenciais inválidas.')->withInput();
+        }
     }
 }

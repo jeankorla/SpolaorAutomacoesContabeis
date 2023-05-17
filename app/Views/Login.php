@@ -9,29 +9,38 @@
       </div>
 
       <div class="col-md-6 col-lg-4 mb-3 mb-lg-0 d-flex align-items-center ms-auto">
-        <div class="card mx-auto w-100" style="border-radius: 30px;">
+        <div class="card mx-auto w-100 shadow-lg" style="border-radius: 30px; background-color: #0E415F">
           <div class="card-body py-5 px-md-5">
-            <h1 class="text-center">Login</h1>
+            <h1 class="text-center text-white">Login</h1>
 
-            <form>
+            <form action="<?= site_url('home/login') ?>" method="post">
               <!-- Email input -->
               <div class="form-outline mb-4">
                 <input type="text" id="name" name="name" class="form-control" />
-                <label class="form-label" for="name">Username</label>
+                <label class="form-label text-white" for="name">Username</label>
               </div>
 
               <!-- Password input -->
               <div class="form-outline mb-4">
                 <input type="password" id="password" name="password" class="form-control" />
-                <label class="form-label" for="password">Password</label>
+                <label class="form-label text-white" for="password">Password</label>
               </div>
 
+              <!-- Exibe a mensagem de erro, caso exista -->
+            <?php if (session()->has('error')) : ?>
+            <div class="alert alert-danger" role="alert">
+                <?= session('error') ?>
+            </div>
+            <?php endif; ?>
+
               <!-- Submit button -->
-              <button type="submit" class="btn btn-primary btn-block mb-4">
+              <button type="submit" class="btn btn-primary btn-block mb-4" style="background-color: #1F628E">
                 Sign in
               </button>
 
             </form>
+
+
 
           </div>
         </div>
