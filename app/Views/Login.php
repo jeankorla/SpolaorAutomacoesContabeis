@@ -16,14 +16,14 @@
             <form action="<?= site_url('home/login') ?>" method="post">
               <!-- Email input -->
               <div class="form-outline mb-4">
-                <input type="text" id="name" name="name" class="form-control" />
-                <label class="form-label text-white" for="name">Username</label>
+                <input type="text" id="NAME" name="NAME" class="form-control" />
+                <label class="form-label text-white" for="NAME">Username</label>
               </div>
 
               <!-- Password input -->
               <div class="form-outline mb-4">
-                <input type="password" id="password" name="password" class="form-control" />
-                <label class="form-label text-white" for="password">Password</label>
+                <input type="password" id="PASSWORD" name="PASSWORD" class="form-control" />
+                <label class="form-label text-white" for="PASSWORD">Password</label>
               </div>
 
               <!-- Exibe a mensagem de erro, caso exista -->

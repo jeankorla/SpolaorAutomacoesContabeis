@@ -14,8 +14,8 @@ class Home extends BaseController
     }
     public function login()
     {
-        $username = $this->request->getPost('name');
-        $password = $this->request->getPost('password');
+        $username = $this->request->getPost('NAME');
+        $password = $this->request->getPost('PASSWORD');
 
         $model = new UsuarioModel();
 
@@ -24,11 +24,13 @@ class Home extends BaseController
         if ($user) {
             // Define a variável de sessão 'isLoggedIn' como true
             session()->set('isLoggedIn', true);
+            // Limpa todas as outras variáveis de sessão
+            session()->remove(['otherSessionVariable1', 'otherSessionVariable2']);
             // Redireciona para a tela "index"
             return redirect()->to('base/index');
         } else {
             // Caso o login falhe, redireciona de volta para a tela de login
             return redirect()->back()->with('error', 'Credenciais inválidas.')->withInput();
         }
-    }
+}
 }
