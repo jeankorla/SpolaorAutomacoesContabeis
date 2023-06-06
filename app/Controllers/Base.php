@@ -33,7 +33,6 @@ public function convertPdfToText() {
     // Verifica se o arquivo foi enviado corretamente
     if ($this->request->getMethod() === 'post') {
         $pdfFile = $this->request->getFile('pdf_file');
-
         if ($pdfFile != null && $pdfFile->isValid() && !$pdfFile->hasMoved()) {
             // Move o arquivo para um diretório temporário
             $newName = $pdfFile->getRandomName();
@@ -90,12 +89,21 @@ function extractFields($text) {
     $dataHoraEmissao = isset($matches[1]) ? \DateTime::createFromFormat('d/m/Y H:i', $matches[1])->format('Ymd') : '';
 
     // O valor da nota fiscal
-    preg_match("/([\d\.,]+)\s*Avisos/", $text, $matches);
+    preg_match("/([\d\.,]+)\s*([\d\.,]+)\s*Avisos/s", $text, $matches);
     $valorNota = isset($matches[1]) ? (float)str_replace(',', '.', str_replace('.', '', $matches[1])) : 0.0;
 
     // O valor de Base de Calculo
-    preg_match("/([\d\.,]+)\s*([\d\.,]+)\s*Avisos/s", $text, $matches);
+    preg_match("/([\d\.,]+)\s*Avisos/", $text, $matches);
     $valorBase = isset($matches[1]) ? (float)str_replace(',', '.', str_replace('.', '', $matches[1])) : 0.0;
+
+     // O valor de Aliquota
+    preg_match("/([\d\.,]+)\s*([\d\.,]+)\s*[\d\.,]+\s*Avisos/s", $text, $matches);
+    $valorAliquota = isset($matches[2]) ? (float)str_replace(',', '.', str_replace('.', '', $matches[1])) : 0.0;
+
+    //Valor ISS
+    preg_match("/([\d\.,]+)\s*\(\X\) Sim \(\) Não/", $text, $matches);
+    $valorIss = isset($matches[1]) ? (float)str_replace(',', '.', str_replace('.', '', $matches[1])) : 0.0;
+
 
     // Campo 1 - Número da chave da importação, neste caso estamos apenas usando um número aleatório
     $fields[] = rand(1, 999999);
@@ -127,8 +135,17 @@ function extractFields($text) {
     // Campo 10 - Valor contábil da nota
     $fields[] = number_format($valorNota, 2, '.', '');
 
-    // Campo 11 - Valor contábil da nota
+    // Campo 11 - Valor do Calculo ISS
     $fields[] = number_format($valorBase, 2, '.', '');
+
+    // Campo 12 - Valor Aliquota
+    $fields[] = number_format($valorAliquota, 2, '.', '');
+
+    // Campo 13 - Valor ISS calculado
+    $fields[] = number_format($valorIss, 2, '.', '');
+
+    // Campo 14 - Observação, neste exemplo estamos deixando em branco
+    $fields[] = '';
 
     return $fields;
 }
