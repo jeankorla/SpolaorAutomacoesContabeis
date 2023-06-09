@@ -134,7 +134,7 @@ function extractFields($text) {
     $fields[] = $numeroNota;
 
     // Campo 8 - Espécie do documento, neste exemplo estamos usando um valor fixo
-    $fields[] = 'NFS';
+    $fields[] = 'NFS-e';
 
     // Campo 9 - Série do documento, neste exemplo estamos deixando em branco
     $fields[] = '';
@@ -172,7 +172,7 @@ function extractFields($text) {
     // Campo 20 - Conta Crédito Exportação P/ contabilida
     $fields[] = '';
 
-    // Campo 21 - Redução da base de cálculo de cálculo ----------------------------------------------------
+    // Campo 21 - Redução da base de cálculo de cálculo 
     $fields[] = null;
 
     // Campo 22 - Valor de isentas do ISS
@@ -238,14 +238,14 @@ function extractFields($text) {
     // Campo 42 -Valor da retenção de INSS ----------------------------------------------------------------------
     $fields[] = number_format($zero, 2, '.', '');
 
-    // Campo 43 - Tipo de Prestação de Serviço -----------------------------------------------------------------
+    // Campo 43 - Tipo de Prestação de Serviço 
     $fields[] = '';
 
-    // Campo 44 - Tipo de recolhimento do ISSQN para cidades -----------------------------------------------------
+    // Campo 44 - Tipo de recolhimento do ISSQN para cidades 
     $fields[] = '';
 
-    // Campo 45 - Tipo de lançamento -----------------------------------------------------------------------------
-    $fields[] = '';
+    // Campo 45 - Tipo de lançamento
+    $fields[] = 'R';
 
     // Campo 46 -Código do Fornecedor, quando o estado da empresa for igual a MS e o tipo do Lançamento for R (Recebidos)
     $fields[] = '';
@@ -403,8 +403,8 @@ function extractFields($text) {
     // Campo 97 - Percentual redução da base ISS 9
     $fields[] = number_format($zero, 2, '.', '');
 
-    // Campo 98 - Tipo da Observação ---------------------------------------------------------------------------
-    $fields[] = '';
+    // Campo 98 - Tipo da Observação 
+    $fields[] = 'F';
 
     // Campo 99 - Código da natureza de operação -----------------------------------------------------------------
     $fields[] = '';
@@ -427,7 +427,7 @@ function extractFields($text) {
     // Campo 105 - Tipo Nota
     $fields[] = '';
 
-    // Campo 106 - Situação -----------------------------------------------------------------------------------
+    // Campo 106 - Situação 
     $fields[] = '';
 
     // Campo 107 - Valor da Retenção do ISS
@@ -454,10 +454,10 @@ function extractFields($text) {
     // Campo 114 - Código de receita da Retenção da CONTRIBUIÇÃO SOCIAL 
     $fields[] = null;
 
-    // Campo 115 - Modelo documento para cidades Belo horizonte/campos grande... --------------------------------
+    // Campo 115 - Modelo documento para cidades Belo horizonte/campos grande
     $fields[] = '';
 
-    // Campo 116 - Natureza de Operação – Somente Corumbá... ----------------------------------------------------
+    // Campo 116 - Natureza de Operação – Somente Corumbá
     $fields[] = '';
 
     // Campo 117 - Indicador (PJ / ST / Ajuste) ----------------------------------------------------
@@ -499,10 +499,10 @@ function extractFields($text) {
     // Campo 129 -  Tipo Nota GISSONLINE ------------------------------------------------------------------------
     $fields[] = '';
 
-    // Campo 130 -  Situação da Nota ------------------------------------------------------------------------
+    // Campo 130 -  Situação da Nota 
     $fields[] = '';
 
-    // Campo 131 -  Tipo Nota ------------------------------------------------------------------------
+    // Campo 131 -  Tipo Nota 
     $fields[] = '';
 
     // Campo 132 - Valor do PIS Lucro Real. 
@@ -511,25 +511,25 @@ function extractFields($text) {
     // Campo 133 - Valor do COFINS Lucro Real. 
     $fields[] = number_format($zero, 2, '.', '');
 
-    // Campo 134 -Natureza Operação CAMPINAS, SOROCABA, SANTA MARIA e CANOAS -----------------------------------
+    // Campo 134 -Natureza Operação CAMPINAS, SOROCABA, SANTA MARIA e CANOAS 
     $fields[] = null;
 
     // Campo 135 - Base de cálculo 
     $fields[] = number_format($zero, 2, '.', '');
 
-    // Campo 136 -  Tipo de documento ------------------------------------------------------------------------
+    // Campo 136 -  Tipo de documento 
     $fields[] = '';
 
-    // Campo 137 - Código da situação tributária da declaração do serviço  ------------------------------------------------------------------------
+    // Campo 137 - Código da situação tributária da declaração do serviço  
     $fields[] = '';
 
-    // Campo 138 - Código da obra  ------------------------------------------------------------------------
+    // Campo 138 - Código da obra 
     $fields[] = '';
 
-    // Campo 139 - Identificação do serviço para Curitiba/PR  ------------------------------------------------------------------------
+    // Campo 139 - Identificação do serviço para Curitiba/PR  
     $fields[] = '';
 
-    // Campo 140 - Tributação da nota para Campinas/SP, Sorocaba/SP e Cuiabá/MT ------------------------------------------------------------------------
+    // Campo 140 - Tributação da nota para Campinas/SP, Sorocaba/SP e Cuiabá/MT 
     $fields[] = '';
 
     // Campo 141 - Valor das deduções da nota
@@ -538,31 +538,31 @@ function extractFields($text) {
     // Campo 142 -  Nome do responsável, pessoa física...
     $fields[] = '';
     
-    // Campo 143 -  CPF do responsável pelo pagamento ------------------------------------------------------------
+    // Campo 143 -  CPF do responsável pelo pagamento 
     $fields[] = '';
 
     // Campo 144 -  Nome do beneficiário do serviço médico...
     $fields[] = '';
 
-    // Campo 145 -  CPF do beneficiário para a DMED ------------------------------------------------------------
+    // Campo 145 -  CPF do beneficiário para a DMED 
     $fields[] = '';
 
-    // Campo 146 -  Data de nascimento do beneficiário para a DMED ------------------------------------------------
+    // Campo 146 -  Data de nascimento do beneficiário para a DMED 
     $fields[] = '';
 
-    // Campo 147 - Número da AIDF (ISS... ----------------------------------------------------------------------
+    // Campo 147 - Número da AIDF (ISS... 
     $fields[] = null;
 
-    // Campo 148 - ano da AIDF (ISS... ----------------------------------------------------------------------
+    // Campo 148 - ano da AIDF (ISS... 
     $fields[] = null;
 
-    // Campo 149 -  Situação do documento (Sped Pis/Cofins) ------------------------------------------------
+    // Campo 149 -  Situação do documento (Sped Pis/Cofins)
+    $fields[] = '00';
+
+    // Campo 150 -  Chave da nota fiscal de serviços eletrônica (Sped pis/cofins ) 
     $fields[] = '';
 
-    // Campo 150 -  Chave da nota fiscal de serviços eletrônica (Sped pis/cofins ) -------------------------------
-    $fields[] = '';
-
-    // Campo 151 -  Data de execução do serviço (Sped Pis/Cofins) -------------------------------
+    // Campo 151 -  Data de execução do serviço (Sped Pis/Cofins) 
     $fields[] = '';
 
     // Campo 152 - Base do Pis
@@ -574,7 +574,7 @@ function extractFields($text) {
     // Campo 154 - Valor do Pis
     $fields[] = number_format($zero, 2, '.', '');
 
-    // Campo 155 -  CTS do Pis -------------------------------
+    // Campo 155 -  CTS do Pis 
     $fields[] = '';
 
     // Campo 156 - Base do Pis importação
@@ -583,7 +583,7 @@ function extractFields($text) {
     // Campo 157 - Valor do Pis importação
     $fields[] = number_format($zero, 2, '.', '');
 
-    // Campo 158 - Data de pagamento do Pis  -------------------------------
+    // Campo 158 - Data de pagamento do Pis  
     $fields[] = '';
 
     // Campo 159 - Base do Cofins
@@ -595,7 +595,7 @@ function extractFields($text) {
     // Campo 161 - Valor do Cofins
     $fields[] = number_format($zero, 2, '.', '');
 
-    // Campo 162 - CST do Cofins  -------------------------------
+    // Campo 162 - CST do Cofins  
     $fields[] = '';
 
     // Campo 163 - Base do Cofins importação
@@ -604,31 +604,31 @@ function extractFields($text) {
     // Campo 164 - Valor do Cofins importação
     $fields[] = number_format($zero, 2, '.', '');
 
-    // Campo 165 - Data do pagamento do Cofins - Importação  -------------------------------
+    // Campo 165 - Data do pagamento do Cofins - Importação  
     $fields[] = '';
 
     // Campo 166 - Indicador do local da prestação do serviço 
     $fields[] = null;
 
-    // Campo 167 -Código da base de cálculo do crédito...  -------------------------------
+    // Campo 167 -Código da base de cálculo do crédito... 
     $fields[] = '';
 
-    // Campo 168 -Código do produto vinculado ao serviço -------------------------------
+    // Campo 168 -Código do produto vinculado ao serviço 
     $fields[] = '';
 
-    // Campo 169 - Tipo da Nota – Itajaí -------------------------------
+    // Campo 169 - Tipo da Nota – Itajaí 
     $fields[] = '';
 
-    // Campo 170 - Código de receita IRRF ----------------------------------------------------------------
-    $fields[] = null;
+    // Campo 170 - Código de receita IRRF 
+    $fields[] = 1708;
 
-    // Campo 171 - Tipo documento: -------------------------------
-    $fields[] = null;
+    // Campo 171 - Tipo documento: 
+    $fields[] = 00;
 
-    // Campo 172 - Tipo da natureza de operação  -------------------------------
+    // Campo 172 - Tipo da natureza de operação  
     $fields[] = '';
 
-    // Campo 173 - Número da nota Fiscal a deduzir ----------------------------------------------------------------
+    // Campo 173 - Número da nota Fiscal a deduzir 
     $fields[] = null;
 
     // Campo 174 - Valor NF a deduzir (Belo Horizonte/MG)
@@ -664,10 +664,10 @@ function extractFields($text) {
     // Campo 184 - Base Legal – ISS Tinus
     $fields[] = null;
 
-    // Campo 185 - Número sequencial do recibo – ISS Tinus ??????????????????????????????????????????????????
+    // Campo 185 - Número sequencial do recibo – ISS Tinus 
     $fields[] = null;
 
-    // Campo 186 -  Nota avulsa ISS Tinus ---------------------------------------------------
+    // Campo 186 -  Nota avulsa ISS Tinus 
     $fields[] = '';
 
     // Campo 187 - Descrição do serviço DIF mensal Taió
@@ -676,19 +676,19 @@ function extractFields($text) {
     // Campo 188 - Indicador da natureza da retençaõ f600 sped
     $fields[] = null;
 
-    // Campo 189 - Código da atividade para contribuição previdenciária ---------------------------------------
+    // Campo 189 - Código da atividade para contribuição previdenciária ----------------------------
     $fields[] = '';
 
-    // Campo 190 - 01 - Complementar – ISS Itajaí ---------------------------------------
+    // Campo 190 - 01 - Complementar – ISS Itajaí 
     $fields[] = '';
 
-    // Campo 190 - 02 -Regime de Tributação ISS Simpliss ---------------------------------------
+    // Campo 190 - 02 -Regime de Tributação ISS Simpliss 
     $fields[] = '';
 
-    // Campo 191 - Tributação de ISS no município do cliente/fornecedor ---------------------------------------
+    // Campo 191 - Tributação de ISS no município do cliente/fornecedor 
     $fields[] = '';
 
-    // Campo 192 - Data da anulação  ---------------------------------------
+    // Campo 192 - Data da anulação  
     $fields[] = '';
 
     // Campo 193 - Tipo de escrituração de Porto Alegre/RS
@@ -730,7 +730,7 @@ function extractFields($text) {
     // Campo 205 -Cidade de Incidência do ISSQN – Código IBGE – Belo Horizonte  VAZIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
     $fields[] = null;
 
-    // Campo 206 - Inscrição estadual do Cliente/Fornecedor -----------------------------------------------
+    // Campo 206 - Inscrição estadual do Cliente/Fornecedor
     $fields[] = '';
 
     // Campo 207 - Motivo do Cancelamento – Belo Horizonte VAZIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
@@ -739,7 +739,7 @@ function extractFields($text) {
     // Campo 208 - NFSe Substituidora – Belo Horizonte
     $fields[] = '';
 
-    // Campo 209 - Código da conta financeira (GIF-IF) -------------------------------------------------
+    // Campo 209 - Código da conta financeira (GIF-IF) 
     $fields[] = '';
 
     // Campo 210 - Nota Fiscal de Serviço o Eletrônica (Maringá) 
@@ -778,40 +778,40 @@ function extractFields($text) {
     // Campo 221 - Valor do desconto VAZIOOOOOOOOOOOOOOOO
     $fields[] = null;
 
-    // Campo 222 -  Indicador da obra ----------------------------------------------
+    // Campo 222 -  Indicador da obra 
     $fields[] = '';
 
-    // Campo 223 -  CNO - Código nacional de obra ----------------------------------------------
-    $fields[] = '';
-    
-    // Campo 224 -  Tipo do serviço conforme tabela 6 REINF ----------------------------------------------
-    $fields[] = '';
-
-    // Campo 225 -  Incidência da CPRB no prestador (Serviços Tomados) -------------------------------------------
-    $fields[] = null;
-
-    // Campo 226 -  Situação do documento Sped  -------------------------------------------
-    $fields[] = null;
-
-    // Campo 227 -  Modelo do documento sped  -------------------------------------------
+    // Campo 223 -  CNO - Código nacional de obra 
     $fields[] = '';
     
-    // Campo 228 -  Chave DF-e Sped  -------------------------------------------
+    // Campo 224 -  Tipo do serviço conforme tabela 6 REINF 
+    $fields[] = '';
+
+    // Campo 225 -  Incidência da CPRB no prestador (Serviços Tomados) 
+    $fields[] = null;
+
+    // Campo 226 -  Situação do documento Sped  
+    $fields[] = null;
+
+    // Campo 227 -  Modelo do documento sped  
+    $fields[] = '';
+    
+    // Campo 228 -  Chave DF-e Sped  
     $fields[] = '';
 
     // Campo 229 -  Emitente  -------------------------------------------
     $fields[] = '';
 
-    // Campo 230 -  Quantidade cancelada -------------------------------------------
+    // Campo 230 -  Quantidade cancelada 
     $fields[] = null;
 
-    // Campo 231 - Outras Deduções INSS -----------------------------------
+    // Campo 231 - Outras Deduções INSS 
     $fields[] = number_format($zero, 2, '.', '');
 
-    // Campo 232 - Redução da base de INSS ------------------------------------------
+    // Campo 232 - Redução da base de INSS 
     $fields[] = number_format($zero, 2, '.', '');
 
-    // Campo 233 - Materiais de terceiros ------------------------------------------
+    // Campo 233 - Materiais de terceiros 
     $fields[] = number_format($zero, 2, '.', '');
 
     // Campo 234 - receita inss
@@ -821,10 +821,14 @@ function extractFields($text) {
     $fields[] = number_format($zero, 2, '.', '');
 
     // Campo 236 -Indicador da origem do crédito ----------------------------------
-    $fields[] = null;
+    $fields[] = "0";
 
+     // Transforma o array $fields em uma string
+    $textData = implode(',', $fields);
 
-
+    // Escreve a string em um arquivo .txt
+    file_put_contents('./uploads/dados.txt', $textData);
+   
 
 
 
