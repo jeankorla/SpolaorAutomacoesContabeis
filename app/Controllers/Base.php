@@ -173,7 +173,7 @@ function extractFields($text) {
     $fields[] = '';
 
     // Campo 21 - Redução da base de cálculo de cálculo ----------------------------------------------------
-    $fields[] = '';
+    $fields[] = null;
 
     // Campo 22 - Valor de isentas do ISS
     $fields[] = number_format($zero, 2, '.', '');
@@ -419,7 +419,7 @@ function extractFields($text) {
     $fields[] = number_format($zero, 2, '.', '');
 
     // Campo 103 - Valor da Contribuição Social
-    $fields[] = number_format($zero, 0);
+    $fields[] = null;
 
     // Campo 104 - Código Fiscal de Prestação de Serviço
     $fields[] = '';
@@ -446,13 +446,13 @@ function extractFields($text) {
     $fields[] = '';
 
     // Campo 112 - Código de receita da Retenção do PIS
-    $fields[] = number_format($zero, 0);
+    $fields[] = null;
 
     // Campo 113 - Código de receita da Retenção do COFINS
-    $fields[] = number_format($zero, 0);
+    $fields[] = null;
 
     // Campo 114 - Código de receita da Retenção da CONTRIBUIÇÃO SOCIAL 
-    $fields[] = number_format($zero, 0);
+    $fields[] = null;
 
     // Campo 115 - Modelo documento para cidades Belo horizonte/campos grande... --------------------------------
     $fields[] = '';
@@ -512,7 +512,7 @@ function extractFields($text) {
     $fields[] = number_format($zero, 2, '.', '');
 
     // Campo 134 -Natureza Operação CAMPINAS, SOROCABA, SANTA MARIA e CANOAS -----------------------------------
-    $fields[] = number_format($zero, 2, '.', '');
+    $fields[] = null;
 
     // Campo 135 - Base de cálculo 
     $fields[] = number_format($zero, 2, '.', '');
@@ -551,10 +551,10 @@ function extractFields($text) {
     $fields[] = '';
 
     // Campo 147 - Número da AIDF (ISS... ----------------------------------------------------------------------
-    $fields[] = number_format($zero, 2, '.', '');
+    $fields[] = null;
 
     // Campo 148 - ano da AIDF (ISS... ----------------------------------------------------------------------
-    $fields[] = number_format($zero, 2, '.', '');
+    $fields[] = null;
 
     // Campo 149 -  Situação do documento (Sped Pis/Cofins) ------------------------------------------------
     $fields[] = '';
@@ -608,7 +608,7 @@ function extractFields($text) {
     $fields[] = '';
 
     // Campo 166 - Indicador do local da prestação do serviço 
-    $fields[] = number_format($zero, 0);
+    $fields[] = null;
 
     // Campo 167 -Código da base de cálculo do crédito...  -------------------------------
     $fields[] = '';
@@ -620,16 +620,16 @@ function extractFields($text) {
     $fields[] = '';
 
     // Campo 170 - Código de receita IRRF ----------------------------------------------------------------
-    $fields[] = number_format($zero, 0);
+    $fields[] = null;
 
     // Campo 171 - Tipo documento: -------------------------------
-    $fields[] = '';
+    $fields[] = null;
 
     // Campo 172 - Tipo da natureza de operação  -------------------------------
     $fields[] = '';
 
     // Campo 173 - Número da nota Fiscal a deduzir ----------------------------------------------------------------
-    $fields[] = number_format($zero, 0);
+    $fields[] = null;
 
     // Campo 174 - Valor NF a deduzir (Belo Horizonte/MG)
     $fields[] = number_format($zero, 2, '.', '');
@@ -662,10 +662,10 @@ function extractFields($text) {
     $fields[] = '';
 
     // Campo 184 - Base Legal – ISS Tinus
-    $fields[] = number_format($zero, 1);
+    $fields[] = null;
 
     // Campo 185 - Número sequencial do recibo – ISS Tinus ??????????????????????????????????????????????????
-    $fields[] = '';
+    $fields[] = null;
 
     // Campo 186 -  Nota avulsa ISS Tinus ---------------------------------------------------
     $fields[] = '';
@@ -674,7 +674,7 @@ function extractFields($text) {
     $fields[] = '';
 
     // Campo 188 - Indicador da natureza da retençaõ f600 sped
-    $fields[] = number_format($zero, 2);
+    $fields[] = null;
 
     // Campo 189 - Código da atividade para contribuição previdenciária ---------------------------------------
     $fields[] = '';
@@ -692,49 +692,49 @@ function extractFields($text) {
     $fields[] = '';
 
     // Campo 193 - Tipo de escrituração de Porto Alegre/RS
-    $fields[] = number_format($zero, 0);
+    $fields[] = null;
 
     // Campo 194 - Tipo de serviço de Porto Alegre/R
-    $fields[] = number_format($zero, 0);
+    $fields[] = null;
 
     // Campo 195 - Tipo de serviço de Porto Alegre/R ????????????????????????????????????????????????
-    $fields[] = number_format($zero, 0);
+    $fields[] = null;
 
     // Campo 196 - Número do tíquete de serviço de Porto Alegre/RS ???????????????????????????????????
-    $fields[] = number_format($zero, 0);
+    $fields[] = null;
 
     // Campo 197 - número da sub–declaração de serviço de Porto Alegre ???????????????????????????????????
-    $fields[] = number_format($zero, 0);
+    $fields[] = null;
 
     // Campo 198 - Número da matrícula de obra de serviço de Porto Alegre/RS ???????????????????????????????????
-    $fields[] = number_format($zero, 0);
+    $fields[] = null;
 
     // Campo 199 -Valor da dedução de turismo – passagens aéreas  ???????????????????????????????????
-    $fields[] = number_format($zero, 0);
+    $fields[] = null;
 
     // Campo 200 - Valor da dedução de turismo – diárias de Porto Alegre/R  ???????????????????????????????????
-    $fields[] = number_format($zero, 0);
+    $fields[] = null;
 
     // Campo 201 - Valor do imposto retido – ST de Porto Alegre/RS  ???????????????????????????????????
-    $fields[] = number_format($zero, 0);
+    $fields[] = null;
 
     // Campo 202 - CNPJ da empresa que está fazendo o lançamento para validação do arquivo  ----------------------
     $fields[] = '';
 
     // Campo 203 - Regime especial de tributação – Belo Horizonte  ???????????????????????????????????
-    $fields[] = '';
+    $fields[] = null;
 
     // Campo 204 - Regime especial de tributação – Belo Horizonte  ???????????????????????????????????
-    $fields[] = '';
+    $fields[] = null;
 
     // Campo 205 -Cidade de Incidência do ISSQN – Código IBGE – Belo Horizonte  VAZIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
-    $fields[] = '';
+    $fields[] = null;
 
     // Campo 206 - Inscrição estadual do Cliente/Fornecedor -----------------------------------------------
     $fields[] = '';
 
     // Campo 207 - Motivo do Cancelamento – Belo Horizonte VAZIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
-    $fields[] = '';
+    $fields[] = null;
 
     // Campo 208 - NFSe Substituidora – Belo Horizonte
     $fields[] = '';
@@ -746,19 +746,19 @@ function extractFields($text) {
     $fields[] = '';
 
     // Campo 211 - Base de cálculo de prestação de serviços para outros municípios (anexo VI) VAZIOOOOOOOOOOOOOOOO
-    $fields[] = '';
+    $fields[] = null;
 
     // Campo 212 - Base de cálculo de prestação de serviços para outros municípios (anexo VI) VAZIOOOOOOOOOOOOOOOO
-    $fields[] = '';
+    $fields[] = null;
 
     // Campo 213 - Base de cálculo de prestação de serviços para outros municípios (anexo VI) VAZIOOOOOOOOOOOOOOOO
-    $fields[] = '';
+    $fields[] = null;
 
     // Campo 214 - Base de cálculo de prestação de serviços para outros municípios (anexo VI) VAZIOOOOOOOOOOOOOOOO
-    $fields[] = '';
+    $fields[] = null;
 
     // Campo 215 - Base de cálculo de prestação de serviços para outros municípios (anexo VI) VAZIOOOOOOOOOOOOOOOO
-    $fields[] = '';
+    $fields[] = null;
 
     // Campo 216 - Base de cálculo de prestação de serviços para outros municípios (anexo VI) VAZIOOOOOOOOOOOOOOOO
     $fields[] = null;
@@ -788,10 +788,10 @@ function extractFields($text) {
     $fields[] = '';
 
     // Campo 225 -  Incidência da CPRB no prestador (Serviços Tomados) -------------------------------------------
-    $fields[] = '';
+    $fields[] = null;
 
     // Campo 226 -  Situação do documento Sped  -------------------------------------------
-    $fields[] = '';
+    $fields[] = null;
 
     // Campo 227 -  Modelo do documento sped  -------------------------------------------
     $fields[] = '';
