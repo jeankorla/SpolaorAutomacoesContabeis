@@ -19,4 +19,4 @@
 
     <h1>Texto Extraído</h1>
     
-    <pre><?= $fields ?></pre>
+    <pre><?= $result ?></pre>
