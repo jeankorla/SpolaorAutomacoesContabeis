@@ -17,6 +17,6 @@
 <!-- pdf_result.php -->
 
 
-    <h1>Texto Extraído</h1>
+    <h1>Campos Extraídos</h1>
     
-    <pre><?= $result ?></pre>
+<pre><?= $fields ?></pre>
