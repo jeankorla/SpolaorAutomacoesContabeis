@@ -38,30 +38,33 @@ public function convertPdfToText()
             return view('pdf_error', ['error' => 'File not found or not readable: ' . $newName]);
         }
 
-        // Vamos definir o nome do arquivo de texto de saída
+        // Convert the PDF to text and extract the fields
         $textFileName = './public/uploads/' . pathinfo($file->getName(), PATHINFO_FILENAME) . '.txt';
-
         $command = 'pdftotext ' . escapeshellarg($newName) . ' ' . escapeshellarg($textFileName) . ' 2>&1';
-        $output = shell_exec($command);
+        shell_exec($command);
 
-          
-          
-        if (strpos($output, 'Error') !== false) {
-            // Se houver um erro na saída, mostra a mensagem de erro.
-            return view('pdf_error', ['error' => $output]);
+        if (file_exists($textFileName)) {
+            $extractedText = file_get_contents($textFileName);
+            $fields = $this->extractFields($extractedText);
+
+            // Create the name of the download file
+            $downloadFileName = pathinfo($file->getName(), PATHINFO_FILENAME) . '_fields.txt';
+
+            // Set the headers to force the download
+            header('Content-Type: application/octet-stream');
+            header('Content-Disposition: attachment; filename=' . basename($downloadFileName));
+            header('Expires: 0');
+            header('Cache-Control: must-revalidate');
+            header('Pragma: public');
+
+            // Echo the content of the file
+            echo $fields;
+
+            // Ensure nothing else is sent after the file
+            exit;
+
         } else {
-            if (file_exists($textFileName)) {
-                // O arquivo de texto foi criado, agora vamos ler o conteúdo.
-                $extractedText = file_get_contents($textFileName);
-                // Chama o método extractFields e guarda o resultado na variável $fields
-                $fields = $this->extractFields($extractedText);
-
-                //dd($extractedText);
-                // Se não houver um erro, mostra os campos extraídos.
-                return view('pdf_result', ['fields' => $fields]);
-            } else {
-                return view('pdf_error', ['error' => 'Failed to extract text.']);
-            }
+            return view('pdf_error', ['error' => 'Failed to extract text.']);
         }
     } else {
         return view('pdf_error', ['error' => $file->getErrorString(). ' ' .$file->getError()]);
@@ -120,23 +123,276 @@ function extractFields($text) {
     preg_match("/([\d\.,]+)\s*([\d\.,]+)\s*[\d\.,]+\s*Avisos/s", $text, $matches);
     $valorAliquota = isset($matches[2]) ? (float)str_replace(',', '.', str_replace('.', '', $matches[1])) : 0.0;
 
-    //Valor ISS
-    preg_match("/([\d\.,]+)\s*\(\X\) Sim \(\) Não/", $text, $matches);
-    $valorIss = isset($matches[1]) ? (float)str_replace(',', '.', str_replace('.', '', $matches[1])) : 0.0;
+   // Valor de INSS
+    $pattern = "/2 - Não\s*\r?\n\r?\n([\d\.,]+)/";
+    preg_match($pattern, $text, $matches);
+    $valorINSS = isset($matches[1]) ? (float)str_replace(',', '.', str_replace('.', '', $matches[1])) : 0.0;
 
-// Valor de INSS
-$lines = preg_split("/(\r?\n)+/", $text);
-$inssIndex = array_search('INSS(R$)', $lines);
-$valorINSS = 0.0;  // Inicializa como 0.0
+    //Serviço
+    $pattern = "/Código do Serviço \/ Atividade\r?\n([\d\.]+) \/ [\d\-]+/";
+    preg_match($pattern, $text, $matches);
+    $codigoServico = isset($matches[1]) ? $matches[1] : '';
 
-if ($inssIndex !== false && isset($lines[$inssIndex + 1])) {
-    preg_match("/[\d\.,]+/", trim($lines[$inssIndex + 1]), $matches);
+    //PIS
+    $pattern = "/PIS\s+([\d\.,]+)/";
+    preg_match($pattern, $text, $matches);
+    $valorPIS = isset($matches[1]) ? (float)str_replace(',', '.', str_replace('.', '', $matches[1])) : 0.0;
 
-    // Apenas atualiza o valor de INSS se o valor encontrado for um número
-    if (!empty($matches) && is_numeric(str_replace(',', '.', str_replace('.', '', $matches[0])))) {
-        $valorINSS = (float)str_replace(',', '.', str_replace('.', '', $matches[0]));
+    // Valor de CSLL
+    preg_match("/([\d.,]+)[\s\n]*Cálculo do ISSQN devido no Município/", $text, $matches);
+    if (isset($matches[1])) {
+        $valorCSLL = (float)str_replace(',', '.', str_replace('.', '', $matches[1]));
+    } else {
+        $valorCSLL = 0.0;
     }
-}
+
+    // Valor acima de "2 -"
+    preg_match("/([\d.,]+)[\s\n]*2 -/", $text, $matches);
+    if (isset($matches[1])) {
+        $valorCofins = (float)str_replace(',', '.', $matches[1]);
+    } else {
+        $valorCofins = 0.00;
+    }
+
+    // Valor de ISS Retido
+    preg_match("/ISS Retido[\s\n]*([\d.,]+)/", $text, $matches);
+    if (isset($matches[1])) {
+        $valorISSRetido = (float)str_replace(',', '.', $matches[1]);
+    } else {
+        $valorISSRetido = 0.00;
+    }
+
+    // CNPJ de quem esta recebendo o serviço
+    preg_match("/([\d]{2}\.[\d]{3}\.[\d]{3}\/[\d]{4}-[\d]{2})\s*Endereço e CEP/", $text, $matches);
+    $empresaCnpj = isset($matches[1]) ? $matches[1] : '';
+
+
+    $simplesNacional = [
+        "09.163.898/0001-93",
+        "46.196.090/0001-39",
+        "31.795.189/0001-80",
+        "03.561.721/0001-69",
+        "39.157.072/0001-82",
+        "46.605.227/0001-61",
+        "04.859.829/0001-03",
+        "07.134.258/0001-20",
+        "05.345.542/0001-10",
+        "46.408.042/0001-67",
+        "48.993.135/0001-21",
+        "05.783.689/0001-91",
+        "31.097.542/0001-58",
+        "26.917.651/0001-34",
+        "14.686.279/0001-13",
+        "20.541.460/0001-34",
+        "05.673.502/0001-05",
+        "03.555.442/0001-92",
+        "41.265.301/0001-24",
+        "42.109.466/0001-70",
+        "03.457.756/0001-52",
+        "13.686.206/0001-69",
+        "24.361.444/0001-10",
+        "34.253.710/0001-45",
+        "17.966.720/0001-09",
+        "17.966.720/0002-90",
+        "08.664.277/0001-20",
+        "07.280.024/0001-90",
+        "32.745.544/0001-79",
+        "11.288.132/0001-87",
+        "53.739.348/0001-61",
+        "05.298.570/0001-23",
+        "49.893.790/0001-70",
+        "66.080.482/0001-45",
+        "43.639.401/0001-07",
+        "13.327.173/0001-60",
+        "21.639.411/0001-00",
+        "34.308.415/0001-49",
+        "03.273.460/0001-81",
+        "11.309.725/0001-82",
+        "96.655.683/0001-94",
+        "04.228.577/0001-06",
+        "22.630.392/0001-05",
+        "49.765.157/0001-05",
+        "26.849.416/0001-72",
+        "29.117.899/0001-09",
+        "11.284.033/0001-27",
+        "57.957.177/0001-06",
+        "51.643.369/0001-53",
+        "50.289.282/0001-67",
+        "18.173.234/0001-04",
+        "19.295.457/0001-07",
+        "04.947.448/0001-78",
+        "67.258.129/0001-75",
+        "05.806.928/0001-81",
+        "21.483.922/0001-77",
+        "49.335.739/0001-43",
+        "07.677.549/0001-64",
+        "32.511.424/0002-98",
+        "32.511.424/0001-07",
+        "03.552.722/0001-47",
+        "35.161.624/0001-75",
+        "14.289.140/0001-36",
+        "36.334.794/0001-77",
+        "01.429.719/0001-05",
+        "47.060.790/0001-64",
+        "35.152.316/0001-83",
+        "74.247.461/0001-08",
+        "39.239.254/0001-00",
+        "51.023.288/0001-50",
+        "48.400.369/0001-18",
+        "46.337.407/0001-00",
+        "05.880.833/0001-08",
+        "03.073.325/0001-92",
+        "01.220.028/0001-05",
+        "74.360.991/0001-50",
+        "05.965.071/0001-42",
+        "44.225.669/0001-57",
+        "17.825.538/0001-38",
+        "32.533.022/0001-03",
+        "27.934.495/0001-82",
+        "66.589.201/0001-84",
+        "50.020.068/0001-00",
+        "00.028.447/0001-79",
+        "33.177.859/0001-20",
+        "34.577.124/0001-56",
+        "45.062.588/0001-46",
+        "04.516.120/0001-05",
+        "32.664.879/0001-62",
+        "23.497.288/0001-57",
+        "11.865.469/0001-00",
+        "26.352.932/0001-97",
+        "07.244.893/0001-60",
+        "20.424.638/0001-67",
+        "44.602.039/0001-54",
+        "44.947.530/0001-17",
+        "45.319.923/0001-49",
+        "45.335.183/0001-34",
+        "39.644.823/0001-95",
+        "08.704.077/0001-54",
+        "36.098.756/0001-62",
+        "05.541.086/0001-83",
+        "38.026.734/0001-12",
+        "39.897.569/0001-37",
+        "26.451.180/0001-11",
+        "34.198.050/0001-47",
+        "39.273.447/0001-70",
+        "18.745.519/0001-64",
+        "50.359.077/0001-20",
+        "08.784.226/0001-32",
+        "29.295.894/0001-76",
+        "03.228.317/0001-78",
+        "07.377.667/0001-57",
+        "30.820.844/0001-40",
+        "07.583.787/0001-00",
+        "19.371.270/0001-37"
+    ];
+
+    $lucroPresumido = [
+        "36.064.463/0001-64",
+        "19.695.889/0001-05",
+        "47.237.632/0001-37",
+        "24.664.148/0001-99",
+        "47.679.467/0001-73",
+        "07.517.177/0001-09",
+        "32.438.167/0001-25",
+        "19.300.503/0001-00",
+        "22.638.231/0001-68",
+        "41.929.393/0001-08",
+        "41.252.013/0001-35",
+        "51.024.563/0001-50",
+        "10.965.962/0001-39",
+        "12.183.739/0001-65",
+        "05.342.425/0001-00",
+        "13.867.533/0001-17",
+        "40.992.621/0001-13",
+        "02.953.462/0001-59",
+        "14.798.340/0001-14",
+        "36.191.127/0001-82",
+        "10.893.810/0001-78",
+        "03.528.740/0001-93",
+        "03.528.740/0002-74",
+        "00.756.836/0001-10",
+        "39.566.364/0001-79",
+        "54.350.020/0001-11",
+        "33.872.619/0001-45",
+        "14.537.202/0001-81",
+        "36.324.776/0001-04",
+        "04.952.185/0001-95",
+        "28.000.764/0001-04",
+        "58.249.251/0001-94",
+        "00.519.459/0001-04",
+        "10.959.465/0001-28",
+        "04.170.211/0001-23",
+        "13.296.559/0001-52",
+        "35.913.259/0001-08",
+        "39.436.924/0001-70",
+        "45.154.080/0001-78",
+        "55.689.012/0001-67",
+        "41.386.792/0001-61",
+        "03.118.253/0001-52",
+        "03.118.253/0002-33",
+        "24.197.977/0001-09",
+        "43.471.398/0001-57",
+        "14.425.980/0001-89",
+        "07.677.675/0001-19",
+        "19.696.935/0001-82",
+        "08.724.788/0001-90",
+        "22.336.048/0001-08",
+        "22.336.048/0002-99",
+        "48.547.347/0001-85",
+        "48.547.347/0002-66",
+        "42.360.954/0001-55",
+        "45.355.783/0001-64",
+        "32.385.964/0001-91",
+        "41.302.914/0001-94",
+        "11.216.986/0001-58",
+        "31.510.926/0001-50",
+        "44.647.512/0001-10",
+        "28.082.134/0001-18"
+    ];
+
+    $lucroReal = [
+        "50.449.414/0001-70",
+        "24.516.103/0001-77",
+        "08.838.383/0001-83",
+        "64.654.650/0001-33",
+        "01.601.165/0001-81",
+        "02.185.665/0001-42",
+        "28.557.004/0001-94",
+        "28.557.004/0002-75",
+        "62.430.194/0001-12",
+        "62.430.194/0002-01",
+        "62.430.194/0003-84",
+        "05.794.155/0001-60",
+        "05.794.155/0003-22",
+        "05.794.155/0004-03",
+        "05.794.155/0002-41",
+        "22.320.174/0001-74",
+        "44.457.344/0001-08",
+        "46.283.524/0001-38",
+        "14.798.308/0001-39",
+        "14.798.308/0002-10",
+        "31.276.127/0001-61",
+        "51.653.293/0001-47",
+        "08.767.604/0001-70",
+        "05.094.642/0001-10",
+        "05.094.642/0002-00",
+        "44.580.685/0001-68",
+        "46.054.548/0001-15",
+        "17.999.051/0001-71",
+        "09.652.135/0001-06",
+        "60.011.343/0002-64",
+        "60.011.343/0001-83"  
+    ];
+
+    $empresaCodigo = ''; // Inicializa a variável
+
+    if (in_array($empresaCnpj, $simplesNacional)) {
+        $empresaCodigo = '99';
+    } elseif (in_array($empresaCnpj, $lucroPresumido)) {
+        $empresaCodigo = '98';
+    } elseif (in_array($empresaCnpj, $lucroReal)) {
+        $empresaCodigo = '70';
+    }
 
 
 
@@ -272,7 +528,7 @@ if ($inssIndex !== false && isset($lines[$inssIndex + 1])) {
     $fields[] = number_format($valorINSS, 2, '.', '');
 
     // Campo 43 - Tipo de Prestação de Serviço 
-    $fields[] = '';
+    $fields[] = $codigoServico;
 
     // Campo 44 - Tipo de recolhimento do ISSQN para cidades 
     $fields[] = '';
@@ -290,7 +546,7 @@ if ($inssIndex !== false && isset($lines[$inssIndex + 1])) {
     $fields[] = number_format($zero, 2, '.', '');
 
     // Campo 49 - Código da Atividade Municipal
-    $fields[] = '';
+    $fields[] = $codigoServico;
 
     // Campo 50 - Código da Atividade Municipal Joinville -SC
     $fields[] = '';
@@ -443,13 +699,13 @@ if ($inssIndex !== false && isset($lines[$inssIndex + 1])) {
     $fields[] = '';
 
     // Campo 100 - Valor da Retenção do PIS
-    $fields[] = number_format($zero, 2, '.', '');
+    $fields[] = number_format($valorPIS, 2, '.', '');
 
     // Campo 101 - Valor da Retenção do COFINS
-    $fields[] = number_format($zero, 2, '.', '');
+    $fields[] = number_format($valorCofins, 2, '.', '');
 
     // Campo 102 - Valor da Contribuição Social
-    $fields[] = number_format($zero, 2, '.', '');
+    $fields[] = number_format($valorCSLL, 2, '.', '');
 
     // Campo 103 - Valor da Contribuição Social
     $fields[] = null;
@@ -464,7 +720,7 @@ if ($inssIndex !== false && isset($lines[$inssIndex + 1])) {
     $fields[] = '';
 
     // Campo 107 - Valor da Retenção do ISS
-    $fields[] = number_format($zero, 2, '.', '');
+    $fields[] = number_format($valorISSRetido, 2, '.', '');
 
     // Campo 108 - Código da Atividade Serviço
     $fields[] = '';
@@ -529,8 +785,8 @@ if ($inssIndex !== false && isset($lines[$inssIndex + 1])) {
     // Campo 128 - Base de cálculo 
     $fields[] = number_format($zero, 2, '.', '');
 
-    // Campo 129 -  Tipo Nota GISSONLINE ------------------------------------------------------------------------
-    $fields[] = '';
+    // Campo 129 -  Tipo Nota GISSONLINE
+    $fields[] = '1';
 
     // Campo 130 -  Situação da Nota 
     $fields[] = '';
@@ -596,7 +852,7 @@ if ($inssIndex !== false && isset($lines[$inssIndex + 1])) {
     $fields[] = '';
 
     // Campo 151 -  Data de execução do serviço (Sped Pis/Cofins) 
-    $fields[] = '';
+    $fields[] = $dataHoraEmissao;
 
     // Campo 152 - Base do Pis
     $fields[] = number_format($zero, 2, '.', '');
@@ -608,7 +864,7 @@ if ($inssIndex !== false && isset($lines[$inssIndex + 1])) {
     $fields[] = number_format($zero, 2, '.', '');
 
     // Campo 155 -  CTS do Pis 
-    $fields[] = '';
+    $fields[] = $empresaCodigo;
 
     // Campo 156 - Base do Pis importação
     $fields[] = number_format($zero, 2, '.', '');
@@ -629,7 +885,7 @@ if ($inssIndex !== false && isset($lines[$inssIndex + 1])) {
     $fields[] = number_format($zero, 2, '.', '');
 
     // Campo 162 - CST do Cofins  
-    $fields[] = '';
+    $fields[] = $empresaCodigo;
 
     // Campo 163 - Base do Cofins importação
     $fields[] = number_format($zero, 2, '.', '');
@@ -647,7 +903,7 @@ if ($inssIndex !== false && isset($lines[$inssIndex + 1])) {
     $fields[] = '';
 
     // Campo 168 -Código do produto vinculado ao serviço 
-    $fields[] = '';
+    $fields[] = $codigoServico;
 
     // Campo 169 - Tipo da Nota – Itajaí 
     $fields[] = '';
@@ -860,4 +1116,5 @@ if ($inssIndex !== false && isset($lines[$inssIndex + 1])) {
 
     return $fields;  // Adicione esta linha para retornar $fields
 }
+
 }
