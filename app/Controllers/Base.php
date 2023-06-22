@@ -29,46 +29,62 @@ class Base extends BaseController
     }
 public function convertPdfToText()
 {
-    $file = $this->request->getFile('pdf_file');
-    if ($file->isValid() && !$file->hasMoved()) {
-        $file->move('./public/uploads', $file->getName());
-        $newName = './public/uploads/' . $file->getName();
+    // Retrieve all uploaded files
+    $files = $this->request->getFiles('pdf_file');
+    $fieldsArr = [];
 
-        if (!is_readable($newName)) {
-            return view('pdf_error', ['error' => 'File not found or not readable: ' . $newName]);
-        }
+    // Process each file one by one
+    foreach ($files['pdf_file'] as $file) {
+        if ($file->isValid() && !$file->hasMoved()) {
+            $file->move('./public/uploads', $file->getName());
+            $newName = './public/uploads/' . $file->getName();
 
-        // Convert the PDF to text and extract the fields
-        $textFileName = './public/uploads/' . pathinfo($file->getName(), PATHINFO_FILENAME) . '.txt';
-        $command = 'pdftotext ' . escapeshellarg($newName) . ' ' . escapeshellarg($textFileName) . ' 2>&1';
-        shell_exec($command);
+            if (!is_readable($newName)) {
+                return view('pdf_error', ['error' => 'File not found or not readable: ' . $newName]);
+            }
 
-        if (file_exists($textFileName)) {
-            $extractedText = file_get_contents($textFileName);
-            $fields = $this->extractFields($extractedText);
+            // Convert the PDF to text and extract the fields
+            $textFileName = './public/uploads/' . pathinfo($file->getName(), PATHINFO_FILENAME) . '.txt';
+            $command = 'pdftotext ' . escapeshellarg($newName) . ' ' . escapeshellarg($textFileName) . ' 2>&1';
+            shell_exec($command);
 
-            // Create the name of the download file
-            $downloadFileName = pathinfo($file->getName(), PATHINFO_FILENAME) . '_fields.txt';
-
-            // Set the headers to force the download
-            header('Content-Type: application/octet-stream');
-            header('Content-Disposition: attachment; filename=' . basename($downloadFileName));
-            header('Expires: 0');
-            header('Cache-Control: must-revalidate');
-            header('Pragma: public');
-
-            // Echo the content of the file
-            echo $fields;
-
-            // Ensure nothing else is sent after the file
-            exit;
-
+            if (file_exists($textFileName)) {
+                $extractedText = file_get_contents($textFileName);
+                $fields = $this->extractFields($extractedText);
+                $fieldsArr[] = $fields;
+            } else {
+                return view('pdf_error', ['error' => 'Failed to extract text.']);
+            }
         } else {
-            return view('pdf_error', ['error' => 'Failed to extract text.']);
+            return view('pdf_error', ['error' => $file->getErrorString(). ' ' .$file->getError()]);
         }
-    } else {
-        return view('pdf_error', ['error' => $file->getErrorString(). ' ' .$file->getError()]);
     }
+
+    // After all files have been processed, create the text file for download
+$downloadFileName = 'processed_fields.txt';
+header('Content-Type: application/octet-stream');
+header('Content-Disposition: attachment; filename=' . basename($downloadFileName));
+header('Expires: 0');
+header('Cache-Control: must-revalidate');
+header('Pragma: public');
+echo implode("\n", $fieldsArr);  // join all the fields with newline character
+
+// Delete all the PDF and TXT files from the server
+foreach ($files['pdf_file'] as $file) {
+    $pdfFilePath = './public/uploads/' . $file->getName();
+    $txtFilePath = './public/uploads/' . pathinfo($file->getName(), PATHINFO_FILENAME) . '.txt';
+
+    if (file_exists($pdfFilePath)) {
+        unlink($pdfFilePath); // delete PDF file
+    }
+
+    if (file_exists($txtFilePath)) {
+        unlink($txtFilePath); // delete TXT file
+    }
+}
+
+exit;
+
 }
 
 function extractFields($text) {

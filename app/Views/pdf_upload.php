@@ -28,7 +28,7 @@
     <?php endif; ?>
 
     <?= form_open_multipart('base/convertPdfToText') ?>
-        <input type="file" name="pdf_file">
+        <input type="file" name="pdf_file[]" multiple>
         <button type="submit">Enviar</button>
     <?= form_close() ?>
 </body>
