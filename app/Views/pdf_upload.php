@@ -1,4 +1,8 @@
-<style>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Upload de PDF</title>
+  <style>
   body {
   background-color: #eee;
 }
@@ -14,7 +18,7 @@
   box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
   border-radius: 10px;
   background-color: white;
-  width: 415px;
+  width: 615px;
 }
 
 /* === Upload Box === */
@@ -43,6 +47,7 @@
   cursor: pointer;
   opacity: 0.8;
 }
+
 
 /* === Uploaded Files === */
 .uploaded {
@@ -79,15 +84,70 @@
   font-size: 40px;
   color: #0c3214;
 }
-</style>
 
+/* === Botão === */
 
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Upload de PDF</title>
-  <style>
-  /* Seu código de estilo aqui */
+.button{
+  position:relative;
+  display:inline-block;
+  margin:20px;
+}
+
+/* Adicione essa classe à div pai do botão */
+.button-container {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+}
+
+.button a{
+  color:white;
+  font-family:Helvetica, sans-serif;
+  font-weight:bold;
+  font-size:16px;
+  text-align: center;
+  text-decoration:none;
+  background-color:#1F628E;
+  display:block;
+  position:relative;
+  padding:20px 40px;
+  
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  text-shadow: 0px 1px 0px #000;
+  filter: dropshadow(color=#000, offx=0px, offy=1px);
+  
+  -webkit-box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #0E415F;
+  -moz-box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #0E415F;
+  box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #0E415F;
+  
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.button a:active{
+  top:10px;
+  background-color:#0E415F;
+  
+  -webkit-box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #1F628E;
+  -moz-box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3pxpx 0 #1F628E;
+  box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #1F628E;
+}
+
+.button:after{
+  content:"";
+  height:100%;
+  width:100%;
+  padding:4px;
+  position: absolute;
+  bottom:-15px;
+  left:-4px;
+  z-index:-1;
+  background-color:#0E415F;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
   </style>
 </head>
 <body>
@@ -112,19 +172,28 @@
     <div class="wrapper">
       <h1>Upload de PDF</h1>
 
+      <!-- Contador de arquivos enviados -->
+      <div id="fileCounter">Arquivos selecionados: 0</div>
+
       <?php if (session()->getFlashdata('error')): ?>
         <div class="error"><?= session()->getFlashdata('error') ?></div>
       <?php endif; ?>
 
-      <?= form_open_multipart('base/convertPdfToText', ['class' => 'upload']) ?>
+      <?= form_open_multipart('base/convertPdfToText', ['class' => 'upload', 'id' => 'fileUploadForm']) ?>
         <p>Envie seus arquivos
           <span class="upload__button">
-            <input type="file" name="pdf_file[]" multiple style="display:none;">
-            Navegar
+            <input type="file" name="pdf_file[]" id="fileInput" multiple style="display:none;">
+            Procurar
           </span>
         </p>
+        <!-- Botão para enviar os arquivos -->
+        
       <?= form_close() ?>
-
+              <div ontouchstart="" class="button-container">
+                  <div class="button">
+                    <a id="submitBtn" href="#">Enviar</a>
+                  </div>
+                </div>
       <!-- Loop through uploaded files -->
       <?php if (!empty(session()->get('uploaded_files'))): ?>
         <?php foreach(session()->get('uploaded_files') as $file): ?>
@@ -144,22 +213,33 @@
       <?php endif; ?>
     </div>
   </div>
-
-  
 </body>
 </html>
 
 
 <script>
-  // Adicione um evento de clique ao elemento .upload__button
-  // que aciona o clique no campo de entrada do arquivo.
-  document.querySelector('.upload__button').addEventListener('click', function() {
-    document.querySelector('input[type="file"]').click();
+  var fileInput = document.querySelector('#fileInput');
+  var fileCounter = document.querySelector('#fileCounter');
+  var form = document.querySelector('#fileUploadForm');
+
+  // Atualizar o contador quando arquivos forem selecionados
+  fileInput.addEventListener('change', function() {
+    fileCounter.textContent = 'Arquivos selecionados: ' + fileInput.files.length;
   });
 
-  // Adicione um evento de alteração ao campo de entrada do arquivo
-  // que envia o formulário quando um arquivo é selecionado.
-  document.querySelector('input[type="file"]').addEventListener('change', function() {
-    document.querySelector('.upload').submit();
+  // Enviar o formulário ao clicar no botão
+  document.querySelector('#submitBtn').addEventListener('click', function(e) {
+  // Verifique se algum arquivo foi selecionado
+  if (fileInput.files.length == 0) {
+    alert('Nenhum arquivo selecionado');
+    e.preventDefault(); // Evita que o formulário seja enviado
+  } else {
+    form.submit();
+  }
+});
+
+  // Clique no botão de upload para selecionar arquivos
+  document.querySelector('.upload__button').addEventListener('click', function() {
+    fileInput.click();
   });
 </script>
