@@ -5,7 +5,7 @@
     top: 40%;
     left: 5%;
     font-size: 3vw; /* Tamanho do texto em porcentagem da largura da viewport */
-    background-color: #1F628E;
+    background-color:  #024A7F;
     border-radius: 22px;
     padding: 1.5vw 5vw; /* Padding em porcentagem da largura da viewport */
     margin-right: 0;
@@ -20,7 +20,7 @@
     top: 40%;
     right: 5%;
     font-size: 3vw;
-    background-color: #1F628E;
+    background-color:  #024A7F;
     border-radius: 22px;
     padding: 1.5vw 5vw;
     margin-right: 0;
@@ -38,7 +38,7 @@ a:hover{
 </style>
 
 
-<nav class="navbar navbar-expand-lg navbar-dark mb-4" style="background-color: #1F628E;">
+<nav class="navbar navbar-expand-lg navbar-dark mb-4" style="background-color: #024A7F;">
   <div class="container-fluid navbar-container">
     <a class="navbar-brand" href="<?= base_url('base/index') ?>">
         <img class="img-fluid" src="<?= base_url('img/logo-lado.svg') ?>" alt="Logolado">

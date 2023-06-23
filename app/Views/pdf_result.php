@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark mb-4" style="background-color: #1F628E;">
+<nav class="navbar navbar-expand-lg navbar-dark mb-4" style="background-color: #024A7F;">
   <div class="container-fluid navbar-container">
     <a class="navbar-brand" href="<?= base_url('base/index') ?>">
         <img class="img-fluid" src="<?= base_url('img/logo-lado.svg') ?>" alt="Logolado">

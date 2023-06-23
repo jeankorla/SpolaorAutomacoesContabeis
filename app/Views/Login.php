@@ -4,12 +4,12 @@
       <div class="col-lg-6 mb-5 mb-lg-0 text-center">
         <img class="img-fluid mb-4" style="max-width: 70%; margin-top: -60px;" src="<?= base_url('img/logo.svg') ?>" alt="Logo">
         <h1 class="my-1 display-5 fw-bold" style="margin-top: -10px;">
-          <span style="color: #1F628E">Empenhados </span> em facilitar o seu trabalho!
+          <span style="color: #024A7F">Tudo</span> que você precisa em um só <span style="color: #FF931E">lugar!</span>
         </h1>
       </div>
 
       <div class="col-md-6 col-lg-4 mb-3 mb-lg-0 d-flex align-items-center ms-auto">
-        <div class="card mx-auto w-100 shadow-lg" style="border-radius: 30px; background-color: #0E415F">
+        <div class="card mx-auto w-100 shadow-lg" style="border-radius: 30px; background-color: #024A7F">
           <div class="card-body py-5 px-md-5">
             <h1 class="text-center text-white">Login</h1>
 
@@ -34,7 +34,7 @@
             <?php endif; ?>
 
               <!-- Submit button -->
-              <button type="submit" class="btn btn-primary btn-block mb-4" style="background-color: #1F628E">
+              <button type="submit" class="btn btn-primary btn-block mb-4" style="background-color: #0097C4">
                 Sign in
               </button>
 
