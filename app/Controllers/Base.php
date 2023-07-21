@@ -52,6 +52,7 @@ public function convertPdfToText()
                 $extractedText = file_get_contents($textFileName);
                 $fields = $this->extractFields($extractedText);
                 $fieldsArr[] = $fields;
+                dd($extractedText);
             } else {
                 return view('pdf_error', ['error' => 'Failed to extract text.']);
             }
@@ -154,6 +155,8 @@ function extractFields($text) {
     preg_match($pattern, $text, $matches);
     $valorPIS = isset($matches[1]) ? (float)str_replace(',', '.', str_replace('.', '', $matches[1])) : 0.0;
 
+    //dd($valorPIS);
+
     // Valor de CSLL
     preg_match("/([\d.,]+)[\s\n]*Cálculo do ISSQN devido no Município/", $text, $matches);
     if (isset($matches[1])) {
@@ -162,7 +165,7 @@ function extractFields($text) {
         $valorCSLL = 0.0;
     }
 
-    // Valor acima de "2 -"
+    // Valor Cofins
     preg_match("/([\d.,]+)[\s\n]*2 -/", $text, $matches);
     if (isset($matches[1])) {
         $valorCofins = (float)str_replace(',', '.', $matches[1]);
@@ -712,14 +715,14 @@ function extractFields($text) {
     $fields[] = 'F';
 
     // Campo 99 - Código da natureza de operação -----------------------------------------------------------------
-    $fields[] = '';
+    $fields[] = '1933000';
 
     // Campo 100 - Valor da Retenção do PIS
     $fields[] = number_format($valorPIS, 2, '.', '');
 
     // Campo 101 - Valor da Retenção do COFINS
     $fields[] = number_format($valorCofins, 2, '.', '');
-
+    //dd($valorCofins);
     // Campo 102 - Valor da Contribuição Social
     $fields[] = number_format($valorCSLL, 2, '.', '');
 
@@ -737,7 +740,7 @@ function extractFields($text) {
 
     // Campo 107 - Valor da Retenção do ISS
     $fields[] = number_format($valorISSRetido, 2, '.', '');
-
+    //dd($valorISSRetido);
     // Campo 108 - Código da Atividade Serviço
     $fields[] = '';
 

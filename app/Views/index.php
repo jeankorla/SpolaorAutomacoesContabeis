@@ -1,5 +1,7 @@
 <style>
-
+body {
+  background-color: #eee;
+}
 .left-button-sc{
     position: absolute;
     top: 40%;
