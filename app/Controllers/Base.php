@@ -21,6 +21,13 @@ class Base extends BaseController
         echo view('common/footer');
     }
 
+    public function teste()
+    {
+
+        
+
+    }
+
     public function fiscal()
     {
         echo view('common/header');
@@ -47,6 +54,9 @@ public function convertPdfToText()
             $textFileName = './public/uploads/' . pathinfo($file->getName(), PATHINFO_FILENAME) . '.txt';
             $command = 'pdftotext ' . escapeshellarg($newName) . ' ' . escapeshellarg($textFileName) . ' 2>&1';
             shell_exec($command);
+            shell_exec('python ./python/x.py');
+            exit();
+            //dd($textFileName);
 
             if (file_exists($textFileName)) {
                 $extractedText = file_get_contents($textFileName);

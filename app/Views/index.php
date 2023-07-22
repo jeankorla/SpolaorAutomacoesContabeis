@@ -62,6 +62,8 @@ a:hover{
       <a class="left-button-sc" style="cursor: pointer; text-decoration: none;"
       href=""
       >Conciliação Contábil</a>
+
+      <a href="<?= base_url('base/teste') ?>" download>dsgsghfrs</a>
     
       <a class="right-button-sc" style="cursor: pointer; text-decoration: none;"
       href="fiscal"
