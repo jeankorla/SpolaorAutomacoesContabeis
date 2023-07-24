@@ -4,7 +4,7 @@ body {
 }
 .left-button-sc{
     position: absolute;
-    top: 40%;
+    top: 25%;
     left: 5%;
     font-size: 3vw; /* Tamanho do texto em porcentagem da largura da viewport */
     background-color:  #024A7F;
@@ -19,7 +19,7 @@ body {
 }
 .right-button-sc{
     position: absolute;
-    top: 40%;
+    top: 25%;
     right: 5%;
     font-size: 3vw;
     background-color:  #024A7F;
@@ -27,6 +27,21 @@ body {
     padding: 1.5vw 5vw;
     margin-right: 0;
     max-width: 30%;
+    text-align: center;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+.button-gerador{
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    font-size: 3vw; /* Tamanho do texto em porcentagem da largura da viewport */
+    background-color:  #024A7F;
+    border-radius: 22px;
+    padding: 1.5vw 5vw; /* Padding em porcentagem da largura da viewport */
+    margin-right: 0;
+    max-width: 30%; /* Tamanho máximo em porcentagem da largura da imagem */
     text-align: center;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
@@ -62,10 +77,12 @@ a:hover{
       <a class="left-button-sc" style="cursor: pointer; text-decoration: none;"
       href=""
       >Conciliação Contábil</a>
-
-      <a href="<?= base_url('base/teste') ?>" download>dsgsghfrs</a>
     
       <a class="right-button-sc" style="cursor: pointer; text-decoration: none;"
       href="fiscal"
       >Coversor de PDF para XML</a>
+
+      <a class="button-gerador" style="cursor: pointer; text-decoration: none;"
+      href="<?= base_url('UploadController') ?>"
+      >Gerador de Link</a>
 </div>
