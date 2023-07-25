@@ -5,7 +5,7 @@ body {
 .left-button-sc{
     position: absolute;
     top: 25%;
-    left: 5%;
+    left: 10%;
     font-size: 3vw; /* Tamanho do texto em porcentagem da largura da viewport */
     background-color:  #024A7F;
     border-radius: 22px;
@@ -20,7 +20,7 @@ body {
 .right-button-sc{
     position: absolute;
     top: 25%;
-    right: 5%;
+    right: 10%;
     font-size: 3vw;
     background-color:  #024A7F;
     border-radius: 22px;
@@ -35,7 +35,7 @@ body {
 .button-gerador{
     position: absolute;
     top: 60%;
-    left: 5%;
+    left: 10%;
     font-size: 3vw; /* Tamanho do texto em porcentagem da largura da viewport */
     background-color:  #024A7F;
     border-radius: 22px;
@@ -75,7 +75,7 @@ a:hover{
 <div>
     
       <a class="left-button-sc" style="cursor: pointer; text-decoration: none;"
-      href=""
+      href="manutencao"
       >Conciliação Contábil</a>
     
       <a class="right-button-sc" style="cursor: pointer; text-decoration: none;"

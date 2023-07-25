@@ -27,7 +27,25 @@ class Base extends BaseController
         echo view('pdf_upload');
         echo view('common/footer');
     }
-    
+     public function manutencao()
+    {
+        echo view('common/header');
+        echo view('manutencao');
+        echo view('common/footer');
+    }
+    public function back()
+    {
+        $codigoJavaScript = "
+            <script>
+                function voltar() {
+                   window.history.go(-1);
+                }
+            </script>
+        ";
+
+        return $codigoJavaScript;
+    }
+
 public function convertPdfToText()
 {
     // Retrieve all uploaded files
