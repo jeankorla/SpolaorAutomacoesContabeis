@@ -17,8 +17,5 @@ jobs:
       with:
         server: scia.com.br
         username: ${{ secrets.ftp_user }}
-<<<<<<< HEAD
         password: ${{ secrets.ftp_password }}
-=======
-        password: ${{ secrets.ftp_password }}
->>>>>>> 81bbd83e2112b3f2666a0dbbc8c5807c4a7311f6
+
