@@ -24,13 +24,14 @@ class UploadController extends Controller
                 $newName = $file->getRandomName();
                 $file->move(WRITEPATH . 'uploads', $newName);
 
-                $data['message'] = 'Arquivo enviado com sucesso.';
+                $data['message'] = 'Arquivo enviado com sucesso, Copie seu Link.';
                 $data['url'] = base_url('gerador/index/' . $newName);
             } else {
                 $data['error'] = 'Erro ao enviar o arquivo.';
             }
         }
-
-        echo view('upload_form', $data);
+        echo view('common/header');
+        echo view('link_upload', $data);
+        echo view('common/footer');
     }
 }

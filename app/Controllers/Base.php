@@ -21,19 +21,31 @@ class Base extends BaseController
         echo view('common/footer');
     }
 
-    public function teste()
-    {
-
-
-
-    }
-
     public function fiscal()
     {
         echo view('common/header');
         echo view('pdf_upload');
         echo view('common/footer');
     }
+     public function manutencao()
+    {
+        echo view('common/header');
+        echo view('manutencao');
+        echo view('common/footer');
+    }
+    public function back()
+    {
+        $codigoJavaScript = "
+            <script>
+                function voltar() {
+                   window.history.go(-1);
+                }
+            </script>
+        ";
+
+        return $codigoJavaScript;
+    }
+
 public function convertPdfToText()
 {
     // Retrieve all uploaded files
@@ -61,7 +73,7 @@ public function convertPdfToText()
                 $extractedText = file_get_contents($textFileName);
                 $fields = $this->extractFields($extractedText);
                 $fieldsArr[] = $fields;
-                dd($extractedText);
+                //dd($extractedText);
             } else {
                 return view('pdf_error', ['error' => 'Failed to extract text.']);
             }
