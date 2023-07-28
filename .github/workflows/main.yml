@@ -15,6 +15,6 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-        server: ftp.scia.com.br:21
+        server: ftp://ftp.scia.com.br:21
         username: ${{ secrets.ftp_user }}
         password: ${{ secrets.ftp_password }}
