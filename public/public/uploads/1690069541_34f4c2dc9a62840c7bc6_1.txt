@@ -1,0 +1,190 @@
+PREFEITURA MUNICIPAL DE SANTOS
+
+Data e Hora da Emissão
+
+SECRETARIA MUNICIPAL DE FINANÇAS
+
+Número da
+NFS-e
+
+NOTA FISCAL DE SERVIÇO ELETRÔNICA - NFS-e
+
+63
+
+28/05/2023 16:12:02
+
+Competência
+
+Código de Verificação
+
+28/5/2023
+
+No. da NFS-e substituída
+
+Número do RPS
+
+OR7CTHGER
+
+Local da Prestação
+
+SANTOS - SP
+
+Dados do Prestador de Serviços
+Razão Social/Nome
+
+SPOLAOR CONSULTORIA EMPRESARIAL LTDA
+
+Nome Fantasia
+CNPJ/CPF
+
+38.026.734/0001-12
+
+Endereço e Cep
+Complemento:
+
+Inscrição Municipal
+
+2919199
+
+Município
+
+SANTOS - SP
+
+e-mail:
+
+fiscal@marcosspolaor.com.br
+
+RUA GUAIAÓ ,66 - APARECIDA CEP: 11035-260
+0000 / SALAS
+
+Telefone:
+
+(13)3361-6112
+
+Dados do Tomador de Serviços
+Razão Social/Nome
+CNPJ/CPF
+
+PEIXE GOURMET IMPORTACAO E EXPORTACAO LTDA
+
+14.798.308/0001-39
+
+Endereço e CEP
+
+Inscrição Municipal
+
+1990423
+
+Município
+
+SANTOS - SP
+
+DONA AMÉLIA LEUCHTENBERG ,87 - PONTA DA PRAIA CEP: 11030-020
+
+Complemento:
+
+0000
+
+Telefone:
+
+(13)3361-6112
+
+e-mail:
+
+fiscal@marcosspolaor.com.br
+
+Discriminação dos Serviços
+HONORÁRIOS CONTÁBEIS REF 05/2023 VENC 02/06/2023
+
+Código do Serviço / Atividade
+17.02 / 8211300 - serviços combinados de escritório e apoio administrativo
+
+Detalhamento Específico da Construção Civil
+Código da Obra
+
+Código ART
+
+Tributos Federais
+PIS
+
+COFINS
+
+Detalhamento de Valores - Prestador dos Serviços
+Valor dos Serviços
+
+R$
+
+9.801,98
+
+(-) Desconto Incondicionado
+
+Natureza Operação
+
+Regime especial Tributação
+0,00
+
+Outras Retenções
+
+0-Nenhum
+Opção Simples Nacional
+
+(-) ISS Retido
+
+306,80
+
+INSS(R$)
+
+Outras Retenções
+
+1-Tributação no município
+
+(-) Desconto Condicionado
+(-) Retenções Federais
+
+IR(R$)
+
+1 - Sim
+
+CSLL(R$)
+Cálculo do ISSQN devido no Município
+
+Valor dos Serviços R$
+
+9.801,98
+
+(-) Deduções permitidas em lei
+(-) Desconto Incondicionado
+Base de Cálculo
+
+9.801,98
+
+(x) Alíquota %
+
+3,13
+
+ISS a reter:
+
+(X) Sim () Não
+
+Incentivador Cultura
+(=) Valor Líquido
+
+R$
+
+9.495,18
+
+(=) Valor do ISS:
+
+R$
+
+306,80
+
+2-Não
+
+Avisos
+
+1- Uma via desta Nota Fiscal será enviada através do e-mail fornecido pelo Tomador dos Serviços.
+2- A autenticidade desta Nota Fiscal poderá ser verificada no site, santos.ginfes.com.br com a utilização do Código de Verificação.
+3 - Documento emitido por ME ou EPP optante pelo Simples Nacional.Não gera direito a crédito fiscal de ISS e IPI.
+
+
