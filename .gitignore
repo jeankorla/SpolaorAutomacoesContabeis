@@ -126,4 +126,6 @@ nb-configuration.xml
 /.phpunit.*.cache
 
 
-
+/public
+/public/public/uploads
+/app/Config/App.php
