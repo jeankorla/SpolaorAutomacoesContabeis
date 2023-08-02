@@ -15,7 +15,7 @@ class Base extends BaseController
             // Caso não esteja autenticado, redireciona para a tela de login
             return redirect()->to('home/login');
         }
-//testeEEEEEEEEEEEE
+        
         echo view('common/header');
         echo view('index');
         echo view('common/footer');
