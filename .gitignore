@@ -127,6 +127,5 @@ nb-configuration.xml
 
 
 /public
-/app/config
 /public/public/uploads
-./app/config/app.php
+app/Config/App.php
