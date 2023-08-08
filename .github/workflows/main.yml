@@ -18,3 +18,4 @@ jobs:
         server: scia.com.br
         username: ${{ secrets.ftp_user }}
         password: ${{ secrets.ftp_password }}
+        server-dir: ./empenho
