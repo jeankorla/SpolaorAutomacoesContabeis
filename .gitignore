@@ -8,10 +8,9 @@ etc
 logs
 mail
 public_ftp
-app
 ssl
 teste
-
+tests
 tmp
 
 www
