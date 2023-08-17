@@ -1,6 +1,0 @@
----
-"gem": '--remote --gen-rdoc --run-tests'
-"gemhome": '/home1/scia97/ruby/gems'
-"gempath": []
-
-"rdoc": '--inline-source --line-numbers'
