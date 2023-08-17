@@ -1,0 +1,15 @@
+.cpanel
+.cphorde
+.htpasswds
+.softaculous
+.spamassassin
+.trash
+etc
+logs
+mail
+public_ftp
+ssl
+
+tmp
+
+www

@@ -1,0 +1,4 @@
+201.42.12.189 - - [17/Aug/2023:11:20:26 -0300] "GET / HTTP/2.0" 301 237 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" scia.com.br 50.116.86.133
+201.42.12.189 - - [17/Aug/2023:11:20:26 -0300] "GET /index.php HTTP/2.0" 500 20563 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" scia.com.br 50.116.86.133
+201.42.12.189 - - [17/Aug/2023:11:20:27 -0300] "GET /index.php HTTP/2.0" 500 20420 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" scia.com.br 50.116.86.133
+201.42.12.189 - - [17/Aug/2023:11:20:27 -0300] "GET /favicon.ico HTTP/2.0" 200 5430 "https://scia.com.br/index.php" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" scia.com.br 50.116.86.133

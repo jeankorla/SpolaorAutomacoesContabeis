@@ -1,0 +1,675 @@
+{
+    "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
+    "version": "1.0.0",
+    "generatedTime": 1691498104465,
+    "data": [
+        {
+            "type": "file",
+            "name": "LICENSE",
+            "size": 1159,
+            "hash": "632c12f458eaaba880643b18e416957c93d54eeb7db47df42c05692ec0b028a2"
+        },
+        {
+            "type": "file",
+            "name": "README.md",
+            "size": 2713,
+            "hash": "cff0926419c4df2dbf51694fcc8267d9d80a2ce76eb0e13105a8ccfb41609c18"
+        },
+        {
+            "type": "folder",
+            "name": "app"
+        },
+        {
+            "type": "file",
+            "name": "builds",
+            "size": 3873,
+            "hash": "b78e83f69fbb6555d7a23149aefb549893b48980cda7c4be1ddf1dd85e152f6f"
+        },
+        {
+            "type": "file",
+            "name": "composer.json",
+            "size": 361,
+            "hash": "d678b14672cd2a648f7093d62b85592083a75b3647b4a9a7b8228073418a7758"
+        },
+        {
+            "type": "file",
+            "name": "composer.lock",
+            "size": 14489,
+            "hash": "bf3c5a430e450b2f8f6547030370fe65dfb1634ed0ccd95ed967bfa56825f654"
+        },
+        {
+            "type": "file",
+            "name": "phpunit.xml.dist",
+            "size": 2415,
+            "hash": "83c2f579d0746b66b4fa4e2fd59f1996981b97b58bfab416b89959f6b3031408"
+        },
+        {
+            "type": "file",
+            "name": "preload.php",
+            "size": 3190,
+            "hash": "e7625b4acd852a8ca05a3bf15816f4b78c5aaf1688e942c6dbcced8ce30ad5e4"
+        },
+        {
+            "type": "folder",
+            "name": "python"
+        },
+        {
+            "type": "file",
+            "name": "spark",
+            "size": 3129,
+            "hash": "72df8d6cc4747a59e1c46bbc402e5f17c2ea2d9007fe186d8525aa8024717ad5"
+        },
+        {
+            "type": "folder",
+            "name": "tests"
+        },
+        {
+            "type": "folder",
+            "name": "writable"
+        },
+        {
+            "type": "file",
+            "name": "app/.htaccess",
+            "size": 124,
+            "hash": "7ea258b9d2ee9d9d1add5d857c40c531282057e83b875775f60845e38d79235e"
+        },
+        {
+            "type": "file",
+            "name": "app/Common.php",
+            "size": 521,
+            "hash": "6dce94fb27734bb1826cd56dab9124f0436d7286d3e306bfc5862d8f200c85fd"
+        },
+        {
+            "type": "folder",
+            "name": "app/Config"
+        },
+        {
+            "type": "folder",
+            "name": "app/Controllers"
+        },
+        {
+            "type": "folder",
+            "name": "app/Database"
+        },
+        {
+            "type": "folder",
+            "name": "app/Filters"
+        },
+        {
+            "type": "folder",
+            "name": "app/Helpers"
+        },
+        {
+            "type": "folder",
+            "name": "app/Language"
+        },
+        {
+            "type": "folder",
+            "name": "app/Libraries"
+        },
+        {
+            "type": "folder",
+            "name": "app/Models"
+        },
+        {
+            "type": "folder",
+            "name": "app/ThirdParty"
+        },
+        {
+            "type": "folder",
+            "name": "app/Views"
+        },
+        {
+            "type": "file",
+            "name": "app/index.html",
+            "size": 134,
+            "hash": "01644da213f8458177f02e6d5fec529e3c8fd1bac86b0c1771d43b961079ea32"
+        },
+        {
+            "type": "file",
+            "name": "python/x.py",
+            "size": 16,
+            "hash": "d1b7968d2723ad4f7a6310065996b4955afb92ef46c7504ad3d1ff842cf9eb51"
+        },
+        {
+            "type": "file",
+            "name": "tests/README.md",
+            "size": 5076,
+            "hash": "3856aa3dc46041d861a1f3c83b440c1be2579ca8d73091edf74c1f9b598a8a1c"
+        },
+        {
+            "type": "folder",
+            "name": "tests/_support"
+        },
+        {
+            "type": "folder",
+            "name": "tests/database"
+        },
+        {
+            "type": "folder",
+            "name": "tests/session"
+        },
+        {
+            "type": "folder",
+            "name": "tests/unit"
+        },
+        {
+            "type": "file",
+            "name": "writable/.htaccess",
+            "size": 124,
+            "hash": "7ea258b9d2ee9d9d1add5d857c40c531282057e83b875775f60845e38d79235e"
+        },
+        {
+            "type": "folder",
+            "name": "writable/cache"
+        },
+        {
+            "type": "folder",
+            "name": "writable/logs"
+        },
+        {
+            "type": "folder",
+            "name": "writable/session"
+        },
+        {
+            "type": "folder",
+            "name": "writable/uploads"
+        },
+        {
+            "type": "file",
+            "name": "app/Config/Autoload.php",
+            "size": 3198,
+            "hash": "1bfa5b7fcef481cfa8fb8a1a17e463bffb1d631a3dab7cfce49616cf6c2b2f03"
+        },
+        {
+            "type": "folder",
+            "name": "app/Config/Boot"
+        },
+        {
+            "type": "file",
+            "name": "app/Config/CURLRequest.php",
+            "size": 550,
+            "hash": "5ab64392f6155f7db73ce8ad63010e932066d5e94ac550c502c69bbe135cd840"
+        },
+        {
+            "type": "file",
+            "name": "app/Config/Cache.php",
+            "size": 6186,
+            "hash": "841f7cdc7dcfc9d59a104138206997a89c4bb6ef1f09418bd6508eb1ae8b851e"
+        },
+        {
+            "type": "file",
+            "name": "app/Config/Constants.php",
+            "size": 3986,
+            "hash": "43602259a375c212c127eb113469227269b175cf7e7d3754a5d0a85ff393b5e0"
+        },
+        {
+            "type": "file",
+            "name": "app/Config/ContentSecurityPolicy.php",
+            "size": 4159,
+            "hash": "776092a69d04e3fef3cb411274ae76ab650befec5c63e30cc918c278788f0e77"
+        },
+        {
+            "type": "file",
+            "name": "app/Config/Cookie.php",
+            "size": 3502,
+            "hash": "20e41b319dc947656e68acb1d80b0122f9d9baae5ecfd35c2949639d8716b5b4"
+        },
+        {
+            "type": "file",
+            "name": "app/Config/Database.php",
+            "size": 2279,
+            "hash": "2d40eb4e8fe2382cd197300da43c9e978058bd6685726a7485668f54a5066793"
+        },
+        {
+            "type": "file",
+            "name": "app/Config/DocTypes.php",
+            "size": 3058,
+            "hash": "e9212a9fcfabab913cf0561103ab5189e622c2aabb13a9607da9e3c5bf5557a1"
+        },
+        {
+            "type": "file",
+            "name": "app/Config/Email.php",
+            "size": 2143,
+            "hash": "47840007bacc5f2c90cb2d83bcfa5fb5594995bad2f544b92b57c3a511149873"
+        },
+        {
+            "type": "file",
+            "name": "app/Config/Encryption.php",
+            "size": 2844,
+            "hash": "1790c8f752a9156b26ae67383b1a55853e87e8bb5e3fa78a1792b0c4a926ad9b"
+        },
+        {
+            "type": "file",
+            "name": "app/Config/Events.php",
+            "size": 1565,
+            "hash": "00f4b95ef3dd141f34420c08d18ded8e0e36d3d452c57f16d341d4c0d8215e89"
+        },
+        {
+            "type": "file",
+            "name": "app/Config/Exceptions.php",
+            "size": 2939,
+            "hash": "4706309a2d20d54084e0c54e5da14c62714fcdf2214e2d723f716e8e98845d3b"
+        },
+        {
+            "type": "file",
+            "name": "app/Config/Feature.php",
+            "size": 939,
+            "hash": "44cb1c6cbcba63c198f23c178cb38f38561e77ee9b2cca7ecc70fcd268f1bf4f"
+        },
+        {
+            "type": "file",
+            "name": "app/Config/Filters.php",
+            "size": 1684,
+            "hash": "1c434d8f966b6d8d90d3431516ad7140296e45da09aa2d21b4b0ea00571c9bd4"
+        },
+        {
+            "type": "file",
+            "name": "app/Config/ForeignCharacters.php",
+            "size": 152,
+            "hash": "5aad20bc421df931ca5188b6180e214eb25b995701f819676bdf85dc27d83f9c"
+        },
+        {
+            "type": "file",
+            "name": "app/Config/Format.php",
+            "size": 2610,
+            "hash": "97bb42295ecfac67defb60fd3ba4552555741563802a3d91075f361083a127bd"
+        },
+        {
+            "type": "file",
+            "name": "app/Config/Generators.php",
+            "size": 2001,
+            "hash": "50cacac4355273ed1f3a957a631d3c57e1242373b63366bf939fd049a6e9a3de"
+        },
+        {
+            "type": "file",
+            "name": "app/Config/Honeypot.php",
+            "size": 855,
+            "hash": "dd9497285afd25f1b1c312dcc9ccaeb62a3b66e649cba6640e9662016a4b7d23"
+        },
+        {
+            "type": "file",
+            "name": "app/Config/Images.php",
+            "size": 708,
+            "hash": "2e476b10393a608a93c40fb94cbf98925dc786721ed9094e26009c502c1d2de1"
+        },
+        {
+            "type": "file",
+            "name": "app/Config/Kint.php",
+            "size": 1625,
+            "hash": "1253faba751db14daa49475ead76f8ba93e230082c6e5413d8b433aa5c40f9e3"
+        },
+        {
+            "type": "file",
+            "name": "app/Config/Logger.php",
+            "size": 5914,
+            "hash": "defec32ec21ee76a9f9fd9a31f09a7ae7e413060312e306300b1661466e14ab8"
+        },
+        {
+            "type": "file",
+            "name": "app/Config/Migrations.php",
+            "size": 1751,
+            "hash": "df5c66d5b0332dcb95e0730af86c5a319320efb99a395f62b29b04199712f23f"
+        },
+        {
+            "type": "file",
+            "name": "app/Config/Mimes.php",
+            "size": 15649,
+            "hash": "16fdbb9ae28cac5dd12dbf5a8f41711b1eda7236ccb377566ba1bc0bbbf2583f"
+        },
+        {
+            "type": "file",
+            "name": "app/Config/Modules.php",
+            "size": 2102,
+            "hash": "2c51a2f9651f1e7354b535ef8a81ff46ef19314be4508512b6d384ad859bdeff"
+        },
+        {
+            "type": "file",
+            "name": "app/Config/Pager.php",
+            "size": 1189,
+            "hash": "f662dac48b25a451f2799eb4c174f0a8444e909e7e19e6260cd827ad62c488ff"
+        },
+        {
+            "type": "file",
+            "name": "app/Config/Paths.php",
+            "size": 2741,
+            "hash": "e6392327913b57bbda3abdd340255a1dfdeddd7da53d257d08dff76c6de39fb8"
+        },
+        {
+            "type": "file",
+            "name": "app/Config/Publisher.php",
+            "size": 806,
+            "hash": "1e2c4ab0cd9b38c0b404ecd7aad684382c038ccc7a7059e928f23e999de52fba"
+        },
+        {
+            "type": "file",
+            "name": "app/Config/Routes.php",
+            "size": 1788,
+            "hash": "eb5f10107816798da5bdd828500970b55bbacbd8465267f1ba47c0227454c552"
+        },
+        {
+            "type": "file",
+            "name": "app/Config/Security.php",
+            "size": 3283,
+            "hash": "6aa519b4fdea8bcd0ed94c6245759d8ae5683d20adc582ebe705ba49cdf70974"
+        },
+        {
+            "type": "file",
+            "name": "app/Config/Services.php",
+            "size": 921,
+            "hash": "34cb6ef186f9ddb585af5273ed5512a0378bf71dc0d208e5eee7ac1323c57a08"
+        },
+        {
+            "type": "file",
+            "name": "app/Config/Session.php",
+            "size": 3697,
+            "hash": "0856212690f715bc310015f6db8a35cc32ef8709d132117e09f99609055a01f0"
+        },
+        {
+            "type": "file",
+            "name": "app/Config/Toolbar.php",
+            "size": 3420,
+            "hash": "ca2fa8342eec366849f3363f26f5bc650de6890098588ded5493dd7e70312a3c"
+        },
+        {
+            "type": "file",
+            "name": "app/Config/UserAgents.php",
+            "size": 9813,
+            "hash": "18f6ba4d61572386aaec193091ae8f387650fcefffa0c16ea9de7a2c0325d943"
+        },
+        {
+            "type": "file",
+            "name": "app/Config/Validation.php",
+            "size": 1188,
+            "hash": "06524df873a18610a3c8cab34781fef95aa518dcdfe628fd3d6d42a6dd2b6f34"
+        },
+        {
+            "type": "file",
+            "name": "app/Config/View.php",
+            "size": 1739,
+            "hash": "23e73e506c34f0c8147b68a28ac9c9a218df99d3770a5061b461fec9615a874d"
+        },
+        {
+            "type": "file",
+            "name": "app/Controllers/Base.php",
+            "size": 36436,
+            "hash": "15669c33925e66c7c919c7687df9eb2f91c6b9a407781756c265d48b235de55b"
+        },
+        {
+            "type": "file",
+            "name": "app/Controllers/BaseController.php",
+            "size": 1579,
+            "hash": "3ec85cc1b21cbc20e8378d9da173e5180c3a3c75b5ddda6815288ddb40b2810b"
+        },
+        {
+            "type": "file",
+            "name": "app/Controllers/Gerador.php",
+            "size": 386,
+            "hash": "39d2aeb2b05cd2ded386dee3236e89ebb1d729340775c1f2e55afdab11a689cf"
+        },
+        {
+            "type": "file",
+            "name": "app/Controllers/Home.php",
+            "size": 1095,
+            "hash": "d62e24e18cfd2bd2ffe4350c3d254f73bd32553dc6cbdd977a154542fbb50123"
+        },
+        {
+            "type": "file",
+            "name": "app/Controllers/UploadController.php",
+            "size": 1108,
+            "hash": "13910a1f187225cd272ce048dce19174597f3443706940065a10169784690713"
+        },
+        {
+            "type": "folder",
+            "name": "app/Database/Migrations"
+        },
+        {
+            "type": "folder",
+            "name": "app/Database/Seeds"
+        },
+        {
+            "type": "folder",
+            "name": "app/Language/en"
+        },
+        {
+            "type": "file",
+            "name": "app/Models/UsuarioModel.php",
+            "size": 1484,
+            "hash": "706390f61fe57654ba0a26befe68f5df9d58c1086a5ee628e415d1ba7ea7aa60"
+        },
+        {
+            "type": "file",
+            "name": "app/Views/Login.php",
+            "size": 2040,
+            "hash": "43f1ba93aab1f89738d2fa2fb023e7fd20a36629f1426b897b046fcf04c4685f"
+        },
+        {
+            "type": "folder",
+            "name": "app/Views/common"
+        },
+        {
+            "type": "folder",
+            "name": "app/Views/errors"
+        },
+        {
+            "type": "file",
+            "name": "app/Views/index.php",
+            "size": 2712,
+            "hash": "40e6464346d692034ee5e295d2f90aeb4b42d70d8540b5d0a59ee127f729508a"
+        },
+        {
+            "type": "file",
+            "name": "app/Views/link_upload.php",
+            "size": 7911,
+            "hash": "8d003c845a12dea634036e8cd2f91f61592319c70bf3f66f2b9a0c4338727811"
+        },
+        {
+            "type": "file",
+            "name": "app/Views/manutencao.php",
+            "size": 1231,
+            "hash": "7c3effa2b57ddea9ce15141e146404fe65fe20dc27818c2aa6fd0a972d8c2b92"
+        },
+        {
+            "type": "file",
+            "name": "app/Views/pdf_error.php",
+            "size": 202,
+            "hash": "4449c4a030715364ef00960a924c4178dc8914b5193c3915a5dd6ef8bdffc979"
+        },
+        {
+            "type": "file",
+            "name": "app/Views/pdf_result.php",
+            "size": 901,
+            "hash": "d31a776297ce8e0f791fcf977ab9eeb327822045dfa56f7c4a06c88098ad669f"
+        },
+        {
+            "type": "file",
+            "name": "app/Views/pdf_upload.php",
+            "size": 6368,
+            "hash": "107a077a37060778809ca053888843349151fd66d4e7d3e9732d435461bb295b"
+        },
+        {
+            "type": "file",
+            "name": "app/Views/welcome_message.php",
+            "size": 17859,
+            "hash": "e4cb216d34d8fd46bdf5d38ae1c92dbfdf37f49a5f3bcf4d082d310a1f27a035"
+        },
+        {
+            "type": "folder",
+            "name": "tests/_support/Database"
+        },
+        {
+            "type": "folder",
+            "name": "tests/_support/Libraries"
+        },
+        {
+            "type": "folder",
+            "name": "tests/_support/Models"
+        },
+        {
+            "type": "file",
+            "name": "tests/database/ExampleDatabaseTest.php",
+            "size": 1214,
+            "hash": "4c047cffac41b99bae2ad8c0b138b87ebcad7ebcdeb3190216dad44d8a325cef"
+        },
+        {
+            "type": "file",
+            "name": "tests/session/ExampleSessionTest.php",
+            "size": 339,
+            "hash": "22030b70298c5b1d3bc8a8e7063f6f4781d876e948134a80740486db89d0e009"
+        },
+        {
+            "type": "file",
+            "name": "tests/unit/HealthTest.php",
+            "size": 1448,
+            "hash": "2beaef9ad2babd0d2b0b21d3b2880ff3d92fa2e660a6497502824d13883db677"
+        },
+        {
+            "type": "file",
+            "name": "writable/cache/index.html",
+            "size": 131,
+            "hash": "0ee6dff170c38f66cc1e9ef00cfb927bba75b30379af3281c026647c068a4709"
+        },
+        {
+            "type": "file",
+            "name": "writable/logs/index.html",
+            "size": 131,
+            "hash": "0ee6dff170c38f66cc1e9ef00cfb927bba75b30379af3281c026647c068a4709"
+        },
+        {
+            "type": "file",
+            "name": "writable/session/index.html",
+            "size": 131,
+            "hash": "0ee6dff170c38f66cc1e9ef00cfb927bba75b30379af3281c026647c068a4709"
+        },
+        {
+            "type": "file",
+            "name": "writable/uploads/index.html",
+            "size": 131,
+            "hash": "0ee6dff170c38f66cc1e9ef00cfb927bba75b30379af3281c026647c068a4709"
+        },
+        {
+            "type": "file",
+            "name": "app/Config/Boot/development.php",
+            "size": 1278,
+            "hash": "1c0a0229679b18a9071183a8786ba7f1cf41d19de815ef9e958ed3be7c30ff1c"
+        },
+        {
+            "type": "file",
+            "name": "app/Config/Boot/production.php",
+            "size": 832,
+            "hash": "239f5ad839591254f974f2d5ed4d4f4d8bf611b7406226c2710993dfe898754c"
+        },
+        {
+            "type": "file",
+            "name": "app/Config/Boot/testing.php",
+            "size": 1236,
+            "hash": "d7467f9d4f07ca597826934e1aa3d9c9ac8077879a3200397d926aad4af1a935"
+        },
+        {
+            "type": "file",
+            "name": "app/Language/en/Validation.php",
+            "size": 115,
+            "hash": "cc000c8c25a2dc6d4149ff97fb461b9bd9017317728eb6e72e52a62731d2ac6c"
+        },
+        {
+            "type": "file",
+            "name": "app/Views/common/footer.php",
+            "size": 20,
+            "hash": "b4f2dda2589e1a271980e44180b3d16cda0e9adff50813b86c8222f01feb2108"
+        },
+        {
+            "type": "file",
+            "name": "app/Views/common/header.php",
+            "size": 685,
+            "hash": "ee651a3055549b6f256912ab6713f75acd5a45b4ae322c9bc0e99d408c8a9926"
+        },
+        {
+            "type": "folder",
+            "name": "app/Views/errors/cli"
+        },
+        {
+            "type": "folder",
+            "name": "app/Views/errors/html"
+        },
+        {
+            "type": "folder",
+            "name": "tests/_support/Database/Migrations"
+        },
+        {
+            "type": "folder",
+            "name": "tests/_support/Database/Seeds"
+        },
+        {
+            "type": "file",
+            "name": "tests/_support/Libraries/ConfigReader.php",
+            "size": 314,
+            "hash": "fc0448e5be3fcc33422088c1bdcb0344312005baf8ab8cc47bcb99385726e4f1"
+        },
+        {
+            "type": "file",
+            "name": "tests/_support/Models/ExampleModel.php",
+            "size": 554,
+            "hash": "17131b4c527b49ea21f6734aba8b5c9716b8c5fcd6df497b50a29ff3ceb6122b"
+        },
+        {
+            "type": "file",
+            "name": "app/Views/errors/cli/error_404.php",
+            "size": 102,
+            "hash": "855eaeb4854e735c580c7fd28d4ed1bfc82a7ee576421d84b921d99c88b0b560"
+        },
+        {
+            "type": "file",
+            "name": "app/Views/errors/cli/error_exception.php",
+            "size": 2027,
+            "hash": "f7f680f448d7c5058ac7ebd5f50a71d01d5f9c2edcd6128d50ad1ee4aa7dd983"
+        },
+        {
+            "type": "file",
+            "name": "app/Views/errors/cli/production.php",
+            "size": 139,
+            "hash": "3083340bd656c0e6d15d681de82eeb84dd6ec40073c45831b8f7c481b89bff75"
+        },
+        {
+            "type": "file",
+            "name": "app/Views/errors/html/debug.css",
+            "size": 3622,
+            "hash": "89a795ac57a54f36a775bef14fe5e92d7285d25ee1073bb2ce8f4a3fc35a60bc"
+        },
+        {
+            "type": "file",
+            "name": "app/Views/errors/html/debug.js",
+            "size": 2820,
+            "hash": "968765d1d4913a15e7fd32bc348912e527bf54503d132db7f8b0f1ba66719dd0"
+        },
+        {
+            "type": "file",
+            "name": "app/Views/errors/html/error_404.php",
+            "size": 2038,
+            "hash": "3b67ffb87843baa51f82d93842f0c1d9a78e3247361bef7f695cf5158f7efc75"
+        },
+        {
+            "type": "file",
+            "name": "app/Views/errors/html/error_exception.php",
+            "size": 15279,
+            "hash": "df31baf3476d994e138c7cada5894ed41725d3252cc12eb9740ebf75d47d20b8"
+        },
+        {
+            "type": "file",
+            "name": "app/Views/errors/html/production.php",
+            "size": 500,
+            "hash": "bd52647edfd8ca515a7e4e391b1abb41d99081ce14863b5ca1a55b2a5fe68197"
+        },
+        {
+            "type": "file",
+            "name": "tests/_support/Database/Migrations/2020-02-22-222222_example_migration.php",
+            "size": 1157,
+            "hash": "03d97c5a78aace2eb3ff9834c2a0908ed3746694298b1514382a7d87f9210cab"
+        },
+        {
+            "type": "file",
+            "name": "tests/_support/Database/Seeds/ExampleSeeder.php",
+            "size": 1207,
+            "hash": "e5dc01007a2c3ff08823bb88eaec65f8257195d7ca8f788f95b9635ce709ab23"
+        }
+    ]
+}
