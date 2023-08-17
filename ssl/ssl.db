@@ -1,0 +1,51 @@
+--- 
+files: 
+  certificate: 
+    scia_com_br_e413e_f4257_1698846762_75b4c76276db8d06f58a8ade22ec9675: 
+      created: '1691074363'
+      domains: 
+        - "*.scia.com.br"
+        - scia.com.br
+      ecdsa_curve_name: ~
+      ecdsa_public: ~
+      friendly_name: Cert for “scia.com.br”
+      id: scia_com_br_e413e_f4257_1698846762_75b4c76276db8d06f58a8ade22ec9675
+      is_self_signed: 0
+      issuer.commonName: R3
+      issuer.organizationName: Let's Encrypt
+      key_algorithm: rsaEncryption
+      modulus: e413e434ad0fc913fda7f274725e67b6f99e0437d8d405210b5e24b16e2ef9f1cfe4ebe1455f8e9c6a92d6a3a1dbbe0482b2d4cc07e132d853580d37af20a968bf8852a68d27060f21d52bb0050ffc587796950db1a295b3e26d032de72a7cc1875f70629dfb0553e9f3ab4993e5cbd945700573478200d557e0c3b6061acbce813adc9d58cc13c3ff28b296602bbacaab83453890eeccb09c9f787a2f6c7a04d506e571e13f77a516a4e9ce3b0e238eff713a9aad03fb8628890f656ada467af29a8d574b9cb56d7b5df77d6444e87645251757358d048c53f657bef10a82a4ad0cd4972c497a781efbcef884b9e498e79409702625cd01937b3b26f05f4257
+      modulus_length: 2048
+      not_after: '1698846762'
+      not_before: '1691070763'
+      serial: 04ec26051b16dcf3b6dc928360c7e5d99015
+      signature_algorithm: sha256WithRSAEncryption
+      subject.commonName: scia.com.br
+      validation_type: dv
+  key: 
+    e413e_f4257_2105b5d6c9f165b99c2315440113f97a: 
+      created: '1691074363'
+      ecdsa_curve_name: ~
+      ecdsa_public: ~
+      friendly_name: Key for “scia.com.br”
+      id: e413e_f4257_2105b5d6c9f165b99c2315440113f97a
+      key_algorithm: rsaEncryption
+      modulus: e413e434ad0fc913fda7f274725e67b6f99e0437d8d405210b5e24b16e2ef9f1cfe4ebe1455f8e9c6a92d6a3a1dbbe0482b2d4cc07e132d853580d37af20a968bf8852a68d27060f21d52bb0050ffc587796950db1a295b3e26d032de72a7cc1875f70629dfb0553e9f3ab4993e5cbd945700573478200d557e0c3b6061acbce813adc9d58cc13c3ff28b296602bbacaab83453890eeccb09c9f787a2f6c7a04d506e571e13f77a516a4e9ce3b0e238eff713a9aad03fb8628890f656ada467af29a8d574b9cb56d7b5df77d6444e87645251757358d048c53f657bef10a82a4ad0cd4972c497a781efbcef884b9e498e79409702625cd01937b3b26f05f4257
+      modulus_length: 2048
+indexes: 
+  certificate: 
+    modulus: 
+      e413e434ad0fc913fda7f274725e67b6f99e0437d8d405210b5e24b16e2ef9f1cfe4ebe1455f8e9c6a92d6a3a1dbbe0482b2d4cc07e132d853580d37af20a968bf8852a68d27060f21d52bb0050ffc587796950db1a295b3e26d032de72a7cc1875f70629dfb0553e9f3ab4993e5cbd945700573478200d557e0c3b6061acbce813adc9d58cc13c3ff28b296602bbacaab83453890eeccb09c9f787a2f6c7a04d506e571e13f77a516a4e9ce3b0e238eff713a9aad03fb8628890f656ada467af29a8d574b9cb56d7b5df77d6444e87645251757358d048c53f657bef10a82a4ad0cd4972c497a781efbcef884b9e498e79409702625cd01937b3b26f05f4257: 
+        scia_com_br_e413e_f4257_1698846762_75b4c76276db8d06f58a8ade22ec9675: ~
+    subject.commonName: 
+      scia.com.br: 
+        scia_com_br_e413e_f4257_1698846762_75b4c76276db8d06f58a8ade22ec9675: ~
+uniques: 
+  certificate: 
+    friendly_name: 
+      Cert for “scia.com.br”: scia_com_br_e413e_f4257_1698846762_75b4c76276db8d06f58a8ade22ec9675
+  key: 
+    friendly_name: 
+      Key for “scia.com.br”: e413e_f4257_2105b5d6c9f165b99c2315440113f97a
+    modulus:ecdsa_curve_name:ecdsa_public: 
+      e413e434ad0fc913fda7f274725e67b6f99e0437d8d405210b5e24b16e2ef9f1cfe4ebe1455f8e9c6a92d6a3a1dbbe0482b2d4cc07e132d853580d37af20a968bf8852a68d27060f21d52bb0050ffc587796950db1a295b3e26d032de72a7cc1875f70629dfb0553e9f3ab4993e5cbd945700573478200d557e0c3b6061acbce813adc9d58cc13c3ff28b296602bbacaab83453890eeccb09c9f787a2f6c7a04d506e571e13f77a516a4e9ce3b0e238eff713a9aad03fb8628890f656ada467af29a8d574b9cb56d7b5df77d6444e87645251757358d048c53f657bef10a82a4ad0cd4972c497a781efbcef884b9e498e79409702625cd01937b3b26f05f4257: e413e_f4257_2105b5d6c9f165b99c2315440113f97a

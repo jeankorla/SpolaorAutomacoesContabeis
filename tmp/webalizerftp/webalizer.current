@@ -1,0 +1,2371 @@
+# Webalizer V2.23-08 Incremental Data - 08/08/2023 09:59:06
+2023 8 8 9 59 6
+1201 1201 6 1110 0 0 5575377 57 6 2
+5 1112 1112 3 8
+0 0 0 0 0 0
+0 0 0 0 0 0
+89 89 281074 1 6 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+1112 1112 5294303 5 51 5
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+1112 1112 5294303 51
+0 0 0 0
+89 89 281074 6
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0
+0
+0
+1201
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Language/en/Log.php
+0 1 12476640 429 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/
+0 1 0 134 1 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Cache/Handlers/RedisHandler.php
+0 1 12424928 6609 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Helpers/text_helper.php
+0 1 12466448 23797 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Renderer/Rich/PluginInterface.php
+0 1 12507264 1383 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/toolbar.css
+0 1 12453504 18095 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Commands/Utilities/FilterCheck.php
+0 1 12434336 2854 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Language/en/Security.php
+0 1 12477872 490 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/app/Config/DocTypes.php
+0 1 12413232 3058 0 0
+/home1/scia97/empenho/spark
+0 1 12408416 3129 0 0
+/home1/scia97/app/Views/welcome_message.php
+0 1 12394384 17859 0 0
+/home1/scia97/empenho/vendor/smalot/pdfparser/README.md
+0 1 12533728 2049 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/app/Config/Images.php
+0 1 12415168 708 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Config/Routes.php
+0 1 12375376 1788 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/writable/cache/
+0 1 0 131 0 0
+/home1/scia97/app/
+0 1 12391648 134 1 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/resources/compiled/original.css
+0 1 12511792 8140 0 0
+/home1/scia97/empenho/app/Views/welcome_message.php
+0 1 12407248 17859 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Test/Mock/MockResourcePresenter.php
+0 1 12493536 675 0 0
+/home1/scia97/empenho/vendor/composer/autoload_namespaces.php
+0 1 0 213 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ComposerScripts.php
+0 1 12436944 5420 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Format/FormatterInterface.php
+0 1 12463952 517 0 0
+/home1/scia97/empenho/app/Config/Migrations.php
+0 1 12401536 1751 0 0
+/home1/scia97/scia.com.br/empenho/app/Config/Validation.php
+0 2 0 2376 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php
+0 1 12433792 1370 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Views/link_upload.php
+0 1 12380224 7911 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/CLI/Commands.php
+0 1 12425648 4735 0 0
+/home1/scia97/scia.com.br/empenho/app/Controllers/Gerador.php
+0 2 0 772 0 0
+/home1/scia97/empenho/app/Common.php
+0 1 12397936 521 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Entity/Cast/StringCast.php
+0 1 12457712 502 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Database/Postgre/PreparedQuery.php
+0 1 12445568 3482 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Config/Services.php
+0 1 12438704 22449 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Renderer/Rich/MicrotimePlugin.php
+0 1 12507056 3066 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Database/OCI8/Utils.php
+0 1 12444848 860 0 0
+/home1/scia97/scia.com.br/empenho/tests/database/ExampleDatabaseTest.php
+0 2 0 2428 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Pager/Pager.php
+0 1 12480928 12010 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Validation/Exceptions/ValidationException.php
+0 1 12520384 1126 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Validation/FormatRules.php
+0 1 12520768 8926 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/HTTP/MessageInterface.php
+0 1 12469344 3744 0 0
+/home1/scia97/empenho/vendor/smalot/pdfparser/composer.json
+0 1 0 951 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Database/ModelFactory.php
+0 1 12442688 1178 0 0
+/home1/scia97/empenho/vendor/smalot/pdfparser/src/Smalot/PdfParser/Document.php
+0 1 12534048 8048 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Commands/Utilities/Routes/AutoRouteCollector.php
+0 1 12435104 1642 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Test/Mock/MockCache.php
+0 1 12491008 7400 0 0
+/home1/scia97/empenho/vendor/smalot/pdfparser/src/Smalot/PdfParser/Element/ElementName.php
+0 1 12535360 1911 0 0
+/home1/scia97/empenho/vendor/smalot/pdfparser/src/Smalot/PdfParser/Page.php
+0 1 12539888 34727 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Renderer/Rich/AbstractPlugin.php
+0 1 12505184 3347 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Debug/Toolbar/Collectors/Routes.php
+0 1 12451584 4664 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Modules/Modules.php
+0 1 12480560 1002 0 0
+/home1/scia97/empenho/vendor/smalot/pdfparser/src/Smalot/PdfParser/Encoding/StandardEncoding.php
+0 1 12537840 3579 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Security/Security.php
+0 1 12484976 16227 0 0
+/home1/scia97/app/Config/DocTypes.php
+0 1 12387360 3058 0 0
+/home1/scia97/empenho/vendor/thiagoalessio/tesseract_ocr/tests/Common/TestCase.php
+0 1 12545776 1177 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Renderer/Rich/TimestampPlugin.php
+0 1 12508512 1709 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Parser/ConstructablePluginInterface.php
+0 1 12499920 1365 0 0
+/home1/scia97/empenho/vendor/thiagoalessio/tesseract_ocr/codecov.yml
+0 1 0 190 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Parser/DOMDocumentPlugin.php
+0 1 12500320 12213 0 0
+/home1/scia97/scia.com.br/empenho/app/Controllers/UploadController.php
+0 2 0 2216 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Images/Image.php
+0 1 12473472 3159 0 0
+/home1/scia97/preload.php
+0 1 12395136 3190 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Exceptions/ExceptionInterface.php
+0 1 12460096 488 0 0
+/home1/scia97/scia.com.br/empenho/app/Common.php
+0 2 0 1042 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Database/MySQLi/Forge.php
+0 1 12443232 7501 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Encryption/Handlers/OpenSSLHandler.php
+0 1 12455216 4121 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Database/Migration.php
+0 1 12442336 1335 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/CLI/CLI.php
+0 1 0 35222 0 0
+/home1/scia97/app/Config/Boot/testing.php
+0 1 12386416 1236 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/CodeIgniter.php
+0 1 12426368 33756 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Files/Exceptions/FileException.php
+0 1 12461424 1332 0 0
+/home1/scia97/empenho/vendor/smalot/pdfparser/src/Smalot/PdfParser/Config.php
+0 1 12533872 3846 0 0
+/home1/scia97/empenho/app/Config/Boot/testing.php
+0 1 12398496 1236 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/CLI/Console.php
+0 1 12425824 1826 0 0
+/home1/scia97/tests/session/ExampleSessionTest.php
+0 1 12396528 339 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/View/View.php
+0 1 12524032 13437 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Zval/SimpleXMLElementValue.php
+0 1 12516400 1904 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Config/BaseConfig.php
+0 1 12437296 7039 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/View/Cell.php
+0 1 12522608 9348 0 0
+/home1/scia97/scia.com.br/empenho/app/Models/UsuarioModel.php
+0 2 0 2968 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Entity.php
+0 1 0 484 0 0
+/home1/scia97/empenho/vendor/laminas/laminas-escaper/LICENSE.md
+0 1 0 1498 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Database/Exceptions/DataException.php
+0 1 12441776 2364 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Config/Config.php
+0 1 12437648 1140 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Test/Constraints/SeeInDatabase.php
+0 1 12488144 2901 0 0
+/home1/scia97/empenho/writable/logs/
+0 1 12410080 131 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/View/RendererInterface.php
+0 1 12523680 2267 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Commands/Utilities/Routes/ControllerMethodReader.php
+0 1 12435968 5091 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Cache/Handlers/FileHandler.php
+0 1 12424352 11994 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/BaseModel.php
+0 1 12422880 52346 0 0
+/home1/scia97/empenho/vendor/laminas/laminas-escaper/README.md
+0 1 0 3669 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Renderer/Rich/ClosurePlugin.php
+0 1 12506224 2312 0 0
+/home1/scia97/empenho/vendor/thiagoalessio/tesseract_ocr/src/NoWritePermissionsForOutputFile.php
+0 1 12544512 118 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Test/DatabaseTestTrait.php
+0 1 12488864 8882 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Commands/Utilities/Routes/AutoRouterImproved/ControllerMethodReader.php
+0 1 12435536 6451 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Commands/Database/MigrateStatus.php
+0 1 12427680 4455 0 0
+/home1/scia97/scia.com.br/empenho/app/Config/Logger.php
+0 2 0 11828 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Renderer/Text/DepthLimitPlugin.php
+0 1 12509952 1460 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Database/MySQLi/Utils.php
+0 1 12443776 961 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Publisher/Exceptions/PublisherException.php
+0 1 12482192 1412 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Test/StreamFilterTrait.php
+0 1 12495328 953 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Renderer/Rich/ValuePluginInterface.php
+0 1 12508928 1403 0 0
+/home1/scia97/empenho/vendor/thiagoalessio/tesseract_ocr/src/Process.php
+0 1 12544864 2171 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Session/Handlers/BaseHandler.php
+0 1 12485728 4736 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Images/Handlers/GDHandler.php
+0 1 12473088 15346 0 0
+/home1/scia97/empenho/vendor/smalot/pdfparser/src/Smalot/PdfParser/Font.php
+0 1 12538432 22458 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Filters/Honeypot.php
+0 1 12463056 1297 0 0
+/home1/scia97/empenho/vendor/thiagoalessio/tesseract_ocr/tests/EndToEnd/images/mixed-languages.png
+0 1 12546688 17812 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Cache/Handlers/PredisHandler.php
+0 1 12424736 5159 0 0
+/home1/scia97/empenho/vendor/smalot/pdfparser/phpunit-windows.xml
+0 1 0 889 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Views/Login.php
+0 1 12380400 2040 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/tests/session/ExampleSessionTest.php
+0 1 12525728 339 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Cache/CacheFactory.php
+0 1 12423232 2516 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Test/Interfaces/FabricatorModel.php
+0 1 12490288 2248 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Zval/ParameterValue.php
+0 1 12514720 2711 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Images/ImageHandlerInterface.php
+0 1 12473648 3888 0 0
+/home1/scia97/empenho/vendor/smalot/pdfparser/src/Smalot/PdfParser/Font/FontType3.php
+0 1 12539536 1196 0 0
+/home1/scia97/scia.com.br/empenho/app/Controllers/Home.php
+0 2 0 2190 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Router/RouterInterface.php
+0 1 12484608 1766 0 0
+/home1/scia97/app/Config/Pager.php
+0 1 12389552 1189 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Test/Filters/CITestStreamFilter.php
+0 1 12489920 2362 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Test/FilterTestTrait.php
+0 1 12490112 7581 0 0
+/home1/scia97/empenho/app/Config/Toolbar.php
+0 1 12402976 3420 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/app/Views/errors/html/debug.css
+0 1 12419360 3622 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Config/Events.php
+0 1 12372384 1565 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Test/Mock/MockConnection.php
+0 1 12491728 5629 0 0
+/home1/scia97/app/Views/pdf_error.php
+0 1 12394000 202 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Session/Handlers/DatabaseHandler.php
+0 1 12486304 7952 0 0
+/home1/scia97/empenho/vendor/autoload.php
+0 1 12410832 771 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Parser/IteratorPlugin.php
+0 1 12500896 3391 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/init.php
+0 1 12497440 2730 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Config/ContentSecurityPolicy.php
+0 1 12371136 4159 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/View/Table.php
+0 1 12523856 13029 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Entity/Cast/JsonCast.php
+0 1 12457360 1645 0 0
+/home1/scia97/empenho/app/Views/errors/html/production.php
+0 1 0 500 0 0
+/home1/scia97/empenho/app/Config/UserAgents.php
+0 1 12403120 9813 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Debug/Toolbar.php
+0 1 12450064 18351 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/builds
+0 1 0 3873 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Renderer/Text/ArrayLimitPlugin.php
+0 1 12509536 1460 0 0
+/home1/scia97/app/Config/Session.php
+0 1 12390320 3697 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Renderer/Rich/TraceFramePlugin.php
+0 1 12508720 2677 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/app/Views/errors/cli/error_404.php
+0 1 12418816 102 0 0
+/home1/scia97/scia.com.br/empenho/app/Config/UserAgents.php
+0 2 0 19626 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/tests/database/ExampleDatabaseTest.php
+0 1 12383696 1214 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/app/Views/errors/cli/error_exception.php
+0 1 12418992 2027 0 0
+/home1/scia97/app/Models/UsuarioModel.php
+0 1 12391904 1484 0 0
+/home1/scia97/empenho/vendor/smalot/pdfparser/src/Smalot/PdfParser/Element/ElementString.php
+0 1 12535936 2945 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Test/FeatureTestTrait.php
+0 1 12489744 10089 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Exceptions/HasExitCodeInterface.php
+0 1 12460480 485 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Language/en/Images.php
+0 1 12476464 2300 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/app/Config/Boot/testing.php
+0 1 12411984 1236 0 0
+/home1/scia97/empenho/app/Controllers/BaseController.php
+0 1 0 1579 0 0
+/home1/scia97/empenho/app/Config/Feature.php
+0 1 12400240 939 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/PSR/Log/NullLogger.php
+0 1 12519104 707 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Test/Mock/MockBuilder.php
+0 1 12490832 509 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Commands/ListCommands.php
+0 1 12433616 3088 0 0
+/home1/scia97/empenho/app/Controllers/UploadController.php
+0 1 0 1108 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Zval/Representation/ColorRepresentation.php
+0 1 12514912 18556 0 0
+/home1/scia97/app/Views/errors/cli/error_exception.php
+0 1 12392480 2027 0 0
+/home1/scia97/empenho/tests/session/ExampleSessionTest.php
+0 1 0 339 0 0
+/home1/scia97/empenho/vendor/smalot/pdfparser/src/Smalot/PdfParser/Font/FontType0.php
+0 1 12539184 1196 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/resources/compiled/microtime.js
+0 1 12511584 984 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Entity/Cast/TimestampCast.php
+0 1 12457888 677 0 0
+/home1/scia97/app/Config/Autoload.php
+0 1 12386000 3198 0 0
+/home1/scia97/scia.com.br/empenho/app/Config/Mimes.php
+0 2 0 31298 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Test/Mock/MockTable.php
+0 1 12494800 698 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/public/.htaccess
+0 1 0 1662 0 0
+/home1/scia97/empenho/vendor/smalot/pdfparser/src/Smalot/PdfParser/Header.php
+0 1 12539712 5193 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Parser/TablePlugin.php
+0 1 12503232 3096 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Parser/ClassStaticsPlugin.php
+0 1 12499328 5080 0 0
+/home1/scia97/empenho/vendor/thiagoalessio/tesseract_ocr/tests/EndToEnd/images/not-an-image.txt
+0 1 12546880 13 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Test/Mock/MockSecurity.php
+0 1 12494080 709 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Database/SQLite3/Result.php
+0 1 12447920 3919 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Config/Services.php
+0 1 12375728 921 0 0
+/home1/scia97/empenho/vendor/smalot/pdfparser/src/Smalot/PdfParser/Exception/EncodingNotFoundException.php
+0 1 12538224 101 0 0
+/home1/scia97/empenho/vendor/composer/autoload_real.php
+0 1 12527520 1672 0 0
+/home1/scia97/scia.com.br/empenho/app/Config/Paths.php
+0 2 0 5482 0 0
+/home1/scia97/app/Config/Email.php
+0 1 12387488 2143 0 0
+/home1/scia97/empenho/python/x.py
+0 1 12408160 16 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Commands/Generators/SessionMigrationGenerator.php
+0 1 12430544 2689 0 0
+/home1/scia97/composer.json
+0 1 12394640 361 0 0
+/home1/scia97/empenho/vendor/smalot/pdfparser/src/Smalot/PdfParser/Font/FontType1.php
+0 1 12539360 1196 0 0
+/home1/scia97/empenho/vendor/smalot/pdfparser/src/Smalot/PdfParser/Element/ElementArray.php
+0 1 12534400 4028 0 0
+/home1/scia97/scia.com.br/empenho/builds
+0 2 18446744073709551615 7746 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Language/en/Pager.php
+0 1 12477168 735 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Database/SQLSRV/Connection.php
+0 1 12448624 16076 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/app/Config/UserAgents.php
+0 1 12417616 9813 0 0
+/home1/scia97/empenho/app/Language/en/Validation.php
+0 1 12404432 115 0 0
+/home1/scia97/app/Config/Routes.php
+0 1 12389936 1788 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Helpers/inflector_helper.php
+0 1 12465568 10753 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Config/Paths.php
+0 1 12375024 2741 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Commands/Utilities/Publish.php
+0 1 12434720 2622 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Router/Exceptions/RedirectException.php
+0 1 12483680 574 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Entity/Cast/ArrayCast.php
+0 1 12455760 797 0 0
+/home1/scia97/app/Controllers/Base.php
+0 1 12390960 36436 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/View/Plugins.php
+0 1 12523504 2684 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Helpers/html_helper.php
+0 1 12465392 16328 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Autoloader/FileLocator.php
+0 1 12422704 11169 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Controllers/UploadController.php
+0 1 12377504 1108 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/View/Cells/Cell.php
+0 1 12522784 4139 0 0
+/home1/scia97/composer.lock
+0 1 12394768 14489 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Renderer/Rich/MethodDefinitionPlugin.php
+0 1 12506848 2634 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/tests/unit/HealthTest.php
+0 1 12525920 1448 0 0
+/home1/scia97/writable/uploads/
+0 1 12397312 131 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/app/Controllers/Home.php
+0 1 12418304 153 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/View/ViewDecoratorInterface.php
+0 1 12524208 627 0 0
+/home1/scia97/tests/_support/Models/ExampleModel.php
+0 1 12396112 554 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/HTTP/RequestInterface.php
+0 1 12470592 1247 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Views/errors/cli/error_exception.php
+0 1 12378752 2027 0 0
+/home1/scia97/empenho/composer.lock
+0 1 12407648 14489 0 0
+/home1/scia97/empenho/app/Views/pdf_error.php
+0 1 12406816 202 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Database/BaseBuilder.php
+0 1 12440144 99721 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Test/Mock/MockSecurityConfig.php
+0 1 12494256 763 0 0
+/home1/scia97/empenho/vendor/smalot/pdfparser/Makefile
+0 1 12533424 660 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Router/Exceptions/RouterException.php
+0 1 12483872 1947 0 0
+/home1/scia97/scia.com.br/empenho/tests/_support/Models/ExampleModel.php
+0 2 0 1108 0 0
+/home1/scia97/scia.com.br/empenho/.ftp-deploy-sync-state.json
+0 2 0 44008 0 0
+/home1/scia97/empenho/app/Views/
+0 1 12406256 2712 0 0
+/home1/scia97/empenho/vendor/smalot/pdfparser/doc/Developer.md
+0 1 0 1212 0 0
+/home1/scia97/empenho/app/Config/Format.php
+0 1 12400672 2610 0 0
+/home1/scia97/app/Config/Publisher.php
+0 1 12389808 806 0 0
+/home1/scia97/app/Config/Boot/production.php
+0 1 12386272 832 0 0
+/home1/scia97/empenho/app/Config/Mimes.php
+0 1 12401680 15649 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Commands/Generators/Views/controller.tpl.php
+0 1 12431712 2931 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Language/en/Router.php
+0 1 12477696 753 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/HTTP/Files/UploadedFileInterface.php
+0 1 12468624 5190 0 0
+/home1/scia97/empenho/app/Config/Database.php
+0 1 12399376 2279 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/app/Config/Exceptions.php
+0 1 12413936 2939 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Commands/Generators/Views/command.tpl.php
+0 1 12431328 1314 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Config/Mimes.php
+0 1 12374496 15649 0 0
+/home1/scia97/empenho/app/Config/Autoload.php
+0 1 12398064 3198 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Commands/Generators/ControllerGenerator.php
+0 1 12429008 3726 0 0
+/home1/scia97/empenho/vendor/smalot/pdfparser/.php-cs-fixer.php
+0 1 0 640 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Cache/Handlers/WincacheHandler.php
+0 1 12425120 3259 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Renderer/Text/MicrotimePlugin.php
+0 1 12510352 4559 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Commands/Generators/Views/filter.tpl.php
+0 1 12432096 1350 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Language/en/Errors.php
+0 1 12475408 545 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Language/en/Cookie.php
+0 1 12474528 1373 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Commands/Encryption/GenerateKey.php
+0 1 12428240 5844 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/app/Config/Boot/development.php
+0 1 12411632 1278 0 0
+/home1/scia97/empenho/app/Views/errors/cli/error_404.php
+0 1 0 102 0 0
+/home1/scia97/empenho/app/Views/errors/html/error_404.php
+0 1 0 2038 0 0
+/home1/scia97/empenho/vendor/smalot/pdfparser/doc/Usage.md
+0 1 0 4672 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/tests/_support/Database/Seeds/ExampleSeeder.php
+0 1 12383120 1207 0 0
+/home1/scia97/empenho/vendor/composer/InstalledVersions.php
+0 1 0 16143 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Config/Pager.php
+0 1 12374848 1189 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Throttle/ThrottlerInterface.php
+0 1 12519472 1244 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/I18n/TimeTrait.php
+0 1 12472528 31258 0 0
+/home1/scia97/app/Config/Encryption.php
+0 1 12387616 2844 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/app/Config/Cache.php
+0 1 12412160 6186 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/phpunit.xml.dist
+0 1 0 2061 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Test/ControllerTestTrait.php
+0 1 12488688 7088 0 0
+/home1/scia97/writable/cache/
+0 1 12396928 131 0 0
+/home1/scia97/empenho/vendor/psr/log/Psr/Log/LoggerInterface.php
+0 1 0 3114 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/_config.tpl
+0 1 12452160 1330 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Commands/Cache/ClearCache.php
+0 1 12426544 1798 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/writable/.htaccess
+0 1 12384416 124 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Language/en/CLI.php
+0 1 12474352 2089 0 0
+/home1/scia97/empenho/app/Config/View.php
+0 1 12403408 1739 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/app/Views/errors/html/error_404.php
+0 1 12419712 2038 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/tests/_support/Database/Migrations/2020-02-22-222222_example_migration.php
+0 1 12382896 1157 0 0
+/home1/scia97/app/Config/ForeignCharacters.php
+0 1 12388256 152 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Parser/SimpleXMLElementPlugin.php
+0 1 12502432 7553 0 0
+/home1/scia97/empenho/app/Views/Login.php
+0 1 12406528 2040 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Zval/TraceValue.php
+0 1 12517184 1565 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/I18n/Time.php
+0 1 12472000 524 0 0
+/home1/scia97/empenho/app/Config/Images.php
+0 1 12401104 708 0 0
+/home1/scia97/app/Config/Events.php
+0 1 12387744 1565 0 0
+/home1/scia97/empenho/app/Views/common/header.php
+0 1 12404864 685 0 0
+/home1/scia97/empenho/vendor/symfony/polyfill-mbstring/bootstrap.php
+0 1 0 7237 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Parser/Parser.php
+0 1 12501664 20561 0 0
+/home1/scia97/app/Views/errors/html/production.php
+0 1 12393344 500 0 0
+/home1/scia97/scia.com.br/empenho/app/Config/Format.php
+0 2 12344208 5220 0 0
+/home1/scia97/app/Config/Toolbar.php
+0 1 12390448 3420 0 0
+/home1/scia97/app/Config/Migrations.php
+0 1 12389168 1751 0 0
+/home1/scia97/empenho/vendor/smalot/pdfparser/LICENSE.txt
+0 1 0 7651 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Commands/Generators/ConfigGenerator.php
+0 1 12428816 2143 0 0
+/home1/scia97/app/Config/Format.php
+0 1 12388400 2610 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Database/Forge.php
+0 1 12442160 35567 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Encryption/EncrypterInterface.php
+0 1 12454448 1131 0 0
+/home1/scia97/tests/README.md
+0 1 12396400 5076 0 0
+/home1/scia97/scia.com.br/empenho/app/Views/errors/cli/error_exception.php
+0 2 0 4054 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Test/Mock/MockQuery.php
+0 1 12493168 353 0 0
+/home1/scia97/empenho/vendor/smalot/pdfparser/src/Smalot/PdfParser/Element/ElementStruct.php
+0 1 12536128 2225 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Helpers/filesystem_helper.php
+0 1 12465024 15402 0 0
+/home1/scia97/empenho/vendor/psr/log/Psr/Log/InvalidArgumentException.php
+0 1 12530528 96 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Views/errors/html/production.php
+0 1 12379872 500 0 0
+/home1/scia97/app/Config/Modules.php
+0 1 12389424 2102 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Log/Handlers/ChromeLoggerHandler.php
+0 1 12479472 3916 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Renderer/Text/EnumPlugin.php
+0 1 12510160 1439 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/tests/_support/Models/ExampleModel.php
+0 1 12525184 554 0 0
+/home1/scia97/empenho/vendor/psr/log/Psr/Log/Test/LoggerInterfaceTest.php
+0 1 12531824 4649 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Parser/EnumPlugin.php
+0 1 12500512 2722 0 0
+/home1/scia97/empenho/tests/_support/Database/Seeds/ExampleSeeder.php
+0 1 0 1207 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Exceptions/ModelException.php
+0 1 12460864 853 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/app/Config/Mimes.php
+0 1 12415856 15649 0 0
+/home1/scia97/app/Config/Validation.php
+0 1 12390704 1188 0 0
+/home1/scia97/scia.com.br/empenho/app/Views/
+0 2 0 5424 0 0
+/home1/scia97/empenho/vendor/thiagoalessio/tesseract_ocr/tests/Unit/TesseractOCRTest.php
+0 1 12548128 6276 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Pager/PagerInterface.php
+0 1 12481104 3403 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Filters/FilterInterface.php
+0 1 12462704 1395 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/HTTP/Request.php
+0 1 12470416 2788 0 0
+/home1/scia97/empenho/vendor/thiagoalessio/tesseract_ocr/tests/run.php
+0 1 0 2218 0 0
+/home1/scia97/app/Controllers/BaseController.php
+0 1 12391088 1579 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Files/FileCollection.php
+0 1 12461984 9695 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Cookie/Cookie.php
+0 1 12439424 19730 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Database/MySQLi/PreparedQuery.php
+0 1 12443408 3095 0 0
+/home1/scia97/app/Config/Paths.php
+0 1 12389680 2741 0 0
+/home1/scia97/empenho/vendor/composer/LICENSE
+0 1 12528416 1070 0 0
+/home1/scia97/empenho/vendor/laminas/laminas-escaper/composer.json
+0 1 0 2032 0 0
+/home1/scia97/empenho/vendor/smalot/pdfparser/src/Smalot/PdfParser/RawData/FilterHelper.php
+0 1 12540592 13714 0 0
+/home1/scia97/scia.com.br/empenho/app/Config/Kint.php
+0 2 0 3250 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Language/en/RESTful.php
+0 1 12477520 350 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php
+0 1 12463584 1737 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Filters/DebugToolbar.php
+0 1 12462336 1011 0 0
+/home1/scia97/empenho/app/Config/Routes.php
+0 1 12402400 1788 0 0
+/home1/scia97/empenho/LICENSE
+0 1 12407776 1159 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/HTTP/IncomingRequest.php
+0 1 12468992 29522 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/writable/session/
+0 1 0 131 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/HTTP/CLIRequest.php
+0 1 12467344 8130 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/app/Views/errors/html/debug.js
+0 1 12419536 2820 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Parser/ColorPlugin.php
+0 1 12499728 2127 0 0
+/home1/scia97/empenho/vendor/thiagoalessio/tesseract_ocr/src/TesseractNotFoundException.php
+0 1 12545040 113 0 0
+/home1/scia97/empenho/composer.json
+0 1 12407520 361 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Test/Mock/MockResponse.php
+0 1 12493728 729 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Commands/Database/Seed.php
+0 1 12427872 1762 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/app/Config/Autoload.php
+0 1 12411456 3178 0 0
+/home1/scia97/app/Config/Services.php
+0 1 12390192 921 0 0
+/home1/scia97/empenho/builds
+0 1 12407392 3873 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Cache/Handlers/BaseHandler.php
+0 1 12423968 3174 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Zval/Representation/Representation.php
+0 1 12515568 2187 0 0
+/home1/scia97/empenho/vendor/thiagoalessio/tesseract_ocr/src/TesseractOCR.php
+0 1 12545232 4547 0 0
+/home1/scia97/empenho/vendor/smalot/pdfparser/src/Smalot/PdfParser/Encoding/WinAnsiEncoding.php
+0 1 12538032 3624 0 0
+/home1/scia97/empenho/vendor/symfony/polyfill-mbstring/Resources/unidata/upperCase.php
+0 1 12542656 26322 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Entity/Cast/IntegerCast.php
+0 1 12457184 498 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Config/Logger.php
+0 1 12374144 5914 0 0
+/home1/scia97/app/Views/errors/cli/production.php
+0 1 12392624 139 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Commands/Generators/Views/migration.tpl.php
+0 1 12432288 1290 0 0
+/home1/scia97/scia.com.br/empenho/composer.json
+0 2 0 722 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Commands/Server/Serve.php
+0 1 12433968 2743 0 0
+/home1/scia97/app/Views/pdf_upload.php
+0 1 12394256 6368 0 0
+/home1/scia97/scia.com.br/empenho/app/Config/Security.php
+0 2 0 6566 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/app/Config/Modules.php
+0 1 12416032 2102 0 0
+/home1/scia97/scia.com.br/empenho/app/Config/Images.php
+0 2 0 1416 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Encryption/Handlers/BaseHandler.php
+0 1 12455024 1861 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Helpers/test_helper.php
+0 1 12466272 1725 0 0
+/home1/scia97/scia.com.br/empenho/app/Views/common/footer.php
+0 2 0 40 0 0
+/home1/scia97/scia.com.br/empenho/composer.lock
+0 2 0 28978 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Test/Mock/MockEmail.php
+0 1 12492096 804 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Config/ForeignCharacters.php
+0 1 12438352 8033 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Database/OCI8/Builder.php
+0 1 12443952 17088 0 0
+/home1/scia97/empenho/app/Views/manutencao.php
+0 1 12406672 1231 0 0
+/home1/scia97/empenho/vendor/thiagoalessio/tesseract_ocr/tests/EndToEnd/ReadmeExamples.php
+0 1 12547248 5807 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Zval/Representation/SourceRepresentation.php
+0 1 12515776 2675 0 0
+/home1/scia97/empenho/app/Controllers/Base.php
+0 1 12403552 36436 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Test/TestLogger.php
+0 1 12495504 2524 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Test/Mock/MockCURLRequest.php
+0 1 12491904 1174 0 0
+/home1/scia97/empenho/vendor/thiagoalessio/tesseract_ocr/tests/Unit/TestableCommand.php
+0 1 12548320 342 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Commands/Generators/ModelGenerator.php
+0 1 12429968 3656 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/spark
+0 1 0 3129 0 0
+/home1/scia97/empenho/vendor/smalot/pdfparser/src/Smalot/PdfParser/Encoding.php
+0 1 12536512 4546 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/PSR/Log/LoggerAwareInterface.php
+0 1 12518144 297 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Test/Mock/MockIncomingRequest.php
+0 1 12492624 379 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/app/Views/errors/html/production.php
+0 1 12420080 500 0 0
+/home1/scia97/empenho/preload.php
+0 1 12408032 3190 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Language/en/Migrations.php
+0 1 12476816 2615 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/writable/logs/
+0 1 0 131 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/PSR/Log/AbstractLogger.php
+0 1 12517568 3104 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Validation/StrictRules/FileRules.php
+0 1 12521312 466 0 0
+/home1/scia97/empenho/app/Config/Exceptions.php
+0 1 12400096 2939 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Config/DocTypes.php
+0 1 12371856 3058 0 0
+/home1/scia97/scia.com.br/empenho/app/Config/Exceptions.php
+0 2 0 5878 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Exceptions/TestException.php
+0 1 12461248 547 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Encryption/Exceptions/EncryptionException.php
+0 1 12454816 2103 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Parser/FsPathPlugin.php
+0 1 12500704 2230 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Router/AutoRouter.php
+0 1 12483120 9212 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/HTTP/Files/UploadedFile.php
+0 1 12468448 10978 0 0
+/home1/scia97/empenho/vendor/smalot/pdfparser/src/Smalot/PdfParser/Element.php
+0 1 12534224 4815 0 0
+/home1/scia97/empenho/vendor/composer/autoload_static.php
+0 1 0 2623 0 0
+/home1/scia97/scia.com.br/empenho/app/Views/errors/cli/error_404.php
+0 2 0 204 0 0
+/home1/scia97/empenho/tests/unit/HealthTest.php
+0 1 12409664 1448 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Parser/StreamPlugin.php
+0 1 12503040 2629 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/app/Config/Logger.php
+0 1 12415504 5914 0 0
+/home1/scia97/empenho/vendor/composer/autoload_classmap.php
+0 1 0 222 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Commands/Cache/InfoCache.php
+0 1 12426736 1913 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Config/Toolbar.php
+0 1 12376080 3420 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Parser/TracePlugin.php
+0 1 12504000 3663 0 0
+/home1/scia97/empenho/app/Controllers/Home.php
+0 1 12404000 1095 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Common.php
+0 1 0 521 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Escaper/Exception/RuntimeException.php
+0 1 12496464 196 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Session/Handlers/Database/MySQLiHandler.php
+0 1 12485920 1233 0 0
+/home1/scia97/scia.com.br/empenho/tests/README.md
+0 2 0 10152 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Config/DotEnv.php
+0 1 12437824 6936 0 0
+/home1/scia97/empenho/vendor/thiagoalessio/tesseract_ocr/tests/EndToEnd/images/text.png
+0 1 12547072 33276 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/toolbar.js
+0 1 12453696 23734 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Language/en/View.php
+0 1 12478752 793 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Validation/ValidationInterface.php
+0 1 12522064 4393 0 0
+/home1/scia97/empenho/writable/uploads/
+0 1 12410336 131 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Controllers/Gerador.php
+0 1 12377152 386 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/I18n/TimeDifference.php
+0 1 12472176 7007 0 0
+/home1/scia97/empenho/vendor/laminas/laminas-escaper/src/Exception/RuntimeException.php
+0 1 12529904 196 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Database/OCI8/Result.php
+0 1 12444672 2882 0 0
+/home1/scia97/writable/logs/
+0 1 12397056 131 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Publisher/Publisher.php
+0 1 12482384 14584 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Log/Exceptions/LogException.php
+0 1 12479104 686 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Parser/XmlPlugin.php
+0 1 12504192 4695 0 0
+/home1/scia97/empenho/vendor/smalot/pdfparser/alt_autoload.php-dist
+0 1 0 2557 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Commands/Database/MigrateRollback.php
+0 1 12427488 2880 0 0
+/home1/scia97/scia.com.br/empenho/app/Config/Boot/production.php
+0 2 0 1664 0 0
+/home1/scia97/empenho/vendor/thiagoalessio/tesseract_ocr/tests/EndToEnd/images/german.png
+0 1 12546496 14923 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Commands/Utilities/Routes/FilterFinder.php
+0 1 12436384 2121 0 0
+/home1/scia97/empenho/vendor/thiagoalessio/tesseract_ocr/src/TesseractOcrException.php
+0 1 12545408 106 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Language/en/Database.php
+0 1 12474880 1821 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Exceptions/HTTPExceptionInterface.php
+0 1 12460672 405 0 0
+/home1/scia97/empenho/vendor/smalot/pdfparser/src/Smalot/PdfParser/Element/ElementNumeric.php
+0 1 12535744 1769 0 0
+/home1/scia97/empenho/vendor/psr/log/Psr/Log/LoggerTrait.php
+0 1 0 3415 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Zval/ParameterHoldingTrait.php
+0 1 12514512 1991 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Entity/Cast/IntBoolCast.php
+0 1 12457008 718 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Exceptions/DebugTraceableTrait.php
+0 1 12459520 1118 0 0
+/home1/scia97/scia.com.br/empenho/app/Config/Feature.php
+0 2 0 1878 0 0
+/home1/scia97/empenho/vendor/smalot/pdfparser/src/Smalot/PdfParser/Element/ElementXRef.php
+0 1 12536320 2776 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Validation/CreditCardRules.php
+0 1 12520192 8079 0 0
+/home1/scia97/scia.com.br/empenho/app/Config/Boot/development.php
+0 2 0 2556 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Renderer/CliRenderer.php
+0 1 12504592 5030 0 0
+/home1/scia97/scia.com.br/empenho/app/Views/errors/html/debug.js
+0 2 0 5640 0 0
+/home1/scia97/empenho/vendor/thiagoalessio/tesseract_ocr/tests/Unit/OptionTest.php
+0 1 12547776 3334 0 0
+/home1/scia97/empenho/vendor/symfony/polyfill-mbstring/bootstrap80.php
+0 1 0 8784 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/app/Config/Pager.php
+0 1 12416208 1189 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Log/Handlers/HandlerInterface.php
+0 1 12480032 1000 0 0
+/home1/scia97/scia.com.br/empenho/app/Config/Services.php
+0 2 0 1842 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Exceptions/ConfigException.php
+0 1 12459152 640 0 0
+/home1/scia97/empenho/tests/_support/Models/ExampleModel.php
+0 1 0 554 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Config/Boot/production.php
+0 1 12370432 832 0 0
+/home1/scia97/scia.com.br/empenho/app/Views/Login.php
+0 2 0 4080 0 0
+/home1/scia97/app/Config/Database.php
+0 1 12387232 2279 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Router/RouteCollectionInterface.php
+0 1 12484240 5632 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Files/File.php
+0 1 12461808 6017 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Entity/Cast/CSVCast.php
+0 1 12456480 654 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Config/CURLRequest.php
+0 1 12371504 550 0 0
+/home1/scia97/scia.com.br/empenho/app/Views/errors/html/error_404.php
+0 2 0 4076 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/tests/README.md
+0 1 0 5076 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Parser/BlacklistPlugin.php
+0 1 12498928 2879 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Config/Security.php
+0 1 12375552 3283 0 0
+/home1/scia97/empenho/vendor/smalot/pdfparser/src/Smalot/PdfParser/Element/ElementNull.php
+0 1 12535552 1855 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Renderer/Rich/DepthLimitPlugin.php
+0 1 12506640 1523 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Parser/BinaryPlugin.php
+0 1 12498736 1749 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/View/Exceptions/ViewException.php
+0 1 12522960 1489 0 0
+/home1/scia97/empenho/vendor/thiagoalessio/tesseract_ocr/composer.json
+0 1 0 830 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Session/Handlers/FileHandler.php
+0 1 12486496 9300 0 0
+/home1/scia97/empenho/app/Views/errors/html/debug.js
+0 1 12405632 2820 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Database/SQLSRV/Utils.php
+0 1 12449360 1255 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Config/UserAgents.php
+0 1 12376256 9813 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Views/common/header.php
+0 1 12378384 685 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/_events.tpl
+0 1 12452544 376 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Helpers/number_helper.php
+0 1 12465920 7071 0 0
+/home1/scia97/scia.com.br/empenho/app/Config/DocTypes.php
+0 2 0 6116 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Exceptions/CastException.php
+0 1 12458976 1332 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Parser/MicrotimePlugin.php
+0 1 12501280 3294 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Router/AutoRouterInterface.php
+0 1 12483488 577 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/RESTful/BaseResource.php
+0 1 12482560 1863 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/tests/_support/Database/Migrations/2020-02-22-222222_example_migration.php
+0 1 12524576 1157 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Commands/Generators/CommandGenerator.php
+0 1 12428624 3055 0 0
+/home1/scia97/app/Views/common/footer.php
+0 1 12392048 20 0 0
+/home1/scia97/scia.com.br/empenho/app/Views/link_upload.php
+0 2 0 15822 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Renderer/Rich/TablePlugin.php
+0 1 12508096 5112 0 0
+/home1/scia97/empenho/vendor/smalot/pdfparser/src/Smalot/PdfParser/XObject/Form.php
+0 1 12540976 1503 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Database/Query.php
+0 1 12446304 10522 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Debug/Timer.php
+0 1 12449888 3722 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Renderer/Rich/CallablePlugin.php
+0 1 12506016 4279 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/env
+0 1 12420608 4938 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Database/BasePreparedQuery.php
+0 1 12440496 6964 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/public/robots.txt
+0 1 0 25 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php
+0 1 12467712 19903 0 0
+/home1/scia97/scia.com.br/empenho/app/Config/Session.php
+0 2 0 7394 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Config/Validation.php
+0 1 12376432 1188 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Database/SQLite3/PreparedQuery.php
+0 1 12447728 2875 0 0
+/home1/scia97/scia.com.br/empenho/app/Config/Honeypot.php
+0 2 0 1710 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Commands/Generators/Views/config.tpl.php
+0 1 12431520 111 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Test/Mock/MockSession.php
+0 1 12494624 1712 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/app/Config/Security.php
+0 1 12416912 3283 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Escaper/Escaper.php
+0 1 12495856 11998 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Escaper/Exception/ExceptionInterface.php
+0 1 12496048 138 0 0
+/home1/scia97/empenho/vendor/symfony/polyfill-mbstring/README.md
+0 1 0 370 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Parser/AbstractPlugin.php
+0 1 12497968 1536 0 0
+/home1/scia97/empenho/vendor/symfony/polyfill-mbstring/LICENSE
+0 1 0 1065 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/app/Config/Email.php
+0 1 12413408 2143 0 0
+/home1/scia97/empenho/app/Config/Generators.php
+0 1 12400816 2001 0 0
+/home1/scia97/app/.htaccess
+0 1 12385408 124 0 0
+/home1/scia97/empenho/vendor/psr/log/README.md
+0 1 12532160 1346 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Config/Cookie.php
+0 1 12371328 3502 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/tests/_support/Libraries/ConfigReader.php
+0 1 12524992 314 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Database/Exceptions/ExceptionInterface.php
+0 1 12441968 556 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Zval/Representation/SplFileInfoRepresentation.php
+0 1 12515984 6522 0 0
+/home1/scia97/scia.com.br/empenho/app/Config/Generators.php
+0 2 0 4002 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/_database.tpl
+0 1 12452352 727 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Database/ConnectionInterface.php
+0 1 12441216 4355 0 0
+/home1/scia97/scia.com.br/empenho/app/Config/CURLRequest.php
+0 2 0 1100 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Test/Mock/MockCodeIgniter.php
+0 1 12491360 496 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Filters/SecureHeaders.php
+0 1 12463408 2101 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Security/SecurityInterface.php
+0 1 12485152 1895 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Views/errors/html/error_exception.php
+0 1 12379680 15279 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Renderer/Text/TracePlugin.php
+0 1 12510976 4218 0 0
+/home1/scia97/empenho/app/Config/Honeypot.php
+0 1 12400960 855 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Commands/Generators/Views/model.tpl.php
+0 1 12432480 1188 0 0
+/home1/scia97/scia.com.br/empenho/app/Config/Cookie.php
+0 2 0 7004 0 0
+/home1/scia97/app/Config/View.php
+0 1 12390832 1739 0 0
+/home1/scia97/empenho/vendor/composer/installed.php
+0 1 12528112 3025 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Session/Exceptions/SessionException.php
+0 1 12485344 1345 0 0
+/home1/scia97/python/x.py
+0 1 12395264 16 0 0
+/home1/scia97/app/Config/UserAgents.php
+0 1 12390576 9813 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/toolbar.tpl.php
+0 1 12453888 12931 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/PSR/Log/LogLevel.php
+0 1 12518912 336 0 0
+/home1/scia97/app/Config/Boot/development.php
+0 1 12386128 1278 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Entity/Cast/BaseCast.php
+0 1 12455936 1040 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Config/Format.php
+0 1 12373264 2610 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Database/BaseResult.php
+0 1 12440688 13263 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Renderer/Rich/BlacklistPlugin.php
+0 1 12505808 1522 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/composer.json
+0 1 0 361 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Session/Handlers/RedisHandler.php
+0 1 12486880 10442 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Exceptions/CriticalError.php
+0 1 12459344 409 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Exceptions/PageNotFoundException.php
+0 1 12461056 1864 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/CLI/GeneratorTrait.php
+0 1 12426192 10831 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Renderer/Rich/ArrayLimitPlugin.php
+0 1 12505392 1523 0 0
+/home1/scia97/empenho/vendor/smalot/pdfparser/src/Smalot/PdfParser/Font/FontCIDFontType2.php
+0 1 12538800 1210 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/.ftp-deploy-sync-state.json
+0 1 12385232 22004 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/HTTP/RedirectResponse.php
+0 1 12470240 4386 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Debug/Toolbar/Collectors/Views.php
+0 1 12451968 3554 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Entity/Cast/URICast.php
+0 1 12458080 553 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/View/ViewDecoratorTrait.php
+0 1 12524400 868 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php
+0 1 12443040 18693 0 0
+/home1/scia97/spark
+0 1 12395504 3129 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Router/AutoRouterImproved.php
+0 1 12483296 10173 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Renderer/Text/PluginInterface.php
+0 1 12510560 1452 0 0
+/home1/scia97/empenho/app/Config/Boot/development.php
+0 1 12398208 1278 0 0
+/home1/scia97/scia.com.br/empenho/tests/unit/HealthTest.php
+0 2 0 2896 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Log/Logger.php
+0 1 12480224 11368 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Renderer/Text/BlacklistPlugin.php
+0 1 12509744 1459 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Session/Handlers/MemcachedHandler.php
+0 1 12486688 8727 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Zval/InstanceValue.php
+0 1 12514128 2313 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/RESTful/ResourcePresenter.php
+0 1 12482928 2611 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/app/Views/errors/cli/production.php
+0 1 12419184 139 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Filters/Filters.php
+0 1 12462880 15603 0 0
+/home1/scia97/scia.com.br/empenho/writable/session/
+0 2 0 262 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Pager/PagerRenderer.php
+0 1 12481280 10148 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/spark
+0 1 0 3129 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Test/DOMParser.php
+0 1 12489040 7628 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/HTTP/OutgoingRequest.php
+0 1 12469872 3784 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Test/Mock/MockServices.php
+0 1 12494448 794 0 0
+/home1/scia97/tests/_support/Database/Migrations/2020-02-22-222222_example_migration.php
+0 1 12395616 1157 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Cookie/Exceptions/CookieException.php
+0 1 12439952 3223 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/tests/session/ExampleSessionTest.php
+0 1 12384048 339 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Renderer/AbstractRenderer.php
+0 1 12504384 4988 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Encryption/Handlers/SodiumHandler.php
+0 1 12455408 3468 0 0
+/home1/scia97/empenho/vendor/smalot/pdfparser/src/Smalot/PdfParser/Element/ElementHexa.php
+0 1 12534976 2547 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Entity/Cast/ObjectCast.php
+0 1 12457536 502 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Debug/Toolbar/Collectors/Files.php
+0 1 12451008 2927 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/HTTP/Message.php
+0 1 12469168 2873 0 0
+/home1/scia97/empenho/app/
+0 1 12404304 134 1 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Parser/DateTimePlugin.php
+0 1 12500128 1793 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Zval/Value.php
+0 1 12517376 7160 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Validation/StrictRules/FormatRules.php
+0 1 12521504 9812 0 0
+/home1/scia97/scia.com.br/empenho/app/Views/pdf_upload.php
+0 2 0 12736 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Database/BaseConnection.php
+0 1 12440320 49039 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Entity/Exceptions/CastException.php
+0 1 12458432 2174 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Commands/Help.php
+0 1 12433056 1760 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Escaper/Exception/InvalidArgumentException.php
+0 1 12496256 212 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/preload.php
+0 1 0 3190 0 0
+/home1/scia97/empenho/tests/_support/Database/Migrations/2020-02-22-222222_example_migration.php
+0 1 12408544 1157 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/FacadeInterface.php
+0 1 12497056 1808 0 0
+/home1/scia97/LICENSE
+0 1 12394896 1159 0 0
+/home1/scia97/empenho/vendor/thiagoalessio/tesseract_ocr/tests/EndToEnd/FriendlyErrors.php
+0 1 12545952 4958 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Database/SQLSRV/PreparedQuery.php
+0 1 12448992 3405 0 0
+/home1/scia97/empenho/writable/.htaccess
+0 1 12409808 124 0 0
+/home1/scia97/scia.com.br/empenho/tests/_support/Database/Migrations/2020-02-22-222222_example_migration.php
+0 2 0 2314 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Cache/Exceptions/ExceptionInterface.php
+0 1 12423776 524 0 0
+/home1/scia97/empenho/tests/README.md
+0 1 12409376 5076 0 0
+/home1/scia97/scia.com.br/empenho/app/Controllers/BaseController.php
+0 2 0 3158 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Views/errors/html/debug.js
+0 1 12379312 2820 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Cache/Handlers/MemcachedHandler.php
+0 1 12424544 7172 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Parser/ClosurePlugin.php
+0 1 12499536 3094 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/LICENSE
+0 1 0 1159 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Commands/Generators/FilterGenerator.php
+0 1 12429392 1769 0 0
+/home1/scia97/empenho/vendor/thiagoalessio/tesseract_ocr/MIT-LICENSE
+0 1 0 1071 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Renderer/Rich/ColorPlugin.php
+0 1 12506432 3675 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/HTTP/MessageTrait.php
+0 1 12469520 6358 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Test/Mock/MockAutoload.php
+0 1 12490656 558 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Database/MySQLi/Result.php
+0 1 12443600 4511 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Filters/Exceptions/FilterException.php
+0 1 12462512 1032 0 0
+/home1/scia97/scia.com.br/empenho/app/Config/Filters.php
+0 2 0 3368 0 0
+/home1/scia97/scia.com.br/empenho/spark
+0 2 0 6258 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/app/Config/Validation.php
+0 1 12417792 1188 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Language/en/Time.php
+0 1 12478400 1426 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Language/Language.php
+0 1 12478928 6866 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Commands/Utilities/Namespaces.php
+0 1 12434528 3685 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/HTTP/Exceptions/HTTPException.php
+0 1 12468064 4720 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Test/Mock/MockCLIConfig.php
+0 1 12491184 1256 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Language/en/Core.php
+0 1 12474704 974 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/View/Parser.php
+0 1 12523328 22512 0 0
+/home1/scia97/empenho/.ftp-deploy-sync-state.json
+0 3 12410464 276305 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Database/Config.php
+0 1 12441040 3883 0 0
+/home1/scia97/app/Language/en/Validation.php
+0 1 12391760 115 0 0
+/home1/scia97/empenho/vendor/thiagoalessio/tesseract_ocr/tests/EndToEnd/images/8055.png
+0 1 12546144 16577 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Parser/Base64Plugin.php
+0 1 12498544 2847 0 0
+/home1/scia97/app/Views/
+0 1 12393488 2712 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/HTTP/Files/FileCollection.php
+0 1 12468256 7284 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/HTTP/OutgoingRequestInterface.php
+0 1 12470048 3223 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Database/BaseUtils.php
+0 1 12440864 8349 0 0
+/home1/scia97/empenho/app/.htaccess
+0 1 12397584 124 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Honeypot/Exceptions/HoneypotException.php
+0 1 12466976 922 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Database/OCI8/PreparedQuery.php
+0 1 12444480 3301 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Database/QueryInterface.php
+0 1 12446480 2262 0 0
+/home1/scia97/empenho/app/Config/Modules.php
+0 1 12401824 2102 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Views/errors/cli/production.php
+0 1 12378944 139 0 0
+/home1/scia97/scia.com.br/empenho/app/.htaccess
+0 2 0 248 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Parser/ProxyPlugin.php
+0 1 12502048 2254 0 0
+/home1/scia97/empenho/app/Config/Services.php
+0 1 12402688 921 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Views/errors/cli/error_404.php
+0 1 12378560 102 0 0
+/home1/scia97/tests/_support/Libraries/ConfigReader.php
+0 1 12395968 314 0 0
+/home1/scia97/empenho/tests/_support/Libraries/ConfigReader.php
+0 1 0 314 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Traits/PropertiesTrait.php
+0 1 12519840 1894 0 0
+/home1/scia97/empenho/vendor/smalot/pdfparser/src/Smalot/PdfParser/Encoding/AbstractEncoding.php
+0 1 12536688 136 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Helpers/kint_helper.php
+0 1 12465744 1480 0 0
+/home1/scia97/README.md
+0 1 12395392 2713 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Test/Mock/MockLogger.php
+0 1 12492992 3926 0 0
+/home1/scia97/scia.com.br/empenho/app/Views/errors/html/debug.css
+0 2 0 7244 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Pager/Views/default_full.php
+0 1 12481456 1213 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Common.php
+0 1 0 37654 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/app/Language/en/Validation.php
+0 1 12418640 115 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Zval/ResourceValue.php
+0 1 12516208 1703 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/app/Config/Publisher.php
+0 1 12416560 806 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/PSR/Log/InvalidArgumentException.php
+0 1 12517760 96 0 0
+/home1/scia97/app/Config/Exceptions.php
+0 1 12387872 2939 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/phpunit.xml.dist
+0 1 0 2415 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Views/errors/html/error_404.php
+0 1 12379488 2038 0 0
+/home1/scia97/scia.com.br/empenho/app/Config/Migrations.php
+0 2 0 3502 0 0
+/home1/scia97/scia.com.br/empenho/app/
+0 2 0 268 2 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Config/Factories.php
+0 1 12438000 10687 0 0
+/home1/scia97/empenho/app/Config/CURLRequest.php
+0 1 12399232 550 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Parser/ThrowablePlugin.php
+0 1 12503424 1994 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/app/Views/welcome_message.php
+0 1 12420272 17859 0 0
+/home1/scia97/app/Views/errors/html/debug.css
+0 1 12392768 3622 0 0
+/home1/scia97/app/Config/Kint.php
+0 1 12388912 1625 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Views/pdf_upload.php
+0 1 12381104 6368 0 0
+/home1/scia97/empenho/vendor/psr/log/Psr/Log/LogLevel.php
+0 1 0 336 0 0
+/home1/scia97/app/Config/Logger.php
+0 1 12389040 5914 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Config/Filters.php
+0 1 12372912 1684 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/app/Config/ContentSecurityPolicy.php
+0 1 12412512 4159 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/writable/uploads/
+0 1 0 131 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Parser/PluginInterface.php
+0 1 12501856 1552 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Exceptions/AlertError.php
+0 1 12458800 407 0 0
+/home1/scia97/empenho/app/Config/Publisher.php
+0 1 12402256 806 0 0
+/home1/scia97/app/Config/CURLRequest.php
+0 1 12387088 550 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Parser/SplObjectStoragePlugin.php
+0 1 12502832 1890 0 0
+/home1/scia97/empenho/app/Views/errors/cli/production.php
+0 1 0 139 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/PSR/Log/LICENSE
+0 1 12517968 1085 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Test/ConfigFromArrayTrait.php
+0 1 12487952 1065 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/app/Controllers/BaseController.php
+0 1 12418128 1579 0 0
+/home1/scia97/scia.com.br/empenho/app/Config/Database.php
+0 2 0 4558 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Test/Mock/MockLanguage.php
+0 1 12492816 1263 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/README.md
+0 1 0 2474 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/HTTP/URI.php
+0 1 0 28060 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Commands/Generators/ScaffoldGenerator.php
+0 1 12430160 3156 0 0
+/home1/scia97/scia.com.br/empenho/tests/session/ExampleSessionTest.php
+0 2 0 678 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Language/en/Email.php
+0 1 12475056 1942 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Parser/JsonPlugin.php
+0 1 12501088 2323 0 0
+/home1/scia97/empenho/vendor/smalot/pdfparser/src/Smalot/PdfParser/Encoding/MacRomanEncoding.php
+0 1 12537456 3667 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Helpers/cookie_helper.php
+0 1 12464672 3696 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Helpers/url_helper.php
+0 1 12466624 21062 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Config/Feature.php
+0 1 12372736 939 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Zval/Representation/MicrotimeRepresentation.php
+0 1 12515344 2476 0 0
+/home1/scia97/scia.com.br/empenho/preload.php
+0 2 0 6380 0 0
+/home1/scia97/app/Config/Cookie.php
+0 1 12386960 3502 0 0
+/home1/scia97/tests/unit/HealthTest.php
+0 1 12396672 1448 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Pager/Views/default_head.php
+0 1 12481632 644 0 0
+/home1/scia97/app/Controllers/Gerador.php
+0 1 12391232 386 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Test/ReflectionHelper.php
+0 1 12495152 2474 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Log/Handlers/BaseHandler.php
+0 1 12479296 1164 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Test/CIUnitTestCase.php
+0 1 12487776 13389 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Database/MySQLi/Builder.php
+0 1 12442864 4255 0 0
+/home1/scia97/app/Config/ContentSecurityPolicy.php
+0 1 12386816 4159 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Database/Seeder.php
+0 1 12447008 4239 0 0
+/home1/scia97/empenho/vendor/smalot/pdfparser/src/Smalot/PdfParser/PDFObject.php
+0 1 12540416 25981 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/_files.tpl
+0 1 12452736 315 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/app/Config/Filters.php
+0 1 12414288 1684 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/HTTP/DownloadResponse.php
+0 1 12467888 7650 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Config/Constants.php
+0 1 12370960 3986 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/app/Config/Honeypot.php
+0 1 12414992 855 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/app/Config/Cookie.php
+0 1 12412704 3502 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Views/errors/html/debug.css
+0 1 12379136 3622 0 0
+/home1/scia97/app/Config/Security.php
+0 1 12390064 3283 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Commands/Utilities/Environment.php
+0 1 12434144 4301 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Renderer/RendererInterface.php
+0 1 12504976 1892 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Test/Mock/MockAppConfig.php
+0 1 12490480 1353 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Test/ControllerTester.php
+0 1 12488512 6809 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/resources/compiled/aante-light.css
+0 1 12511376 9059 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php
+0 1 12427104 2410 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/HTTP/RequestTrait.php
+0 1 12470768 11359 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/app/Config/Paths.php
+0 1 12416384 2711 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Exceptions/EmergencyError.php
+0 1 12459904 375 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Language/en/Test.php
+0 1 12478224 354 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Zval/ClosureValue.php
+0 1 12513552 1935 0 0
+/home1/scia97/scia.com.br/empenho/writable/logs/
+0 2 0 262 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Validation/Validation.php
+0 1 12521888 26742 0 0
+/home1/scia97/empenho/app/Views/link_upload.php
+0 1 12406384 7911 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Zval/TraceFrameValue.php
+0 1 12516992 4279 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Files/Exceptions/FileNotFoundException.php
+0 1 12461616 661 0 0
+/home1/scia97/empenho/vendor/psr/log/Psr/Log/AbstractLogger.php
+0 1 0 3104 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/tests/_support/Libraries/ConfigReader.php
+0 1 12383312 314 0 0
+/home1/scia97/scia.com.br/empenho/app/Views/welcome_message.php
+0 2 0 35718 0 0
+/home1/scia97/scia.com.br/empenho/writable/.htaccess
+0 2 0 248 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/composer.json
+0 1 0 2318 0 0
+/home1/scia97/empenho/app/Controllers/Gerador.php
+0 1 12403856 386 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Cache/Exceptions/CacheException.php
+0 1 12423584 1459 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Encryption/Encryption.php
+0 1 12454640 4149 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/app/Config/Generators.php
+0 1 12414816 2091 0 0
+/home1/scia97/scia.com.br/empenho/writable/cache/
+0 2 0 262 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Views/manutencao.php
+0 1 12380576 1231 0 0
+/home1/scia97/empenho/vendor/smalot/pdfparser/src/Smalot/PdfParser/Parser.php
+0 1 12540240 10589 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Entity/Cast/BooleanCast.php
+0 1 12456112 500 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/tests/_support/Models/ExampleModel.php
+0 1 12383504 554 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Commands/Utilities/Routes/FilterCollector.php
+0 1 12436176 1907 0 0
+/home1/scia97/empenho/app/Views/common/footer.php
+0 1 12404720 20 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Test/PhpStreamWrapper.php
+0 1 12494976 1497 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Config/View.php
+0 1 12376608 1739 0 0
+/home1/scia97/empenho/vendor/thiagoalessio/tesseract_ocr/src/FeatureNotAvailableException.php
+0 1 12543968 115 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Language/en/Encryption.php
+0 1 12475232 711 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Database/ResultInterface.php
+0 1 12446832 4394 0 0
+/home1/scia97/empenho/vendor/smalot/pdfparser/src/Smalot/PdfParser/Element/ElementMissing.php
+0 1 12535168 1603 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Renderer/Text/RecursionPlugin.php
+0 1 12510768 1457 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Session/Handlers/ArrayHandler.php
+0 1 12485536 2112 0 0
+/home1/scia97/empenho/app/Config/Paths.php
+0 1 12402112 2741 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Commands/Utilities/Routes/AutoRouterImproved/AutoRouteCollector.php
+0 1 12435312 4144 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Images/Handlers/BaseHandler.php
+0 1 12472896 20064 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Views/common/footer.php
+0 1 12378208 20 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Helpers/form_helper.php
+0 1 12465216 24856 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Models/UsuarioModel.php
+0 1 12378032 1484 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Database/SQLSRV/Builder.php
+0 1 12448448 24298 0 0
+/home1/scia97/empenho/vendor/thiagoalessio/tesseract_ocr/README.md
+0 1 0 13193 0 0
+/home1/scia97/scia.com.br/empenho/app/Config/Publisher.php
+0 2 0 1612 0 0
+/home1/scia97/empenho/vendor/psr/log/Psr/Log/Test/TestLogger.php
+0 1 0 4527 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Test/Mock/MockCommon.php
+0 1 12491552 751 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Test/Mock/MockEvents.php
+0 1 12492272 695 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/RESTful/ResourceController.php
+0 1 12482736 2769 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Entity/Cast/CastInterface.php
+0 1 12456288 956 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Filters/InvalidChars.php
+0 1 12463232 2947 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Typography/Typography.php
+0 1 12520016 13450 0 0
+/home1/scia97/empenho/app/Models/UsuarioModel.php
+0 1 12404576 1484 0 0
+/home1/scia97/empenho/vendor/thiagoalessio/tesseract_ocr/tests/Unit/OutputFileTest.php
+0 1 12547952 1065 0 0
+/home1/scia97/empenho/vendor/psr/log/Psr/Log/NullLogger.php
+0 1 0 707 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Cookie/CookieInterface.php
+0 1 12439600 4305 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Security/Exceptions/SecurityException.php
+0 1 12484784 1324 0 0
+/home1/scia97/scia.com.br/empenho/app/Views/errors/html/production.php
+0 2 0 1000 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Format/Format.php
+0 1 12463776 1598 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Database/RawSql.php
+0 1 12446656 951 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Language/en/Validation.php
+0 1 12478576 4862 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/resources/compiled/plain.css
+0 1 12512000 325 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Commands/Generators/Views/cell.tpl.php
+0 1 12431136 103 0 0
+/home1/scia97/scia.com.br/empenho/writable/uploads/
+0 2 0 262 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Database/SQLSRV/Result.php
+0 1 12449184 4850 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Helpers/security_helper.php
+0 1 12466096 1175 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Debug/Toolbar/Collectors/Events.php
+0 1 12450816 3368 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/writable/session/
+0 1 0 131 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Helpers/array_helper.php
+0 1 12464496 6566 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Commands/Generators/MigrateCreate.php
+0 1 12429584 1978 0 0
+/home1/scia97/empenho/app/Config/Cache.php
+0 1 12398640 6186 0 0
+/home1/scia97/scia.com.br/empenho/app/Config/Pager.php
+0 2 0 2378 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Parser/MysqliPlugin.php
+0 1 12501472 6468 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Cookie/CloneableCookieInterface.php
+0 1 12439232 2502 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Traits/ConditionalTrait.php
+0 1 12519664 1736 0 0
+/home1/scia97/empenho/vendor/composer/installed.json
+0 1 12527968 14848 0 0
+/home1/scia97/scia.com.br/empenho/python/x.py
+0 2 0 32 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Database/OCI8/Forge.php
+0 1 12444304 9056 0 0
+/home1/scia97/empenho/vendor/symfony/polyfill-mbstring/Resources/unidata/titleCaseRegexp.php
+0 1 12542464 6201 0 0
+/home1/scia97/scia.com.br/empenho/app/Config/Routes.php
+0 2 0 3576 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Log/Handlers/FileHandler.php
+0 1 12479856 3305 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Config/BaseService.php
+0 1 12437472 13774 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/HTTP/ResponseInterface.php
+0 1 12471120 14355 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Cookie/CookieStore.php
+0 1 12439776 6336 0 0
+/home1/scia97/empenho/vendor/thiagoalessio/tesseract_ocr/src/FriendlyErrors.php
+0 1 12544160 3272 0 0
+/home1/scia97/empenho/vendor/thiagoalessio/tesseract_ocr/src/Command.php
+0 1 12543792 2070 0 0
+/home1/scia97/empenho/vendor/smalot/pdfparser/doc/CustomConfig.md
+0 1 0 3467 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/bootstrap.php
+0 1 12423056 3503 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/app/Config/Boot/production.php
+0 1 12411808 832 0 0
+/home1/scia97/empenho/vendor/composer/platform_check.php
+0 1 0 925 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/app/Config/Migrations.php
+0 1 12415680 1751 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/HTTP/Response.php
+0 1 12470944 9249 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Test/Mock/MockResourceController.php
+0 1 12493344 619 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Email/Email.php
+0 1 12454272 59225 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Cache/CacheInterface.php
+0 1 12423408 2909 0 0
+/home1/scia97/empenho/app/Config/Email.php
+0 1 12399664 2143 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/toolbarloader.js
+0 1 12454080 3719 0 0
+/home1/scia97/scia.com.br/empenho/app/Config/Cache.php
+0 2 0 12372 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Entity/Entity.php
+0 1 12458256 15843 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/app/Config/ForeignCharacters.php
+0 1 12414464 152 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/writable/uploads/
+0 1 0 131 0 0
+/home1/scia97/app/Views/errors/html/error_404.php
+0 1 12393056 2038 0 0
+/home1/scia97/scia.com.br/empenho/app/Controllers/Base.php
+0 2 0 72872 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Entity/Cast/FloatCast.php
+0 1 12456832 498 0 0
+/home1/scia97/empenho/vendor/composer/ClassLoader.php
+0 1 12527824 16528 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Database/OCI8/Connection.php
+0 1 12444128 22055 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Debug/Toolbar/Collectors/Timers.php
+0 1 12451776 1593 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/app/Config/CURLRequest.php
+0 1 12412880 550 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Entity/Cast/DatetimeCast.php
+0 1 12456656 970 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/resources/compiled/solarized-dark.css
+0 1 12512768 8230 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/HTTP/UserAgent.php
+0 1 12471632 7975 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Test/ControllerResponse.php
+0 1 12488336 1905 0 0
+/home1/scia97/scia.com.br/empenho/app/Config/Autoload.php
+0 2 0 6396 0 0
+/home1/scia97/scia.com.br/empenho/app/Config/Constants.php
+0 2 0 7972 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Validation/FileRules.php
+0 1 12520592 6988 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Commands/Housekeeping/ClearLogs.php
+0 1 12433424 2115 0 0
+/home1/scia97/scia.com.br/empenho/app/Config/Events.php
+0 2 0 3130 0 0
+/home1/scia97/empenho/vendor/symfony/polyfill-mbstring/Mbstring.php
+0 1 0 29149 0 0
+/home1/scia97/scia.com.br/empenho/app/Config/Modules.php
+0 2 0 4204 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Session/Session.php
+0 1 12487072 28198 0 0
+/home1/scia97/empenho/vendor/smalot/pdfparser/src/Smalot/PdfParser/RawData/RawDataParser.php
+0 1 12540784 38967 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Parser/ArrayLimitPlugin.php
+0 1 12498160 4120 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Debug/Iterator.php
+0 1 12449712 2781 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/PSR/Log/LoggerInterface.php
+0 1 12518528 3114 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Helpers/xml_helper.php
+0 1 12466800 1416 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/app/Config/Services.php
+0 1 12417088 921 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Commands/Generators/Views/entity.tpl.php
+0 1 12431904 223 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Config/Boot/development.php
+0 1 12370256 1278 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Zval/BlobValue.php
+0 1 12513360 6665 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/PSR/Log/LoggerAwareTrait.php
+0 1 12518336 402 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Events/Events.php
+0 1 12458624 7222 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Model.php
+0 1 0 30224 0 0
+/home1/scia97/empenho/app/Config/Encryption.php
+0 1 12399808 2844 0 0
+/home1/scia97/empenho/vendor/laminas/laminas-escaper/src/Exception/InvalidArgumentException.php
+0 1 12529712 212 0 0
+/home1/scia97/empenho/app/Config/Cookie.php
+0 1 12399088 3502 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Config/Encryption.php
+0 1 12372208 2844 0 0
+/home1/scia97/empenho/vendor/smalot/pdfparser/src/Smalot/PdfParser/Pages.php
+0 1 12540064 2054 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Pager/Exceptions/PagerException.php
+0 1 12480736 712 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Database/PreparedQueryInterface.php
+0 1 12446112 1467 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/API/ResponseTrait.php
+0 1 12422352 11829 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Database/SQLite3/Utils.php
+0 1 12448272 832 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Debug/Toolbar/Collectors/Config.php
+0 1 12450432 973 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/HTTP/ResponseTrait.php
+0 1 12471296 22671 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Zval/ThrowableValue.php
+0 1 12516800 1704 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/
+0 1 0 131 0 0
+/home1/scia97/app/Config/Filters.php
+0 1 12388128 1684 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Log/Handlers/ErrorlogHandler.php
+0 1 12479664 2153 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/public/favicon.ico
+0 1 0 5430 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/app/Config/Database.php
+0 1 12413056 2239 0 0
+/home1/scia97/empenho/vendor/laminas/laminas-escaper/src/Exception/ExceptionInterface.php
+0 1 12529520 138 0 0
+/home1/scia97/scia.com.br/empenho/app/Config/ForeignCharacters.php
+0 2 0 304 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Zval/DateTimeValue.php
+0 1 12513744 1780 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Config/Database.php
+0 1 12371680 2279 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Honeypot/Honeypot.php
+0 1 12467168 3137 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/HTTP/Header.php
+0 1 12468816 4705 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Commands/Generators/Views/cell_view.tpl.php
+0 1 12430944 41 0 0
+/home1/scia97/empenho/app/Config/DocTypes.php
+0 1 12399520 3058 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Test/Fabricator.php
+0 1 12489216 14501 0 0
+/home1/scia97/empenho/vendor/smalot/pdfparser/src/Smalot/PdfParser/Encoding/ISOLatin1Encoding.php
+0 1 12537072 3604 0 0
+/home1/scia97/empenho/app/Views/errors/html/debug.css
+0 1 12405488 3622 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Exceptions/FrameworkException.php
+0 1 12460288 1773 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Config/Boot/testing.php
+0 1 12370608 1236 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Views/pdf_error.php
+0 1 12380752 202 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Validation/StrictRules/CreditCardRules.php
+0 1 12521120 1424 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Commands/Generators/SeederGenerator.php
+0 1 12430352 1776 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Language/en/Files.php
+0 1 12475760 538 0 0
+/home1/scia97/empenho/app/Config/Logger.php
+0 1 12401392 5914 0 0
+/home1/scia97/scia.com.br/empenho/app/Config/View.php
+0 2 0 3478 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/.htaccess
+0 1 0 118 0 0
+/home1/scia97/empenho/vendor/psr/log/LICENSE
+0 1 12530224 1085 0 0
+/home1/scia97/empenho/app/Config/Pager.php
+0 1 12401968 1189 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Config/Factory.php
+0 1 12438176 1106 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Debug/Toolbar/Collectors/BaseCollector.php
+0 1 12450240 5234 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Database/Postgre/Result.php
+0 1 12445760 3466 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Controllers/Base.php
+0 1 12376784 36436 0 0
+/home1/scia97/builds
+0 1 12394528 3873 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Commands/Utilities/Routes/ControllerFinder.php
+0 1 12435760 1828 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Database/MigrationRunner.php
+0 1 12442512 22896 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Language/en/Fabricator.php
+0 1 12475584 503 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Database/Postgre/Forge.php
+0 1 12445392 6299 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/app/Config/Constants.php
+0 1 12412336 3986 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Controllers/BaseController.php
+0 1 12376960 1579 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Kint.php
+0 1 12497616 22549 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Config/Publisher.php
+0 1 12375200 806 0 0
+/home1/scia97/scia.com.br/empenho/phpunit.xml.dist
+0 2 0 4830 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/HTTP/Negotiate.php
+0 1 12469696 11175 0 0
+/home1/scia97/scia.com.br/empenho/app/Views/manutencao.php
+0 2 0 2462 0 0
+/home1/scia97/app/Config/Generators.php
+0 1 12388528 2001 0 0
+/home1/scia97/app/Views/pdf_result.php
+0 1 12394128 901 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Test/Mock/MockFileLogger.php
+0 1 12492448 791 0 0
+/home1/scia97/empenho/phpunit.xml.dist
+0 1 12407904 2415 0 0
+/home1/scia97/writable/.htaccess
+0 1 12396800 124 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Router/RouteCollection.php
+0 1 12484064 51120 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Database/SQLSRV/Forge.php
+0 1 12448816 12168 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Publisher/ContentReplacer.php
+0 1 12482000 2727 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Format/JSONFormatter.php
+0 1 12464144 1227 0 0
+/home1/scia97/empenho/vendor/psr/log/Psr/Log/LoggerAwareInterface.php
+0 1 0 297 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Renderer/Rich/TabPluginInterface.php
+0 1 12508304 1432 0 0
+/home1/scia97/empenho/vendor/symfony/polyfill-mbstring/Resources/unidata/lowerCase.php
+0 1 12542288 24539 0 0
+/home1/scia97/empenho/app/Views/pdf_upload.php
+0 1 12407104 6368 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Commands/Utilities/Routes/SampleURIGenerator.php
+0 1 12436576 1495 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/app/
+0 1 0 134 1 0
+/home1/scia97/empenho/vendor/laminas/laminas-escaper/src/Escaper.php
+0 1 0 11998 0 0
+/home1/scia97/empenho/app/Config/Constants.php
+0 1 12398784 3986 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/_history.tpl
+0 1 12452928 691 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Renderer/PlainRenderer.php
+0 1 12504784 6821 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Views/welcome_message.php
+0 1 12381280 17859 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Test/FeatureTestCase.php
+0 1 12489568 10122 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Commands/Housekeeping/ClearDebugbar.php
+0 1 12433232 1423 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/CLI/Exceptions/CLIException.php
+0 1 12426000 768 0 0
+/home1/scia97/app/Controllers/Home.php
+0 1 12391376 1095 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Language/en/Cast.php
+0 1 12474176 1005 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Config/Autoload.php
+0 1 12370080 3198 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/app/Config/Routes.php
+0 1 12416736 1790 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/View/Filters.php
+0 1 12523152 6468 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Zval/StreamValue.php
+0 1 12516608 1777 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Renderer/Rich/SimpleXMLElementPlugin.php
+0 1 12507680 2068 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Config/Exceptions.php
+0 1 12372560 2939 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Database/Postgre/Builder.php
+0 1 12445024 15086 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/tests/unit/HealthTest.php
+0 1 12384240 1448 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/resources/compiled/plain.js
+0 1 12512192 326 0 0
+/home1/scia97/empenho/vendor/psr/log/Psr/Log/Test/DummyTest.php
+0 1 0 251 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/writable/cache/
+0 1 0 131 0 0
+/home1/scia97/scia.com.br/empenho/LICENSE
+0 2 0 2318 0 0
+/home1/scia97/empenho/vendor/smalot/pdfparser/src/Smalot/PdfParser/Encoding/EncodingLocator.php
+0 1 12536880 402 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Database/Database.php
+0 1 12441408 3983 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Language/en/Number.php
+0 1 12476992 656 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/I18n/TimeLegacy.php
+0 1 12472352 608 0 0
+/home1/scia97/app/Common.php
+0 1 12385872 521 0 0
+/home1/scia97/scia.com.br/empenho/app/Config/Email.php
+0 2 0 4286 0 0
+/home1/scia97/app/Views/errors/html/error_exception.php
+0 1 12393200 15279 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Commands/Generators/Views/seeder.tpl.php
+0 1 12432672 147 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Test/FeatureResponse.php
+0 1 12489392 528 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Debug/Exceptions.php
+0 1 12449536 17988 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Views/
+0 1 0 2712 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/LICENSE
+0 1 0 1159 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Config/Publisher.php
+0 1 12438528 1162 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Parser/SplFileInfoPlugin.php
+0 1 12502640 1911 0 0
+/home1/scia97/empenho/tests/database/ExampleDatabaseTest.php
+0 1 0 1214 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Language/en/Cache.php
+0 1 12474000 607 0 0
+/home1/scia97/empenho/vendor/thiagoalessio/tesseract_ocr/tests/EndToEnd/images/file
+0 1 12546320 33276 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Session/SessionInterface.php
+0 1 12487248 6013 0 0
+/home1/scia97/app/Config/Feature.php
+0 1 12388000 939 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Database/Exceptions/DatabaseException.php
+0 1 12441584 532 0 0
+/home1/scia97/writable/session/
+0 1 12397184 131 0 0
+/home1/scia97/empenho/app/Config/Session.php
+0 1 12402832 3697 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Exceptions/DownloadException.php
+0 1 12459712 1135 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Renderer/RichRenderer.php
+0 1 12509136 19492 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Language/en/Session.php
+0 1 12478048 943 0 0
+/home1/scia97/app/Views/Login.php
+0 1 12393744 2040 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/_routes.tpl
+0 1 12453312 1023 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Commands/Database/ShowTableInfo.php
+0 1 12428048 7575 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Config/Modules.php
+0 1 12374672 2102 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Renderer/Rich/SourcePlugin.php
+0 1 12507888 2897 0 0
+/home1/scia97/empenho/vendor/smalot/pdfparser/src/Smalot/PdfParser/Element/ElementBoolean.php
+0 1 12534592 2047 0 0
+/home1/scia97/scia.com.br/empenho/app/Config/Toolbar.php
+0 2 0 6840 0 0
+/home1/scia97/empenho/app/Config/Boot/production.php
+0 1 12398352 832 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Commands/Generators/ValidationGenerator.php
+0 1 12430752 1812 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Language/en/Filters.php
+0 1 12475936 462 0 0
+/home1/scia97/empenho/writable/session/
+0 1 12410208 131 0 0
+/home1/scia97/scia.com.br/empenho/tests/_support/Database/Seeds/ExampleSeeder.php
+0 2 0 2414 0 0
+/home1/scia97/empenho/vendor/thiagoalessio/tesseract_ocr/phpcs.xml
+0 1 0 469 0 0
+/home1/scia97/empenho/vendor/laminas/laminas-escaper/COPYRIGHT.md
+0 1 0 91 0 0
+/home1/scia97/scia.com.br/empenho/tests/_support/Libraries/ConfigReader.php
+0 2 0 628 0 0
+/home1/scia97/empenho/vendor/thiagoalessio/tesseract_ocr/.appveyor.yml
+0 1 0 467 0 0
+/home1/scia97/empenho/vendor/composer/autoload_psr4.php
+0 1 12527376 594 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Database/SQLite3/Table.php
+0 1 12448096 11325 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Debug/Toolbar/Collectors/Database.php
+0 1 12450624 7765 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/app/.htaccess
+0 1 0 124 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php
+0 1 12447360 12981 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Config/Honeypot.php
+0 1 12373616 855 0 0
+/home1/scia97/empenho/app/Views/errors/cli/error_exception.php
+0 1 0 2027 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Commands/Generators/MigrationGenerator.php
+0 1 12429776 3556 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Test/bootstrap.php
+0 1 12487424 3789 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Language/en/Validation.php
+0 1 12377856 115 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Config/Email.php
+0 1 12372032 2143 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/app/Views/errors/html/error_exception.php
+0 1 12419888 15279 0 0
+/home1/scia97/empenho/vendor/smalot/pdfparser/src/Smalot/PdfParser/XObject/Image.php
+0 1 12541152 1314 0 0
+/home1/scia97/scia.com.br/empenho/app/Views/pdf_result.php
+0 2 0 1802 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Config/Session.php
+0 1 12375904 3697 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Debug/Toolbar/Collectors/Logs.php
+0 1 12451392 2152 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Config/View.php
+0 1 12438880 4119 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Zval/EnumValue.php
+0 1 12513936 2181 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/resources/compiled/solarized.css
+0 1 12512976 8212 0 0
+/home1/scia97/empenho/vendor/composer/autoload_files.php
+0 1 0 233 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Config/Migrations.php
+0 1 12374320 1751 0 0
+/home1/scia97/empenho/vendor/smalot/pdfparser/src/Smalot/PdfParser/Encoding/ISOLatin9Encoding.php
+0 1 12537264 3578 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Router/Router.php
+0 1 12484432 19777 0 0
+/home1/scia97/app/Config/Images.php
+0 1 12388784 708 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/resources/compiled/rich.js
+0 1 12512384 11205 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/CLI/BaseCommand.php
+0 1 12425312 5292 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php
+0 1 12445200 16009 0 0
+/home1/scia97/app/Config/Honeypot.php
+0 1 12388656 855 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/README.md
+0 1 0 2713 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Test/Mock/MockResult.php
+0 1 12493904 1923 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Config/Cache.php
+0 1 12370784 6186 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/.htaccess
+0 1 0 124 0 0
+/home1/scia97/scia.com.br/empenho/app/Views/errors/html/error_exception.php
+0 2 0 30558 0 0
+/home1/scia97/empenho/vendor/smalot/pdfparser/src/Smalot/PdfParser/Encoding/PostScriptGlyphs.php
+0 1 12537648 39549 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/python/x.py
+0 1 0 16 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Throttle/Throttler.php
+0 1 12519296 5095 0 0
+/home1/scia97/empenho/vendor/symfony/polyfill-mbstring/composer.json
+0 1 0 1056 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/app/Config/Events.php
+0 1 12413760 1565 0 0
+/home1/scia97/scia.com.br/empenho/app/Language/en/Validation.php
+0 2 0 230 0 0
+/home1/scia97/empenho/vendor/smalot/pdfparser/src/Smalot/PdfParser/Font/FontCIDFontType0.php
+0 1 12538608 1210 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/app/Config/Format.php
+0 1 12414640 2610 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Cache/Handlers/DummyHandler.php
+0 1 12424160 1768 0 0
+/home1/scia97/.ftp-deploy-sync-state.json
+0 1 12397440 22004 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Images/Exceptions/ImageException.php
+0 1 12472704 1776 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Views/pdf_result.php
+0 1 12380928 901 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Language/en/HTTP.php
+0 1 12476288 3588 0 0
+/home1/scia97/empenho/vendor/thiagoalessio/tesseract_ocr/src/ImageNotFoundException.php
+0 1 12544336 109 0 0
+/home1/scia97/empenho/app/Config/Filters.php
+0 1 12400384 1684 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Controller.php
+0 1 12439056 5045 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Pager/Views/default_simple.php
+0 1 12481808 610 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Config/ForeignCharacters.php
+0 1 12373088 152 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Database/SQLite3/Forge.php
+0 1 12447552 8075 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Session/Handlers/Database/PostgreHandler.php
+0 1 12486112 2425 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/app/Config/Encryption.php
+0 1 12413584 2844 0 0
+/home1/scia97/app/Config/Constants.php
+0 1 12386688 3986 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Validation/StrictRules/Rules.php
+0 1 12521696 9955 0 0
+/home1/scia97/empenho/vendor/psr/log/Psr/Log/LoggerAwareTrait.php
+0 1 0 402 0 0
+/home1/scia97/scia.com.br/empenho/app/Config/Boot/testing.php
+0 2 0 2472 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Renderer/TextRenderer.php
+0 1 12511184 10305 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Commands/Utilities/Routes.php
+0 1 12434912 5139 0 0
+/home1/scia97/app/Views/errors/cli/error_404.php
+0 1 12392336 102 0 0
+/home1/scia97/app/Controllers/UploadController.php
+0 1 12391504 1108 0 0
+/home1/scia97/empenho/app/Config/Security.php
+0 1 12402544 3283 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/writable/.htaccess
+0 1 0 124 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Language/en/Publisher.php
+0 1 12477344 830 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/app/Config/App.php
+0 1 0 16702 0 0
+/home1/scia97/scia.com.br/empenho/app/Views/pdf_error.php
+0 2 0 404 0 0
+/home1/scia97/empenho/app/Config/Validation.php
+0 1 12403264 1188 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Commands/Database/MigrateRefresh.php
+0 1 12427296 2158 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/I18n/Exceptions/I18nException.php
+0 1 12471808 2385 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Zval/Representation/MethodDefinitionRepresentation.php
+0 1 12515120 2702 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Test/CIDatabaseTestCase.php
+0 1 12487600 460 0 0
+/home1/scia97/empenho/vendor/thiagoalessio/tesseract_ocr/src/UnsuccessfulCommandException.php
+0 1 12545584 115 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/app/Config/Kint.php
+0 1 0 1625 0 0
+/home1/scia97/scia.com.br/empenho/README.md
+0 2 0 5426 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Commands/Generators/CellGenerator.php
+0 1 12428432 2275 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/composer.lock
+0 1 0 14489 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/init_helpers.php
+0 1 12497248 2589 0 0
+/home1/scia97/scia.com.br/empenho/app/Config/ContentSecurityPolicy.php
+0 2 0 8318 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Images/Handlers/ImageMagickHandler.php
+0 1 12473280 13817 0 0
+/home1/scia97/empenho/vendor/thiagoalessio/tesseract_ocr/src/Option.php
+0 1 0 1992 0 0
+/home1/scia97/app/Views/errors/html/debug.js
+0 1 12392912 2820 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Renderer/Rich/BinaryPlugin.php
+0 1 12505600 2189 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/tests/README.md
+0 1 0 5076 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/LICENSE
+0 1 12497792 1142 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Parser/SerializePlugin.php
+0 1 12502240 3572 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Database/Postgre/Utils.php
+0 1 12445936 979 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/preload.php
+0 1 0 3190 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/PSR/Log/LoggerTrait.php
+0 1 12518720 3415 0 0
+/home1/scia97/app/Views/common/header.php
+0 1 12392192 685 0 0
+/home1/scia97/app/Config/Mimes.php
+0 1 12389296 15649 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Renderer/Text/AbstractPlugin.php
+0 1 12509328 1996 0 0
+/home1/scia97/phpunit.xml.dist
+0 1 12395008 2415 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Commands/Generators/Views/validation.tpl.php
+0 1 12432864 134 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Format/XMLFormatter.php
+0 1 12464320 2954 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Validation/Rules.php
+0 1 12520944 9813 0 0
+/home1/scia97/scia.com.br/empenho/app/Views/errors/cli/production.php
+0 2 0 278 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Config/Kint.php
+0 1 12373968 1625 0 0
+/home1/scia97/empenho/app/Config/Events.php
+0 1 12399952 1565 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Validation/Views/list.php
+0 1 12522256 200 0 0
+/home1/scia97/empenho/app/Config/ContentSecurityPolicy.php
+0 1 0 4159 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/writable/logs/
+0 1 0 131 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Zval/MethodValue.php
+0 1 12514320 6939 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php
+0 1 12422528 14406 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/_logs.tpl
+0 1 12453120 421 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/app/Config/View.php
+0 1 0 1739 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/public/
+0 1 0 2204 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Config/AutoloadConfig.php
+0 1 12437120 6451 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Parser/TimestampPlugin.php
+0 1 12503616 2538 0 0
+/home1/scia97/scia.com.br/empenho/app/Views/common/header.php
+0 2 0 1370 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Commands/Database/CreateDatabase.php
+0 1 12426912 4266 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/tests/database/ExampleDatabaseTest.php
+0 1 12525376 1214 0 0
+/home1/scia97/empenho/README.md
+0 1 12408288 2713 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Renderer/Rich/RecursionPlugin.php
+0 1 12507472 1520 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Test/TestResponse.php
+0 1 12495680 13928 0 0
+/home1/scia97/empenho/app/Config/ForeignCharacters.php
+0 1 12400528 152 0 0
+/home1/scia97/app/Config/Cache.php
+0 1 12386560 6186 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Config/Images.php
+0 1 12373792 708 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Config/Generators.php
+0 1 12373440 2001 0 0
+/home1/scia97/app/Views/link_upload.php
+0 1 12393616 7911 0 0
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/app/Controllers/Home.php
+0 1 12377328 1095 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Escaper/LICENSE.md
+0 1 12496672 1498 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Utils.php
+0 1 12513184 9163 0 0
+/home1/scia97/empenho/app/Views/errors/html/error_exception.php
+0 1 0 15279 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Parser/ToStringPlugin.php
+0 1 12503808 2129 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Parser/ClassMethodsPlugin.php
+0 1 12499120 3600 0 0
+/home1/scia97/empenho/writable/cache/
+0 1 12409952 131 0 0
+/home1/scia97/empenho/vendor/psr/log/composer.json
+0 1 12530080 562 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/tests/_support/Database/Seeds/ExampleSeeder.php
+0 1 12524800 1207 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/app/Config/Session.php
+0 1 12417264 3697 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Validation/Views/single.php
+0 1 12522432 51 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/app/Common.php
+0 1 0 521 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/CallFinder.php
+0 1 12496864 18195 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Debug/Toolbar/Collectors/History.php
+0 1 12451200 4451 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/app/Config/Feature.php
+0 1 12414112 939 0 0
+/home1/scia97/empenho/vendor/smalot/pdfparser/src/Smalot/PdfParser/Element/ElementDate.php
+0 1 12534784 3988 0 0
+/home1/scia97/empenho/app/Config/Kint.php
+0 1 12401248 1625 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/resources/compiled/shared.js
+0 1 12512576 527 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/ThirdParty/Kint/Parser/ArrayObjectPlugin.php
+0 1 12498352 1960 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/app/Config/Toolbar.php
+0 1 12417440 3420 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Filters/CSRF.php
+0 1 12462160 1966 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Language/en/Format.php
+0 1 12476112 580 0 0
+/home1/scia97/empenho/app/Views/pdf_result.php
+0 1 12406960 901 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Helpers/date_helper.php
+0 1 12464848 2216 0 0
+/home1/scia97/tests/database/ExampleDatabaseTest.php
+0 1 12396256 1214 0 0
+/home1/scia97/scia.com.br/empenho/app/Config/Encryption.php
+0 2 0 5688 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/HTTP/ContentSecurityPolicy.php
+0 1 12467520 20786 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Commands/Generators/EntityGenerator.php
+0 1 12429200 1770 0 0
+/home1/scia97/app/Views/manutencao.php
+0 1 12393872 1231 0 0
+/home1/scia97/empenho/vendor/thiagoalessio/tesseract_ocr/tests/Unit/CommandTest.php
+0 1 12547600 2523 0 0
+/home1/scia97/tests/_support/Database/Seeds/ExampleSeeder.php
+0 1 0 1207 0 0
+/home1/scia97/empenho/vendor/codeigniter4/framework/system/Database/SQLite3/Builder.php
+0 1 12447184 8954 0 0
+/home1/scia97/empenho/vendor/smalot/pdfparser/src/Smalot/PdfParser/Font/FontTrueType.php
+0 1 12538992 1202 0 0
+# End Of Table - urls
+# -sites- (monthly)
+20.39.62.146
+0 89 89 281074 1 1691063654
+/home1/scia97/scia.com.br/empenho/writable/uploads/
+40.75.119.52
+0 89 89 281074 1 1691486669
+/home1/scia97/scia.com.br/empenho/writable/uploads/
+172.176.229.24
+0 756 756 4170007 1 1691488745
+/home1/scia97/empenho/vendor/thiagoalessio/tesseract_ocr/tests/EndToEnd/images/not-an-image.txt
+40.122.243.82
+0 89 89 281074 1 1691487326
+/home1/scia97/writable/uploads/
+138.91.175.200
+0 89 89 281074 1 1691487489
+/home1/scia97/empenho/writable/uploads/
+20.51.153.178
+0 89 89 281074 1 1691486768
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/writable/uploads/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+40.75.119.52
+0 89 89 281074 1 1691486669
+/home1/scia97/scia.com.br/empenho/writable/uploads/
+172.176.229.24
+0 756 756 4170007 1 1691488745
+/home1/scia97/empenho/vendor/thiagoalessio/tesseract_ocr/tests/EndToEnd/images/not-an-image.txt
+40.122.243.82
+0 89 89 281074 1 1691487326
+/home1/scia97/writable/uploads/
+138.91.175.200
+0 89 89 281074 1 1691487489
+/home1/scia97/empenho/writable/uploads/
+20.51.153.178
+0 89 89 281074 1 1691486768
+/home1/scia97/scia.com.br/empenho/scia.com.br/empenho/writable/uploads/
+# End Of Table - sites (daily)
+# -referrers- 
+# End Of Table - referrers
+# -agents- 
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+empenho@scia.com.br
+0 267 267 843222 3 1691486768
+spolaoria@scia.com.br
+0 934 934 4732155 2 1691488745
+# End Of Table - usernames

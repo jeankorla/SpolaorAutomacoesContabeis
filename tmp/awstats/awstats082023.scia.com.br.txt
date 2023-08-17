@@ -1,0 +1,492 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202308 will be lost/reset.
+# Last config file used to build this data file was /home1/scia97/tmp/awstats/awstats.scia.com.br.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2007                
+POS_TIME 2680                
+POS_VISITOR 11735               
+POS_DAY 11844               
+POS_DOMAIN 3273                
+POS_LOGIN 3495                
+POS_ROBOT 3650                
+POS_WORMS 3782                
+POS_EMAILSENDER 3913                
+POS_EMAILRECEIVER 4056                
+POS_SESSION 11919               
+POS_SIDER 12065               
+POS_FILETYPES 4191                
+POS_DOWNLOADS 4273                
+POS_OS 4321                
+POS_BROWSER 4398                
+POS_SCREENSIZE 4460                
+POS_UNKNOWNREFERER 4534                
+POS_UNKNOWNREFERERBROWSER 4659                
+POS_ORIGIN 4779                
+POS_SEREFERRALS 4909                
+POS_PAGEREFS 5053                
+POS_SEARCHWORDS 5201                
+POS_KEYWORDS 5353                
+POS_MISC 2344                
+POS_ERRORS 5412                
+POS_CLUSTER 3351                
+POS_SIDER_404 5568                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20230816172009 6 775 9604451779612
+FirstTime 20230803115235
+LastTime 20230803115239
+LastUpdate 20230817100549 6 0 6 0 0
+TotalVisits 1                   
+TotalUnique 1                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 1                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+AddToFavourites 0 1 0
+QuickTimeSupport 0 0 0
+FlashSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+JavascriptDisabled 0 0 0
+RealPlayerSupport 0 0 0
+PDFSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 11 11 168313
+1 0 0 0 15 16 3217
+2 0 0 0 18 19 5644
+3 0 0 0 9 10 25751
+4 0 0 0 44 44 8722
+5 0 0 0 2 2 1526
+6 0 0 0 25 25 249798
+7 0 0 0 5 5 712
+8 0 0 0 244 245 7946
+9 0 0 0 7 7 1223
+10 0 0 0 5 5 2238
+11 9 9 576 10 14 41484
+12 0 0 0 36 36 298115
+13 0 0 0 17 19 8699
+14 0 0 0 16 18 4655
+15 0 0 0 11 11 576
+16 0 0 0 33 36 152084
+17 0 0 0 16 16 19996
+18 0 0 0 6 7 5660
+19 0 0 0 3 4 1978
+20 0 0 0 22 22 4677
+21 0 0 0 4 5 1988
+22 0 0 0 0 0 0
+23 0 0 0 257 258 93610
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+us 9 9 576
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 1
+Unknown 9 576 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 1
+Unknown 9 9
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 1
+Unknown 9 9
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+Cpanel-HTTP-Client/1.0 20230803115239
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Cpanel-HTTP-Client/1.0 20230803115239
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 9 9
+From1 0 0
+From2 0 0
+From3 0 0
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+403 11 36377
+406 93 21018
+301 107 21037
+500 357 890633
+409 5 415
+404 261 133702
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 251
+//lyda.php 1 -
+//wp-blog.php 1 -
+//marijuana.php 1 -
+//hehe.php 1 -
+//columns.php 1 -
+//wp-content/plugins/anttt/simple.php 1 -
+//503.php 1 -
+/test/ 1 -
+//moon.php 1 -
+//kill.php 1 -
+//anon.php 1 -
+//mad.php 1 -
+//zz.php 1 -
+//1.php 1 -
+//xl2023.php 1 -
+//index2.php 1 -
+/simple.php 2 -
+//wp-content/plugins/ccx/index.php 1 -
+//wp-file.php 1 -
+//ch.php 1 -
+//home.php 1 -
+//upl.php 2 -
+//__1975.php 1 -
+//wp-content/plugins/linkpreview/db.php 1 -
+//wp-admin/alfa.php 1 -
+//exit.php 1 -
+//wp-includes/atom.php 1 -
+//wp-content/plugins/elementor/includes/settings/index.php 1 -
+/ads.txt 1 -
+//IndoXploit.php 1 -
+//small.php 1 -
+//wp_wrong_datlib.php 1 -
+//edit-comments.php 1 -
+//wp-content/plugins/xsid/marijuana.php 1 -
+//license.php 1 -
+//gaza.php 1 -
+//images/vuln.php 1 -
+//wp-includes/random_compat/random_bytes_cyclone.php 1 -
+//byp.php 1 -
+//fox.php 1 -
+//snd.php 1 -
+//wp-content/plugins/instabuilder2/cache/plugins/moon.php 1 -
+//z.php 1 -
+//wsoyanzorng.php 1 -
+//ws.php 1 -
+//Marvins.php 1 -
+//wp_filemanager.php 1 -
+//ini.php 1 -
+//utchiha505.php 1 -
+//sym.php 1 -
+//google.php 1 -
+//user.php 1 -
+//0z.php 1 -
+//ee.php 1 -
+//Deadcode1975.php 1 -
+//wp-includes/home.php 1 -
+//wp-admin/wp-trc.php 1 -
+//uph.php 1 -
+//end.php 1 -
+//1337.php 1 -
+/bk/ 1 -
+//wp-admin/css/colors/blue/uploader.php 1 -
+//406.php 1 -
+//h4xor.php 1 -
+//utchiha.php 1 -
+//wp-includes/fw.php 1 -
+//wp-includes/wp-class.php 2 -
+//customize.php 1 -
+/index.php/_ignition/health-check 1 http://scia.com.br/_ignition/health-check/
+//templates/beez3/error.php 1 -
+//wp-admin/shell20211028.php 1 -
+/OLD/ 1 -
+//alfa.php 1 -
+//wp-includes/wp_filemanager.php 1 -
+//xlettt.php 1 -
+//wp-admin/fx.php 1 -
+//by.php 1 -
+//credits.php 1 -
+//0x55.php 1 -
+//wp-content/wp_filemanager.php 1 -
+//wp-admin/home.php 1 -
+//wp-admin/css/colors/blue/CasperExV1.php 1 -
+//wp-info.php 1 -
+//wp-admin/dropdown.php 1 -
+//themes.php 1 -
+//up.php 1 -
+//wsu.php 1 -
+//alfanew.php7 1 -
+//priv8.php 1 -
+//alf.php 1 -
+//x.php 1 -
+//private.php 1 -
+/humans.txt 1 -
+/.git/HEAD 1 -
+//wp-content/plugins/revslider/includes/external/page/index.php 1 -
+//symlink.php 1 -
+/wp-content/plugins/dzs-zoomsounds/1877.php 1 -
+//moto.php 1 -
+//wso112233.php 1 -
+//ups.php 1 -
+//wpx.php 1 -
+//wp-content/fw.php 1 -
+//font-editor.php 1 -
+//wp-admin/fw.php 1 -
+//Gecko.php 1 -
+//user-new.php 1 -
+//lufix.php 1 -
+//wp-content/home.php 1 -
+//wp-content/uploads/typehub/custom/.RxR.php 1 -
+//xml.php 1 -
+//plugins.php 1 -
+//wp-content/themes/gaukingo/db.php 1 -
+//theme-install.php 1 -
+//wp-admin/includes/users.php 1 -
+//an.php 1 -
+//xox.php 1 -
+//m.php 1 -
+//wp-content/themes/finley/min.php 1 -
+//wp-content/themes/ThisWay/includes/uploadify/upload_settings_image.php 1 -
+//wso.php 1 -
+//fm.php 1 -
+//403.php 1 -
+/wordpress/ 1 -
+//wp-content/plugins/wordpresss3cll/up.php 2 -
+//utchiha_uploader.php 1 -
+//shellx.php 1 -
+//wp-includes/class-json-ajax-session.php 1 -
+//update-core.php 1 -
+//wp-22.php 1 -
+//wp-includes/blocks/table/int/tmpl/index.php 1 -
+//log.php 1 -
+//tmpshell.php 1 -
+//wp.php 1 -
+//bala.php 1 -
+//shell.php 1 -
+//hanna1337.php 1 -
+//cp.php 1 -
+//1877.php 1 -
+//olux.php 1 -
+//sh.php 1 -
+//xmlrpc2.php 1 -
+//wp-admin/wp-22.php 1 -
+//wp-content/plugins/revslider/includes/page/index.php 1 -
+//d7.php 1 -
+//lock360.php 1 -
+//wp-content/plugins/Cache/Cache.php 1 -
+//wp-admin/css/colors/coffee/index.php 1 -
+//srx.php 1 -
+//wp-plugins.php 1 -
+/index.php/public/_ignition/health-check 1 http://scia.com.br/public/_ignition/health-check/
+//uploads/up.php 1 -
+/robots.txt 4 -
+//lock0360.php 1 -
+//media-admin.php 1 -
+//index.php 1 -
+//default.php 1 -
+//root.php 1 -
+//term.php 1 -
+//repeater.php 1 -
+//classwithtostring.php 1 -
+//wp-content/plugins/ioptimization/IOptimize.php 1 -
+//update.php 1 -
+//tnt.php 1 -
+//me.php 1 -
+//wp-content/themes/welfare-charity/www.php 1 -
+//xx.php 1 -
+//access.php 1 -
+//mini.php 1 -
+//xleet.php 1 -
+//wp-content/plugins/wp-file-upload/ROOBOTS.php 1 -
+//wp-content/shell20211028.php 1 -
+//wp-admin/network/db.php 1 -
+//lock.php 1 -
+//wp-content/themes/classic/inc/casper.php 1 -
+/old/ 1 -
+//wp-content/plugins/hellopress/wp_filemanager.php 2 -
+//ton.php 1 -
+//wp-includes/shell20211028.php 1 -
+//upload.php 1 -
+//F0x.php 1 -
+//admin.php 1 -
+//init.php 1 -
+//leet.php 1 -
+//contents.php 1 -
+//about.php 1 -
+//doc.php 1 -
+//demo.php 1 -
+//404.php 1 -
+//wp-content/plugins/augmented-reality/vendor/elfinder/php/connector.minimal.php 1 -
+//tron.php 1 -
+//wp-content/plugins/TOPXOH/wDR.php 2 -
+//emergency.php 1 -
+//plugin-install.php 1 -
+//wp-content/alfa.php 1 -
+/index.php/wp-includes/ID3/license.txt 1 -
+//fw.php 1 -
+//payload.php 1 -
+//DKIZ.php 1 -
+//mar.php 1 -
+/backup/ 1 -
+//www.php 1 -
+//fan.php 1 -
+//wp-content/plugins/real/v.php 1 -
+/blog/ 1 -
+//inbox.php 1 -
+//images/F0x.php 1 -
+//lufi.php 1 -
+//evil.php 1 -
+/b1a3k.php 1 -
+//wp-admin/network/subjects.php 1 -
+//sites/all/libraries/elfinder/connectors/php/connector.php 1 -
+//wp-content/plugins/index.php 1 -
+//wp-content/plugins/Cache/dropdown.php 1 -
+//xzourt.php 1 -
+//tesla.php 1 -
+//wp-content/up.php 1 -
+//wp-content/wp-conf.php 1 -
+//shell20211028.php 1 -
+//css.php 1 -
+//wp-admin/wso112233.php 1 -
+//wp-admin/wso.php 1 -
+//wp-content/plugins/w0rdpr3ssnew/about.php 1 -
+//0x.php 1 -
+//rxr.php 2 -
+//shells.php 1 -
+//fx.php 1 -
+//users.php 1 -
+//wp-admin/users.php 1 -
+//wp-admin/1975.php 1 -
+//wp-content/cong.php 1 -
+//wp-admin/wp_filemanager.php 1 -
+//wp-includes/sodium_compat/src/Core/Curve25519/Ge/wp_blog.php 1 -
+//lalala.php 1 -
+//text.php 1 -
+//xxl.php 1 -
+//gecko.php 1 -
+//style.php 1 -
+//wp-content/themes/pridmag/db.php 1 -
+//minishell.php 1 -
+/wp-content/index.php 1 -
+/new/ 1 -
+//alfaindex.php 1 -
+//R00T.php 1 -
+//v3n0m.php 1 -
+/wp/ 1 -
+//tmp/vuln.php 1 -
+//tools.php 1 -
+/.well-known/pki-validation/iR7SzrsOUEP.php 1 -
+//indexs.php 1 -
+//wp-content/plugins/core-stab/casper.php 1 -
+//1975.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 1
+50.116.86.133 9 9 576 20230803115239
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 1
+20230803 9 9 576 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 1
+0s-30s 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 9
+/.well-known/acme-challenge/KKOCC0HBHZEDBFSCV0U2XCQU4EMJIDXR 1 64 0 1
+/.well-known/acme-challenge/K9_DKTXLJZCZEVH3Q_4MOX86UADXOYCD 1 64 1 0
+/.well-known/acme-challenge/DI7P91K2_Z6AF3SJZ3N2S5C6F-4R4M44 1 64 0 0
+/.well-known/acme-challenge/W7VG1N-4A8RR1LVD4VCUDXLG2JD025UD 1 64 0 0
+/.well-known/acme-challenge/N109ZGDOVEX_TCPT56WOV19Z0QP89J1G 1 64 0 0
+/.well-known/acme-challenge/73-ZOUA74J5B04E6HO-ISQHU9Z9XAP-S 1 64 0 0
+/.well-known/acme-challenge/ICH7B0M32F2I__3J07U7N5_MYSCVX3AC 1 64 0 0
+/.well-known/acme-challenge/-SU60X5AIDQ8D6FZZ_47XRT1TOXTMFPQ 1 64 0 0
+/.well-known/acme-challenge/2H4N0ZR4CE0PRCC43J3O6FA69M_QHQ68 1 64 0 0
+END_SIDER

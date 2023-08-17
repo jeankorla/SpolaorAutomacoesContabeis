@@ -1,0 +1,552 @@
+# Webalizer V2.23-08 Incremental Data - 08/16/2023 17:20:09
+2023 8 16 17 20 9
+844 10 89 10 10 55 1109188 317 98 0
+7 2 240 3 16
+0 0 0 0 0 0
+0 0 0 0 0 0
+57 9 68099 9 46 8
+40 1 11420 17 32 11
+42 0 5748 9 40 8
+13 0 1935 6 12 6
+280 0 13081 10 21 8
+18 0 12724 10 14 10
+14 0 174821 4 14 5
+11 0 10369 6 10 6
+17 0 34441 10 12 7
+268 0 345475 8 34 5
+6 0 6848 3 6 3
+15 0 12211 7 13 6
+13 0 150647 8 13 8
+50 0 261369 7 50 7
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+11 0 168313 11
+16 0 3217 14
+19 0 5644 19
+10 0 25751 9
+44 0 8722 43
+2 0 1526 2
+25 0 249798 24
+5 0 712 5
+245 0 7946 11
+7 0 1223 6
+5 0 2238 5
+23 9 42060 9
+36 0 298115 36
+19 1 8699 16
+18 0 4655 14
+11 0 576 11
+36 0 152084 32
+16 0 19996 16
+7 0 5660 3
+4 0 1978 3
+22 0 4677 0
+5 0 1988 3
+0 0 0 0
+258 0 93610 25
+0
+0
+0
+10
+0
+0
+0
+0
+0
+0
+0
+107
+0
+0
+0
+0
+0
+0
+0
+0
+11
+261
+0
+93
+0
+0
+5
+0
+0
+0
+0
+0
+0
+0
+0
+357
+0
+0
+0
+0
+0
+# -urls- 
+/.well-known/acme-challenge/-SU60X5AIDQ8D6FZZ_47XRT1TOXTMFPQ
+0 1 0 64 0 0
+/.well-known/acme-challenge/KKOCC0HBHZEDBFSCV0U2XCQU4EMJIDXR
+0 1 0 64 0 0
+/.well-known/acme-challenge/2H4N0ZR4CE0PRCC43J3O6FA69M_QHQ68
+0 1 0 64 0 0
+/favicon.ico
+0 1 0 5430 0 0
+/.well-known/acme-challenge/N109ZGDOVEX_TCPT56WOV19Z0QP89J1G
+0 1 0 64 0 0
+/.well-known/acme-challenge/ICH7B0M32F2I__3J07U7N5_MYSCVX3AC
+0 1 0 64 0 0
+/.well-known/acme-challenge/73-ZOUA74J5B04E6HO-ISQHU9Z9XAP-S
+0 1 0 64 0 0
+/.well-known/acme-challenge/K9_DKTXLJZCZEVH3Q_4MOX86UADXOYCD
+0 1 0 64 0 0
+/.well-known/acme-challenge/DI7P91K2_Z6AF3SJZ3N2S5C6F-4R4M44
+0 1 0 64 0 0
+/.well-known/acme-challenge/W7VG1N-4A8RR1LVD4VCUDXLG2JD025UD
+0 1 0 64 0 0
+# End Of Table - urls
+# -sites- (monthly)
+65.154.226.170
+0 2 0 19840 1 1692069531
+-
+108-174-8-25.fwd.linkedin.com
+0 7 0 2099 2 1691667963
+-
+ip-162-253-68-131.hosts.zerolag.com
+0 20 0 3852 1 1691209087
+-
+41.216.188.78
+0 2 0 0 0 0
+-
+45.90.61.119
+0 1 0 236 1 1691154333
+-
+ec2-52-36-147-222.us-west-2.compute.amazonaws.com
+0 2 0 1526 1 1692119505
+-
+155.153.139.34.bc.googleusercontent.com
+0 4 0 904 2 1691436488
+-
+67.205.170.70
+0 6 0 0 1 1691254385
+-
+r-198.76.74.195.ptr.avast.com
+0 1 0 0 1 1691063713
+-
+stanton.probe.onyphe.net
+0 1 0 236 1 1691328938
+-
+host1.thehostnext.com
+0 1 0 83 0 0
+-
+ikrah.probe.onyphe.net
+0 1 0 236 1 1692108161
+-
+159.65.222.234
+0 1 0 236 1 1691659947
+-
+dhcp-077-250-036-185.chello.nl
+0 2 0 0 1 1691771016
+-
+176.111.174.153
+0 2 0 340 1 1691506415
+-
+ec2-54-190-156-201.us-west-2.compute.amazonaws.com
+0 2 0 1526 1 1691677188
+-
+93.158.90.34
+0 1 0 334 0 0
+-
+192.71.126.53
+0 1 0 0 1 1691165401
+-
+nina.probe.onyphe.net
+0 1 0 0 1 1691336867
+-
+securehosting.capital
+0 1 0 0 0 0
+-
+41.216.188.92
+0 1 0 698 0 0
+-
+155.138.201.125.vultrusercontent.com
+0 6 0 0 1 1692149181
+-
+198.235.24.13
+0 1 0 236 1 1692074283
+-
+40.122.150.97
+0 16 0 5168 1 1692153028
+-
+mail17.stiltifyfizzer.net
+0 3 0 473 1 1691467630
+-
+undefined.hostname.localhost
+0 19 0 3748 4 1691977998
+-
+king.probe.onyphe.net
+0 1 0 120775 1 1692116213
+-
+176.53.216.160
+0 1 0 0 1 1691154334
+-
+89.104.100.2
+0 1 1 5430 0 0
+-
+62-112-9-165.hosted-by-worldstream.net
+0 2 0 340 1 1691891387
+-
+ns1010918.ip-51-81-167.us
+0 1 0 17108 1 1691063617
+-
+201-42-12-189.dsl.telesp.net.br
+0 10 0 0 1 1691068276
+-
+199.244.88.218
+0 2 0 1526 1 1692011627
+-
+178.62.86.34.bc.googleusercontent.com
+0 6 0 0 1 1691077697
+-
+r-61-58-62-5.consumer-pool.prcdn.net
+0 20 0 4161 1 1691123381
+-
+windows2016.gz-s-8vcpu-16gb-sgp1-01
+0 20 0 247715 1 1691842791
+-
+ec2-54-188-237-72.us-west-2.compute.amazonaws.com
+0 2 0 236 1 1691249489
+-
+45.135.57.93
+0 1 0 331 0 0
+-
+198.235.24.15
+0 2 0 4987 1 1691809274
+-
+57.128.87.194
+0 5 0 712 1 1691218827
+-
+205.210.31.162
+0 1 0 236 1 1691457439
+-
+ec2-35-164-0-97.us-west-2.compute.amazonaws.com
+0 2 0 1526 1 1691938153
+-
+192.71.126.207
+0 1 0 0 0 0
+-
+108-174-2-220.fwd.linkedin.com
+0 3 0 1863 1 1691742933
+-
+176.53.221.38
+0 1 0 236 1 1691154335
+-
+crawl-lrsstc.mj12bot.com
+0 2 0 452 0 0
+-
+93.158.90.29
+0 1 0 337 0 0
+-
+186.202.173.147
+0 28 0 46018 14 1692206409
+-
+176.53.220.236
+0 1 0 0 1 1691154335
+-
+164.90.205.156
+0 1 0 236 1 1692010083
+-
+108-174-5-112.fwd.linkedin.com
+0 3 0 1863 1 1691760006
+-
+ec2-54-88-179-33.compute-1.amazonaws.com
+0 4 0 9964 2 1691798094
+-
+87.106.169.7
+0 14 0 1767 1 1691103780
+-
+93.158.91.35
+0 1 0 19509 1 1691754718
+-
+89.248.76.34.bc.googleusercontent.com
+0 3 0 1752 1 1692190591
+-
+205.210.31.172
+0 1 0 236 1 1691704403
+-
+138.68.188.102
+0 1 0 236 1 1691150703
+-
+192.71.126.26
+0 1 0 0 0 0
+-
+vps2402447.fastwebserver.de
+0 2 0 1526 1 1691696060
+-
+crawl-149-56-150-122.dataproviderbot.com
+0 3 0 476 1 1691289896
+-
+ec2-35-160-50-31.us-west-2.compute.amazonaws.com
+0 2 0 1526 1 1692119079
+-
+95.233.23.34.bc.googleusercontent.com
+0 4 0 904 2 1691466666
+-
+159.65.197.155
+0 1 0 236 1 1691321009
+-
+fortunate.monitoring.internet-measurement.com
+0 2 0 236 1 1691246364
+-
+157.245.217.100
+0 1 0 236 1 1691837999
+-
+researchscan8.comsys.rwth-aachen.de
+0 12 0 7866 6 1692163001
+-
+104.248.16.237
+0 1 0 240 1 1691232193
+-
+93.158.90.36
+0 1 0 335 0 0
+-
+159.223.68.191
+0 10 0 48176 1 1691065308
+-
+186.202.163.106
+0 2 0 236 1 1691379759
+-
+66.4.30.34.bc.googleusercontent.com
+0 7 0 166551 1 1691540619
+-
+104.248.205.39
+0 1 0 236 1 1691589707
+-
+193.160.77.73
+0 1 0 236 1 1691466394
+-
+199.244.88.220
+0 2 0 236 1 1691197114
+-
+ec2-63-34-16-55.eu-west-1.compute.amazonaws.com
+0 2 0 1526 1 1692009848
+-
+r-113-62-62-5.consumer-pool.prcdn.net
+0 20 0 247705 1 1692167483
+-
+192.71.142.150
+0 1 0 0 0 0
+-
+89.34.78.29
+0 1 0 0 1 1691466395
+-
+74.249.212.23
+0 240 0 6083 1 1691398277
+-
+192.71.126.27
+0 1 0 236 1 1691165400
+-
+vps2426554.fastwebserver.de
+0 22 0 4677 0 0
+-
+164.92.237.85
+0 1 0 236 1 1692178776
+-
+50-116-86-133.unifiedlayer.com
+0 9 9 576 0 0
+-
+ec2-34-222-47-192.us-west-2.compute.amazonaws.com
+0 2 0 236 1 1691418477
+-
+62.122.184.194
+0 2 0 340 1 1691164725
+-
+164.92.87.164
+0 1 0 236 1 1691496191
+-
+40.122.254.240
+0 240 0 86300 1 1691882166
+-
+93.158.90.42
+0 1 0 236 1 1691754718
+-
+52.142.52.122
+0 1 0 226 0 0
+-
+# End Of Table - sites (monthly)
+# -sites- (daily)
+155.138.201.125.vultrusercontent.com
+0 6 0 0 1 1692149181
+-
+40.122.150.97
+0 16 0 5168 1 1692153028
+-
+186.202.173.147
+0 2 0 4982 1 1692206409
+-
+89.248.76.34.bc.googleusercontent.com
+0 3 0 1752 1 1692190591
+-
+researchscan8.comsys.rwth-aachen.de
+0 2 0 1526 1 1692163001
+-
+r-113-62-62-5.consumer-pool.prcdn.net
+0 20 0 247705 1 1692167483
+-
+164.92.237.85
+0 1 0 236 1 1692178776
+-
+# End Of Table - sites (daily)
+# -referrers- 
+http://scia.com.br
+0 4
+http://50.116.86.133:80/
+0 1
+- (Direct Request)
+0 804
+http://scia.com.br/
+0 14
+http://scia.com.br/_ignition/health-check/
+0 2
+http://www.scia.com.br
+0 1
+www.google.com
+0 8
+http://scia.com.br/public/_ignition/health-check/
+0 2
+http://www.scia.com.br/index.php
+0 1
+http://www.google.com/
+0 7
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+0 1
+Mozilla/5.0 (Linux; Android 5.1.1; SM-J111F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.90 Mobile Safari/537.36
+0 10
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36
+0 21
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+0 2
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
+0 2
+Mozilla/5.0 (compatible; InternetMeasurement/1.0; +https://internet-measurement.com/)
+0 2
+Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+0 1
+Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/95.0
+0 1
+Mozilla/5.0 (compatible; Dataprovider.com)
+0 3
+Mozilla/5.0 (Linux; Android 8.1.0; jhs561 Build/GIADA.eng.zc.20200922.153858; wv) AppleWebKit/537.36 (KHTML, like Gecko) Vers
+0 5
+LinkedInBot/1.0 (compatible; Mozilla/5.0; Apache-HttpClient +http://www.linkedin.com)
+0 13
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36
+0 2
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36
+0 16
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+0 10
+RepoLookoutBot/v1.1.0-260-g718bf6a (abuse reports to abuse@repo-lookout.org)
+0 1
+Go-http-client/1.1
+0 481
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36
+0 40
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36
+0 5
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/115.0.5790.170 Safari/537.36
+0 2
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+0 5
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4240.193 Safari/537.36
+0 20
+Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:77.0) Gecko/20100101 Firefox/77.0
+0 6
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0
+0 4
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36
+0 12
+Mozilla/5.0 (iPhone; CPU iPhone OS 15_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Mobile/15E148 
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+0 2
+Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36
+0 4
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36
+0 1
+Cpanel-HTTP-Client/1.0
+0 9
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0
+0 1
+python-requests/2.25.1
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+0 4
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+0 10
+Expanse, a Palo Alto Networks company, searches across the global IPv4 space multiple times per day to identify customers&#39
+0 3
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36 OPR
+0 1
+Mozilla/5.0 (compatible; MJ12bot/v1.4.8; http://mj12bot.com/)
+0 2
+Mozilla/5.0 researchscan.comsys.rwth-aachen.de
+0 12
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.
+0 2
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36
+0 2
+Mozilla/5.0 (Linux; Android 7.1.2; 17MB150WB Build/NZH54D; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/72.0
+0 5
+ZoominfoBot (zoominfobot at zoominfo dot com)
+0 8
+node-fetch/1.0 (+https://github.com/bitinn/node-fetch)
+0 2
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 OPR/100.0.0.0
+0 1
+Mozilla/5.0 \\(Windows NT 10.0\\; Win64\\; x64\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/100.0.4896.60 Safari/537.
+0 4
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+0 1
+Mozilla/5.0 (Linux x86_64; rv:79.0) Gecko/20100101 Firefox/79.0
+0 2
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+0 2
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+0 3
+Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)
+0 28
+Python/3.8 aiohttp/3.8.1
+0 2
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36
+0 7
+Mozlila/5.0 (Linux; Android 7.0; SM-G892A Bulid/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/60.0.31
+0 46
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+0 9
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames
