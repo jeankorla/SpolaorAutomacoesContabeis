@@ -2,7 +2,7 @@ on:
  push:
   branches:
     - master
-name: 🚀 Deploy website on push AGORAVAI
+name: 🚀 Deploy website on push Spolaor Automações Contabil
 jobs:
   FTP-Deploy-Action:
     name: 🎉 Deploy
