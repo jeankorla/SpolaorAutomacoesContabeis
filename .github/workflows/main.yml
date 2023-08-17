@@ -1,7 +1,7 @@
 on:
  push:
   branches:
-    - master
+    - main
 name: 🚀 Deploy website on push Spolaor Automações Contabil
 jobs:
   FTP-Deploy-Action:
@@ -18,3 +18,4 @@ jobs:
         server: scia.com.br
         username: ${{ secrets.ftp_user }}
         password: ${{ secrets.ftp_password }}
+        server-dir: ./
