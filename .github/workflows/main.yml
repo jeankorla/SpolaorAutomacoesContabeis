@@ -2,7 +2,7 @@ on:
  push:
   branches:
     - main
-name: 🚀 Deploy website on push Spolaor Automações Contabil
+name: 🚀 Deploy website on push Spolaor Automações Contabil agora vai
 jobs:
   FTP-Deploy-Action:
     name: 🎉 Deploy
