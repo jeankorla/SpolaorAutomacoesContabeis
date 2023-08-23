@@ -54,15 +54,15 @@ public function convertPdfToText()
     // Process each file one by one
     foreach ($files['pdf_file'] as $file) {
         if ($file->isValid() && !$file->hasMoved()) {
-            $file->move('./public/uploads', $file->getName());
-            $newName = './public/uploads/' . $file->getName();
+            $file->move('./writable/uploads/pdf/', $file->getName());
+            $newName = './writable/uploads/pdf/' . $file->getName();
 
             if (!is_readable($newName)) {
                 return view('pdf_error', ['error' => 'File not found or not readable: ' . $newName]);
             }
 
             // Convert the PDF to text and extract the fields
-            $textFileName = './public/uploads/' . pathinfo($file->getName(), PATHINFO_FILENAME) . '.txt';
+            $textFileName = './writable/uploads/pdf/' . pathinfo($file->getName(), PATHINFO_FILENAME) . '.txt';
             $command = 'pdftotext ' . escapeshellarg($newName) . ' ' . escapeshellarg($textFileName) . ' 2>&1';
             shell_exec($command);
           
@@ -92,8 +92,8 @@ echo implode("\n", $fieldsArr);  // join all the fields with newline character
 
 // Delete all the PDF and TXT files from the server
 foreach ($files['pdf_file'] as $file) {
-    $pdfFilePath = './public/uploads/' . $file->getName();
-    $txtFilePath = './public/uploads/' . pathinfo($file->getName(), PATHINFO_FILENAME) . '.txt';
+    $pdfFilePath = './writable/uploads/pdf/' . $file->getName();
+    $txtFilePath = './writable/uploads/pdf/' . pathinfo($file->getName(), PATHINFO_FILENAME) . '.txt';
 
     if (file_exists($pdfFilePath)) {
         unlink($pdfFilePath); // delete PDF file
