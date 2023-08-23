@@ -1,0 +1,287 @@
+INFO - 2023-06-06 11:56:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 11:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 11:56:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 11:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 11:59:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 12:19:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 12:19:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 12:19:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 13:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 13:07:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 13:07:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 13:11:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 13:11:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 13:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 13:11:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 13:11:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 13:28:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 13:28:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-06 13:28:45 --> Call to undefined method App\Controllers\Base::extractFields()
+in APPPATH\Controllers\Base.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho\\public\\index.php')
+INFO - 2023-06-06 13:28:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 13:28:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 13:29:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 13:29:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 13:35:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 13:44:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 13:44:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 13:44:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 13:44:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-06 13:44:39 --> Call to undefined function App\Controllers\extractFields()
+in APPPATH\Controllers\Base.php on line 57.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho\\public\\index.php')
+INFO - 2023-06-06 13:46:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 13:46:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 13:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 13:47:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 13:47:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 13:49:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 13:49:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 13:49:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 13:49:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 13:49:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 13:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 13:50:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 13:51:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 13:51:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 13:51:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 13:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 13:52:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 13:52:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 13:52:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 13:53:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 13:54:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 13:54:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 14:22:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 14:22:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 14:35:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 14:35:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 14:40:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 14:40:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 14:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 14:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 14:42:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 14:42:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 14:45:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 14:46:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 14:46:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 14:48:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 14:54:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 14:55:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 14:56:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 14:58:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 14:59:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 14:59:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 15:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 15:00:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 15:02:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 15:02:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 15:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 15:03:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 15:15:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 15:15:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 15:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 15:30:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 15:30:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 15:30:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-06 15:32:11 --> Class "App\Controllers\DateTime" not found
+in APPPATH\Controllers\Base.php on line 89.
+ 1 APPPATH\Controllers\Base.php(55): App\Controllers\Base->extractFields('Competência	Código de Verificação	
+Número do RPS	No. da NFS-e substituída
+Dados do Prestador de Serviços	
+Razão Social/Nome
+Complemento:	Telefone:	e-mail:	
+Dados do Tomador de Serviços	
+Razão Social/Nome
+CNPJ/CPF	Inscrição Municipal	Município	
+Endereço e CEP
+Complemento:	Telefone:	e-mail:	
+Discriminação dos Serviços
+Código do Serviço / Atividade	
+Detalhamento Específico da Construção Civil	
+Código da Obra	Código ART	
+Tributos Federais	
+PIS	COFINS	IR(R$)	INSS(R$)	CSLL(R$)	
+Detalhamento de Valores - Prestador dos Serviços	Outras Retenções	Cálculo do ISSQN devido no Município	
+NOTA FISCAL DE SERVIÇO ELETRÔNICA - NFS-e	
+Data e Hora da Emissão
+Valor dos Serviços    R$
+(-) Desconto Incondicionado
+(-) Desconto Condicionado
+(-) Retenções Federais
+Outras Retenções
+(-) ISS Retido
+(=)  Valor Líquido        R$	
+Regime especial Tributação
+Opção Simples Nacional
+Incentivador Cultura	
+Endereço e Cep
+CNPJ/CPF	Inscrição Municipal	Município	
+Número da	
+NFS-e	
+PREFEITURA MUNICIPAL DE SANTOS	
+SECRETARIA MUNICIPAL DE FINANÇAS	
+18453	
+10/01/2023 09:35:34	10/1/2023	4GVA0S54W	
+02.327.325/0001-09	1285633	SANTOS - SP	
+RUA BAHIA ,178 - GONZAGA CEP: 11060-451	
+0000	13000000000	cassis.ocupacional@hotmail.com	
+A BIG PIZZA DE SANTOS LTDA.	
+SANTOS - SP	
+
+
+	
+4.01 / 863050102 - atividade médica ambulatorial com recursos para realização de procedimentos cirúrgicos - demais clín	
+Exames clínicos + complementaresValor aproximado dos tributos: R$ 4,52	
+80,00
+0,00
+78,40	
+0-Nenhum
+2 - Não
+2-Não	
+CASSIS SAUDE OCUPACIONAL S/C. LTDA
+1,60	
+Natureza Operação	
+1-Tributação no município	
+09.163.898/0001-93
+AV AFONSO PENA ,66 - BOQUEIRÃO CEP: 11020-000	
+FUNDOS	
+Local da Prestação	SANTOS - SP	
+Nome Fantasia	
+(=) Valor do ISS:      R$
+(x) Alíquota  %
+ISS a reter:
+(-)  Desconto Incondicionado
+(-)  Deduções permitidas em lei
+Base de Cálculo
+Valor dos Serviços   R$	
+1,60	
+(X) Sim () Não	
+2,00
+80,00
+80,00	
+Avisos	
+1- Uma via desta Nota Fiscal será enviada através do e-mail fornecido pelo Tomador dos Serviços.2- A autenticidade desta Nota Fiscal poderá ser verificada no site, santos.ginfes.com.br com a utilização do Código de Verificação.')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho\\public\\index.php')
+CRITICAL - 2023-06-06 15:32:33 --> Class "App\Controllers\DateTime" not found
+in APPPATH\Controllers\Base.php on line 89.
+ 1 APPPATH\Controllers\Base.php(55): App\Controllers\Base->extractFields('Competência	Código de Verificação	
+Número do RPS	No. da NFS-e substituída
+Dados do Prestador de Serviços	
+Razão Social/Nome
+Complemento:	Telefone:	e-mail:	
+Dados do Tomador de Serviços	
+Razão Social/Nome
+CNPJ/CPF	Inscrição Municipal	Município	
+Endereço e CEP
+Complemento:	Telefone:	e-mail:	
+Discriminação dos Serviços
+Código do Serviço / Atividade	
+Detalhamento Específico da Construção Civil	
+Código da Obra	Código ART	
+Tributos Federais	
+PIS	COFINS	IR(R$)	INSS(R$)	CSLL(R$)	
+Detalhamento de Valores - Prestador dos Serviços	Outras Retenções	Cálculo do ISSQN devido no Município	
+NOTA FISCAL DE SERVIÇO ELETRÔNICA - NFS-e	
+Data e Hora da Emissão
+Valor dos Serviços    R$
+(-) Desconto Incondicionado
+(-) Desconto Condicionado
+(-) Retenções Federais
+Outras Retenções
+(-) ISS Retido
+(=)  Valor Líquido        R$	
+Regime especial Tributação
+Opção Simples Nacional
+Incentivador Cultura	
+Endereço e Cep
+CNPJ/CPF	Inscrição Municipal	Município	
+Número da	
+NFS-e	
+PREFEITURA MUNICIPAL DE SANTOS	
+SECRETARIA MUNICIPAL DE FINANÇAS	
+18453	
+10/01/2023 09:35:34	10/1/2023	4GVA0S54W	
+02.327.325/0001-09	1285633	SANTOS - SP	
+RUA BAHIA ,178 - GONZAGA CEP: 11060-451	
+0000	13000000000	cassis.ocupacional@hotmail.com	
+A BIG PIZZA DE SANTOS LTDA.	
+SANTOS - SP	
+
+
+	
+4.01 / 863050102 - atividade médica ambulatorial com recursos para realização de procedimentos cirúrgicos - demais clín	
+Exames clínicos + complementaresValor aproximado dos tributos: R$ 4,52	
+80,00
+0,00
+78,40	
+0-Nenhum
+2 - Não
+2-Não	
+CASSIS SAUDE OCUPACIONAL S/C. LTDA
+1,60	
+Natureza Operação	
+1-Tributação no município	
+09.163.898/0001-93
+AV AFONSO PENA ,66 - BOQUEIRÃO CEP: 11020-000	
+FUNDOS	
+Local da Prestação	SANTOS - SP	
+Nome Fantasia	
+(=) Valor do ISS:      R$
+(x) Alíquota  %
+ISS a reter:
+(-)  Desconto Incondicionado
+(-)  Deduções permitidas em lei
+Base de Cálculo
+Valor dos Serviços   R$	
+1,60	
+(X) Sim () Não	
+2,00
+80,00
+80,00	
+Avisos	
+1- Uma via desta Nota Fiscal será enviada através do e-mail fornecido pelo Tomador dos Serviços.2- A autenticidade desta Nota Fiscal poderá ser verificada no site, santos.ginfes.com.br com a utilização do Código de Verificação.')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho\\public\\index.php')
+INFO - 2023-06-06 16:08:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 16:15:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 16:22:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 16:23:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 16:24:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 16:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 16:27:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 16:32:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 16:32:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 16:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 16:35:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 17:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 17:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 17:28:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 17:31:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 17:31:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 18:50:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 18:51:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 18:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 18:53:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 18:54:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 18:55:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 18:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 18:58:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 18:58:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-06 19:01:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

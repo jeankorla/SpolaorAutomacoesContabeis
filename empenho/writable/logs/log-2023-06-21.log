@@ -1,0 +1,3168 @@
+INFO - 2023-06-21 12:44:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 12:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 12:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 12:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 12:44:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-21 12:45:34 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 47.
+ 1 APPPATH\Controllers\Base.php(47): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+INFO - 2023-06-21 12:47:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-21 12:47:08 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 47.
+ 1 APPPATH\Controllers\Base.php(47): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+INFO - 2023-06-21 13:01:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-21 13:01:52 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 47.
+ 1 APPPATH\Controllers\Base.php(47): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+INFO - 2023-06-21 13:12:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-21 13:12:32 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 47.
+ 1 APPPATH\Controllers\Base.php(47): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+INFO - 2023-06-21 13:12:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 13:12:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 13:12:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 13:12:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-21 13:12:42 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 47.
+ 1 APPPATH\Controllers\Base.php(47): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 13:13:30 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 47.
+ 1 APPPATH\Controllers\Base.php(47): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+CRITICAL - 2023-06-21 13:13:30 --> Undefined variable $fields
+in APPPATH\Views\pdf_result.php on line 22.
+ 1 APPPATH\Views\pdf_result.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $fields', 'C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\app\\Views\\pdf_result.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\app\\Views\\pdf_result.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pdf_result', [], true)
+ 5 APPPATH\Controllers\Base.php(55): view('pdf_result', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 13:33:51 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 47.
+ 1 APPPATH\Controllers\Base.php(47): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+CRITICAL - 2023-06-21 13:33:51 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\pdf_result.php on line 24.
+ 1 APPPATH\Views\pdf_result.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\app\\Views\\pdf_result.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\app\\Views\\pdf_result.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pdf_result', [], true)
+ 5 APPPATH\Controllers\Base.php(57): view('pdf_result', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 13:34:36 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 47.
+ 1 APPPATH\Controllers\Base.php(47): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 13:46:50 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 47.
+ 1 APPPATH\Controllers\Base.php(47): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+CRITICAL - 2023-06-21 13:46:50 --> foreach() argument must be of type array|object, string given
+in APPPATH\Views\pdf_result.php on line 24.
+ 1 APPPATH\Views\pdf_result.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\app\\Views\\pdf_result.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\app\\Views\\pdf_result.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pdf_result', [], true)
+ 5 APPPATH\Controllers\Base.php(57): view('pdf_result', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 13:47:44 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 47.
+ 1 APPPATH\Controllers\Base.php(47): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+INFO - 2023-06-21 13:48:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 13:48:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-21 13:48:04 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 47.
+ 1 APPPATH\Controllers\Base.php(47): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 13:50:39 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 47.
+ 1 APPPATH\Controllers\Base.php(47): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+CRITICAL - 2023-06-21 13:50:39 --> Undefined variable $numeroNota
+in APPPATH\Controllers\Base.php on line 117.
+ 1 APPPATH\Controllers\Base.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $numeroNota', 'C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\app\\Controllers\\Base.php', 117)
+ 2 APPPATH\Controllers\Base.php(55): App\Controllers\Base->extractFields('PREFEITURA MUNICIPAL DE SANTOS
+
+Data e Hora da Emissão
+
+SECRETARIA MUNICIPAL DE FINANÇAS
+
+Número da
+NFS-e
+
+NOTA FISCAL DE SERVIÇO ELETRÔNICA - NFS-e
+
+2653
+
+30/05/2023 16:39:16
+
+Competência
+
+Código de Verificação
+
+30/5/2023
+
+No. da NFS-e substituída
+
+Número do RPS
+
+1D7YIO7FG
+
+Local da Prestação
+
+SANTOS - SP
+
+Dados do Prestador de Serviços
+Razão Social/Nome
+
+DR. BOIS CLINICA E CIRURGIA DE OLHOS LTDA
+
+Nome Fantasia
+CNPJ/CPF
+
+10.962.904/0001-51
+
+Endereço e Cep
+
+Inscrição Municipal
+
+1884063
+
+Município
+
+SANTOS - SP
+
+AVENIDA MARECHAL DEODORO ,5 - GONZAGA CEP: 11060-401
+
+Complemento:
+
+0006
+
+Telefone:
+
+(13)3202-6363
+
+e-mail:
+
+fiscal@contglobal.com.br
+
+Dados do Tomador de Serviços
+Razão Social/Nome
+CNPJ/CPF
+
+TRACEMED SERVICOS MEDICOS E CLINICAS EM GERAL LTDA
+
+08.784.226/0001-32
+
+Endereço e CEP
+
+Inscrição Municipal
+
+1768875
+
+Município
+
+SANTOS - SP
+
+ITORORÓ ,36 - CENTRO CEP: 11010-070
+
+Complemento:
+
+0000 / ANDAR 1 E 2
+
+Telefone:
+
+(13)3361-6112
+
+e-mail:
+
+fiscal@marcosspolaor.com.br
+
+Discriminação dos Serviços
+SERVIÇOS MÉDICO PRESTADO.
+Valor Aproximado dos Tributos: 13,45%
+
+Código do Serviço / Atividade
+4.01 / 863050101 - atividade médica ambulatorial com recursos para realização de procedimentos cirúrgicos - clínicas of
+
+Detalhamento Específico da Construção Civil
+Código da Obra
+
+Código ART
+
+Tributos Federais
+PIS
+
+6,76
+
+COFINS
+
+Detalhamento de Valores - Prestador dos Serviços
+Valor dos Serviços
+
+R$
+
+1.040,00
+
+(-) Desconto Incondicionado
+
+IR(R$)
+
+15,60
+
+Natureza Operação
+
+Regime especial Tributação
+63,96
+
+Outras Retenções
+
+0-Nenhum
+Opção Simples Nacional
+
+(-) ISS Retido
+
+20,80
+
+INSS(R$)
+
+Outras Retenções
+
+1-Tributação no município
+
+(-) Desconto Condicionado
+(-) Retenções Federais
+
+31,20
+
+2 - Não
+
+CSLL(R$)
+
+10,40
+
+Cálculo do ISSQN devido no Município
+Valor dos Serviços R$
+
+1.040,00
+
+(-) Deduções permitidas em lei
+(-) Desconto Incondicionado
+Base de Cálculo
+
+1.040,00
+
+(x) Alíquota %
+
+2,00
+
+ISS a reter:
+
+(X) Sim () Não
+
+Incentivador Cultura
+(=) Valor Líquido
+
+R$
+
+955,24
+
+(=) Valor do ISS:
+
+R$
+
+2-Não
+1- Uma via desta Nota Fiscal será enviada através do e-mail fornecido pelo Tomador dos Serviços.
+2- A autenticidade desta Nota Fiscal poderá ser verificada no site, santos.ginfes.com.br com a utilização do Código de Verificação.
+
+Avisos
+
+20,80
+
+')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 13:51:19 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 47.
+ 1 APPPATH\Controllers\Base.php(47): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+CRITICAL - 2023-06-21 13:51:19 --> Undefined variable $numeroNota
+in APPPATH\Controllers\Base.php on line 118.
+ 1 APPPATH\Controllers\Base.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $numeroNota', 'C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\app\\Controllers\\Base.php', 118)
+ 2 APPPATH\Controllers\Base.php(55): App\Controllers\Base->extractFields('PREFEITURA MUNICIPAL DE SANTOS
+
+Data e Hora da Emissão
+
+SECRETARIA MUNICIPAL DE FINANÇAS
+
+Número da
+NFS-e
+
+NOTA FISCAL DE SERVIÇO ELETRÔNICA - NFS-e
+
+2653
+
+30/05/2023 16:39:16
+
+Competência
+
+Código de Verificação
+
+30/5/2023
+
+No. da NFS-e substituída
+
+Número do RPS
+
+1D7YIO7FG
+
+Local da Prestação
+
+SANTOS - SP
+
+Dados do Prestador de Serviços
+Razão Social/Nome
+
+DR. BOIS CLINICA E CIRURGIA DE OLHOS LTDA
+
+Nome Fantasia
+CNPJ/CPF
+
+10.962.904/0001-51
+
+Endereço e Cep
+
+Inscrição Municipal
+
+1884063
+
+Município
+
+SANTOS - SP
+
+AVENIDA MARECHAL DEODORO ,5 - GONZAGA CEP: 11060-401
+
+Complemento:
+
+0006
+
+Telefone:
+
+(13)3202-6363
+
+e-mail:
+
+fiscal@contglobal.com.br
+
+Dados do Tomador de Serviços
+Razão Social/Nome
+CNPJ/CPF
+
+TRACEMED SERVICOS MEDICOS E CLINICAS EM GERAL LTDA
+
+08.784.226/0001-32
+
+Endereço e CEP
+
+Inscrição Municipal
+
+1768875
+
+Município
+
+SANTOS - SP
+
+ITORORÓ ,36 - CENTRO CEP: 11010-070
+
+Complemento:
+
+0000 / ANDAR 1 E 2
+
+Telefone:
+
+(13)3361-6112
+
+e-mail:
+
+fiscal@marcosspolaor.com.br
+
+Discriminação dos Serviços
+SERVIÇOS MÉDICO PRESTADO.
+Valor Aproximado dos Tributos: 13,45%
+
+Código do Serviço / Atividade
+4.01 / 863050101 - atividade médica ambulatorial com recursos para realização de procedimentos cirúrgicos - clínicas of
+
+Detalhamento Específico da Construção Civil
+Código da Obra
+
+Código ART
+
+Tributos Federais
+PIS
+
+6,76
+
+COFINS
+
+Detalhamento de Valores - Prestador dos Serviços
+Valor dos Serviços
+
+R$
+
+1.040,00
+
+(-) Desconto Incondicionado
+
+IR(R$)
+
+15,60
+
+Natureza Operação
+
+Regime especial Tributação
+63,96
+
+Outras Retenções
+
+0-Nenhum
+Opção Simples Nacional
+
+(-) ISS Retido
+
+20,80
+
+INSS(R$)
+
+Outras Retenções
+
+1-Tributação no município
+
+(-) Desconto Condicionado
+(-) Retenções Federais
+
+31,20
+
+2 - Não
+
+CSLL(R$)
+
+10,40
+
+Cálculo do ISSQN devido no Município
+Valor dos Serviços R$
+
+1.040,00
+
+(-) Deduções permitidas em lei
+(-) Desconto Incondicionado
+Base de Cálculo
+
+1.040,00
+
+(x) Alíquota %
+
+2,00
+
+ISS a reter:
+
+(X) Sim () Não
+
+Incentivador Cultura
+(=) Valor Líquido
+
+R$
+
+955,24
+
+(=) Valor do ISS:
+
+R$
+
+2-Não
+1- Uma via desta Nota Fiscal será enviada através do e-mail fornecido pelo Tomador dos Serviços.
+2- A autenticidade desta Nota Fiscal poderá ser verificada no site, santos.ginfes.com.br com a utilização do Código de Verificação.
+
+Avisos
+
+20,80
+
+')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 13:51:30 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 47.
+ 1 APPPATH\Controllers\Base.php(47): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+CRITICAL - 2023-06-21 13:51:57 --> Undefined variable $text
+in APPPATH\Controllers\Base.php on line 47.
+ 1 APPPATH\Controllers\Base.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $text', 'C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\app\\Controllers\\Base.php', 47)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 13:52:41 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 13:52:57 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 13:57:26 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+INFO - 2023-06-21 13:58:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 13:58:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 13:58:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 13:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 13:58:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 13:58:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-21 13:58:35 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 13:58:59 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 13:59:30 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 14:00:58 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 14:03:32 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+CRITICAL - 2023-06-21 14:03:32 --> number_format(): Argument #1 ($num) must be of type float, string given
+in APPPATH\Controllers\Base.php on line 138.
+ 1 APPPATH\Controllers\Base.php(138): number_format('', 2, '.', '')
+ 2 APPPATH\Controllers\Base.php(57): App\Controllers\Base->extractFields('PREFEITURA MUNICIPAL DE SANTOS
+
+Data e Hora da Emissão
+
+SECRETARIA MUNICIPAL DE FINANÇAS
+
+Número da
+NFS-e
+
+NOTA FISCAL DE SERVIÇO ELETRÔNICA - NFS-e
+
+2653
+
+30/05/2023 16:39:16
+
+Competência
+
+Código de Verificação
+
+30/5/2023
+
+No. da NFS-e substituída
+
+Número do RPS
+
+1D7YIO7FG
+
+Local da Prestação
+
+SANTOS - SP
+
+Dados do Prestador de Serviços
+Razão Social/Nome
+
+DR. BOIS CLINICA E CIRURGIA DE OLHOS LTDA
+
+Nome Fantasia
+CNPJ/CPF
+
+10.962.904/0001-51
+
+Endereço e Cep
+
+Inscrição Municipal
+
+1884063
+
+Município
+
+SANTOS - SP
+
+AVENIDA MARECHAL DEODORO ,5 - GONZAGA CEP: 11060-401
+
+Complemento:
+
+0006
+
+Telefone:
+
+(13)3202-6363
+
+e-mail:
+
+fiscal@contglobal.com.br
+
+Dados do Tomador de Serviços
+Razão Social/Nome
+CNPJ/CPF
+
+TRACEMED SERVICOS MEDICOS E CLINICAS EM GERAL LTDA
+
+08.784.226/0001-32
+
+Endereço e CEP
+
+Inscrição Municipal
+
+1768875
+
+Município
+
+SANTOS - SP
+
+ITORORÓ ,36 - CENTRO CEP: 11010-070
+
+Complemento:
+
+0000 / ANDAR 1 E 2
+
+Telefone:
+
+(13)3361-6112
+
+e-mail:
+
+fiscal@marcosspolaor.com.br
+
+Discriminação dos Serviços
+SERVIÇOS MÉDICO PRESTADO.
+Valor Aproximado dos Tributos: 13,45%
+
+Código do Serviço / Atividade
+4.01 / 863050101 - atividade médica ambulatorial com recursos para realização de procedimentos cirúrgicos - clínicas of
+
+Detalhamento Específico da Construção Civil
+Código da Obra
+
+Código ART
+
+Tributos Federais
+PIS
+
+6,76
+
+COFINS
+
+Detalhamento de Valores - Prestador dos Serviços
+Valor dos Serviços
+
+R$
+
+1.040,00
+
+(-) Desconto Incondicionado
+
+IR(R$)
+
+15,60
+
+Natureza Operação
+
+Regime especial Tributação
+63,96
+
+Outras Retenções
+
+0-Nenhum
+Opção Simples Nacional
+
+(-) ISS Retido
+
+20,80
+
+INSS(R$)
+
+Outras Retenções
+
+1-Tributação no município
+
+(-) Desconto Condicionado
+(-) Retenções Federais
+
+31,20
+
+2 - Não
+
+CSLL(R$)
+
+10,40
+
+Cálculo do ISSQN devido no Município
+Valor dos Serviços R$
+
+1.040,00
+
+(-) Deduções permitidas em lei
+(-) Desconto Incondicionado
+Base de Cálculo
+
+1.040,00
+
+(x) Alíquota %
+
+2,00
+
+ISS a reter:
+
+(X) Sim () Não
+
+Incentivador Cultura
+(=) Valor Líquido
+
+R$
+
+955,24
+
+(=) Valor do ISS:
+
+R$
+
+2-Não
+1- Uma via desta Nota Fiscal será enviada através do e-mail fornecido pelo Tomador dos Serviços.
+2- A autenticidade desta Nota Fiscal poderá ser verificada no site, santos.ginfes.com.br com a utilização do Código de Verificação.
+
+Avisos
+
+20,80
+
+')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 14:04:33 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+CRITICAL - 2023-06-21 14:04:33 --> number_format(): Argument #1 ($num) must be of type float, string given
+in APPPATH\Controllers\Base.php on line 139.
+ 1 APPPATH\Controllers\Base.php(139): number_format('', 2, '.', '')
+ 2 APPPATH\Controllers\Base.php(57): App\Controllers\Base->extractFields('PREFEITURA MUNICIPAL DE SANTOS
+
+Data e Hora da Emissão
+
+SECRETARIA MUNICIPAL DE FINANÇAS
+
+Número da
+NFS-e
+
+NOTA FISCAL DE SERVIÇO ELETRÔNICA - NFS-e
+
+2653
+
+30/05/2023 16:39:16
+
+Competência
+
+Código de Verificação
+
+30/5/2023
+
+No. da NFS-e substituída
+
+Número do RPS
+
+1D7YIO7FG
+
+Local da Prestação
+
+SANTOS - SP
+
+Dados do Prestador de Serviços
+Razão Social/Nome
+
+DR. BOIS CLINICA E CIRURGIA DE OLHOS LTDA
+
+Nome Fantasia
+CNPJ/CPF
+
+10.962.904/0001-51
+
+Endereço e Cep
+
+Inscrição Municipal
+
+1884063
+
+Município
+
+SANTOS - SP
+
+AVENIDA MARECHAL DEODORO ,5 - GONZAGA CEP: 11060-401
+
+Complemento:
+
+0006
+
+Telefone:
+
+(13)3202-6363
+
+e-mail:
+
+fiscal@contglobal.com.br
+
+Dados do Tomador de Serviços
+Razão Social/Nome
+CNPJ/CPF
+
+TRACEMED SERVICOS MEDICOS E CLINICAS EM GERAL LTDA
+
+08.784.226/0001-32
+
+Endereço e CEP
+
+Inscrição Municipal
+
+1768875
+
+Município
+
+SANTOS - SP
+
+ITORORÓ ,36 - CENTRO CEP: 11010-070
+
+Complemento:
+
+0000 / ANDAR 1 E 2
+
+Telefone:
+
+(13)3361-6112
+
+e-mail:
+
+fiscal@marcosspolaor.com.br
+
+Discriminação dos Serviços
+SERVIÇOS MÉDICO PRESTADO.
+Valor Aproximado dos Tributos: 13,45%
+
+Código do Serviço / Atividade
+4.01 / 863050101 - atividade médica ambulatorial com recursos para realização de procedimentos cirúrgicos - clínicas of
+
+Detalhamento Específico da Construção Civil
+Código da Obra
+
+Código ART
+
+Tributos Federais
+PIS
+
+6,76
+
+COFINS
+
+Detalhamento de Valores - Prestador dos Serviços
+Valor dos Serviços
+
+R$
+
+1.040,00
+
+(-) Desconto Incondicionado
+
+IR(R$)
+
+15,60
+
+Natureza Operação
+
+Regime especial Tributação
+63,96
+
+Outras Retenções
+
+0-Nenhum
+Opção Simples Nacional
+
+(-) ISS Retido
+
+20,80
+
+INSS(R$)
+
+Outras Retenções
+
+1-Tributação no município
+
+(-) Desconto Condicionado
+(-) Retenções Federais
+
+31,20
+
+2 - Não
+
+CSLL(R$)
+
+10,40
+
+Cálculo do ISSQN devido no Município
+Valor dos Serviços R$
+
+1.040,00
+
+(-) Deduções permitidas em lei
+(-) Desconto Incondicionado
+Base de Cálculo
+
+1.040,00
+
+(x) Alíquota %
+
+2,00
+
+ISS a reter:
+
+(X) Sim () Não
+
+Incentivador Cultura
+(=) Valor Líquido
+
+R$
+
+955,24
+
+(=) Valor do ISS:
+
+R$
+
+2-Não
+1- Uma via desta Nota Fiscal será enviada através do e-mail fornecido pelo Tomador dos Serviços.
+2- A autenticidade desta Nota Fiscal poderá ser verificada no site, santos.ginfes.com.br com a utilização do Código de Verificação.
+
+Avisos
+
+20,80
+
+')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 14:04:36 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+CRITICAL - 2023-06-21 14:04:36 --> number_format(): Argument #1 ($num) must be of type float, string given
+in APPPATH\Controllers\Base.php on line 139.
+ 1 APPPATH\Controllers\Base.php(139): number_format('', 2, '.', '')
+ 2 APPPATH\Controllers\Base.php(57): App\Controllers\Base->extractFields('PREFEITURA MUNICIPAL DE SANTOS
+
+Data e Hora da Emissão
+
+SECRETARIA MUNICIPAL DE FINANÇAS
+
+Número da
+NFS-e
+
+NOTA FISCAL DE SERVIÇO ELETRÔNICA - NFS-e
+
+2653
+
+30/05/2023 16:39:16
+
+Competência
+
+Código de Verificação
+
+30/5/2023
+
+No. da NFS-e substituída
+
+Número do RPS
+
+1D7YIO7FG
+
+Local da Prestação
+
+SANTOS - SP
+
+Dados do Prestador de Serviços
+Razão Social/Nome
+
+DR. BOIS CLINICA E CIRURGIA DE OLHOS LTDA
+
+Nome Fantasia
+CNPJ/CPF
+
+10.962.904/0001-51
+
+Endereço e Cep
+
+Inscrição Municipal
+
+1884063
+
+Município
+
+SANTOS - SP
+
+AVENIDA MARECHAL DEODORO ,5 - GONZAGA CEP: 11060-401
+
+Complemento:
+
+0006
+
+Telefone:
+
+(13)3202-6363
+
+e-mail:
+
+fiscal@contglobal.com.br
+
+Dados do Tomador de Serviços
+Razão Social/Nome
+CNPJ/CPF
+
+TRACEMED SERVICOS MEDICOS E CLINICAS EM GERAL LTDA
+
+08.784.226/0001-32
+
+Endereço e CEP
+
+Inscrição Municipal
+
+1768875
+
+Município
+
+SANTOS - SP
+
+ITORORÓ ,36 - CENTRO CEP: 11010-070
+
+Complemento:
+
+0000 / ANDAR 1 E 2
+
+Telefone:
+
+(13)3361-6112
+
+e-mail:
+
+fiscal@marcosspolaor.com.br
+
+Discriminação dos Serviços
+SERVIÇOS MÉDICO PRESTADO.
+Valor Aproximado dos Tributos: 13,45%
+
+Código do Serviço / Atividade
+4.01 / 863050101 - atividade médica ambulatorial com recursos para realização de procedimentos cirúrgicos - clínicas of
+
+Detalhamento Específico da Construção Civil
+Código da Obra
+
+Código ART
+
+Tributos Federais
+PIS
+
+6,76
+
+COFINS
+
+Detalhamento de Valores - Prestador dos Serviços
+Valor dos Serviços
+
+R$
+
+1.040,00
+
+(-) Desconto Incondicionado
+
+IR(R$)
+
+15,60
+
+Natureza Operação
+
+Regime especial Tributação
+63,96
+
+Outras Retenções
+
+0-Nenhum
+Opção Simples Nacional
+
+(-) ISS Retido
+
+20,80
+
+INSS(R$)
+
+Outras Retenções
+
+1-Tributação no município
+
+(-) Desconto Condicionado
+(-) Retenções Federais
+
+31,20
+
+2 - Não
+
+CSLL(R$)
+
+10,40
+
+Cálculo do ISSQN devido no Município
+Valor dos Serviços R$
+
+1.040,00
+
+(-) Deduções permitidas em lei
+(-) Desconto Incondicionado
+Base de Cálculo
+
+1.040,00
+
+(x) Alíquota %
+
+2,00
+
+ISS a reter:
+
+(X) Sim () Não
+
+Incentivador Cultura
+(=) Valor Líquido
+
+R$
+
+955,24
+
+(=) Valor do ISS:
+
+R$
+
+2-Não
+1- Uma via desta Nota Fiscal será enviada através do e-mail fornecido pelo Tomador dos Serviços.
+2- A autenticidade desta Nota Fiscal poderá ser verificada no site, santos.ginfes.com.br com a utilização do Código de Verificação.
+
+Avisos
+
+20,80
+
+')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 14:05:37 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+CRITICAL - 2023-06-21 14:05:37 --> number_format(): Argument #1 ($num) must be of type float, string given
+in APPPATH\Controllers\Base.php on line 138.
+ 1 APPPATH\Controllers\Base.php(138): number_format('', 2, '.', '')
+ 2 APPPATH\Controllers\Base.php(57): App\Controllers\Base->extractFields('PREFEITURA MUNICIPAL DE SANTOS
+
+Data e Hora da Emissão
+
+SECRETARIA MUNICIPAL DE FINANÇAS
+
+Número da
+NFS-e
+
+NOTA FISCAL DE SERVIÇO ELETRÔNICA - NFS-e
+
+2653
+
+30/05/2023 16:39:16
+
+Competência
+
+Código de Verificação
+
+30/5/2023
+
+No. da NFS-e substituída
+
+Número do RPS
+
+1D7YIO7FG
+
+Local da Prestação
+
+SANTOS - SP
+
+Dados do Prestador de Serviços
+Razão Social/Nome
+
+DR. BOIS CLINICA E CIRURGIA DE OLHOS LTDA
+
+Nome Fantasia
+CNPJ/CPF
+
+10.962.904/0001-51
+
+Endereço e Cep
+
+Inscrição Municipal
+
+1884063
+
+Município
+
+SANTOS - SP
+
+AVENIDA MARECHAL DEODORO ,5 - GONZAGA CEP: 11060-401
+
+Complemento:
+
+0006
+
+Telefone:
+
+(13)3202-6363
+
+e-mail:
+
+fiscal@contglobal.com.br
+
+Dados do Tomador de Serviços
+Razão Social/Nome
+CNPJ/CPF
+
+TRACEMED SERVICOS MEDICOS E CLINICAS EM GERAL LTDA
+
+08.784.226/0001-32
+
+Endereço e CEP
+
+Inscrição Municipal
+
+1768875
+
+Município
+
+SANTOS - SP
+
+ITORORÓ ,36 - CENTRO CEP: 11010-070
+
+Complemento:
+
+0000 / ANDAR 1 E 2
+
+Telefone:
+
+(13)3361-6112
+
+e-mail:
+
+fiscal@marcosspolaor.com.br
+
+Discriminação dos Serviços
+SERVIÇOS MÉDICO PRESTADO.
+Valor Aproximado dos Tributos: 13,45%
+
+Código do Serviço / Atividade
+4.01 / 863050101 - atividade médica ambulatorial com recursos para realização de procedimentos cirúrgicos - clínicas of
+
+Detalhamento Específico da Construção Civil
+Código da Obra
+
+Código ART
+
+Tributos Federais
+PIS
+
+6,76
+
+COFINS
+
+Detalhamento de Valores - Prestador dos Serviços
+Valor dos Serviços
+
+R$
+
+1.040,00
+
+(-) Desconto Incondicionado
+
+IR(R$)
+
+15,60
+
+Natureza Operação
+
+Regime especial Tributação
+63,96
+
+Outras Retenções
+
+0-Nenhum
+Opção Simples Nacional
+
+(-) ISS Retido
+
+20,80
+
+INSS(R$)
+
+Outras Retenções
+
+1-Tributação no município
+
+(-) Desconto Condicionado
+(-) Retenções Federais
+
+31,20
+
+2 - Não
+
+CSLL(R$)
+
+10,40
+
+Cálculo do ISSQN devido no Município
+Valor dos Serviços R$
+
+1.040,00
+
+(-) Deduções permitidas em lei
+(-) Desconto Incondicionado
+Base de Cálculo
+
+1.040,00
+
+(x) Alíquota %
+
+2,00
+
+ISS a reter:
+
+(X) Sim () Não
+
+Incentivador Cultura
+(=) Valor Líquido
+
+R$
+
+955,24
+
+(=) Valor do ISS:
+
+R$
+
+2-Não
+1- Uma via desta Nota Fiscal será enviada através do e-mail fornecido pelo Tomador dos Serviços.
+2- A autenticidade desta Nota Fiscal poderá ser verificada no site, santos.ginfes.com.br com a utilização do Código de Verificação.
+
+Avisos
+
+20,80
+
+')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 14:08:07 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+CRITICAL - 2023-06-21 14:08:07 --> Undefined variable $valorNota
+in APPPATH\Controllers\Base.php on line 158.
+ 1 APPPATH\Controllers\Base.php(158): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $valorNota', 'C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\app\\Controllers\\Base.php', 158)
+ 2 APPPATH\Controllers\Base.php(57): App\Controllers\Base->extractFields('PREFEITURA MUNICIPAL DE SANTOS
+
+Data e Hora da Emissão
+
+SECRETARIA MUNICIPAL DE FINANÇAS
+
+Número da
+NFS-e
+
+NOTA FISCAL DE SERVIÇO ELETRÔNICA - NFS-e
+
+2653
+
+30/05/2023 16:39:16
+
+Competência
+
+Código de Verificação
+
+30/5/2023
+
+No. da NFS-e substituída
+
+Número do RPS
+
+1D7YIO7FG
+
+Local da Prestação
+
+SANTOS - SP
+
+Dados do Prestador de Serviços
+Razão Social/Nome
+
+DR. BOIS CLINICA E CIRURGIA DE OLHOS LTDA
+
+Nome Fantasia
+CNPJ/CPF
+
+10.962.904/0001-51
+
+Endereço e Cep
+
+Inscrição Municipal
+
+1884063
+
+Município
+
+SANTOS - SP
+
+AVENIDA MARECHAL DEODORO ,5 - GONZAGA CEP: 11060-401
+
+Complemento:
+
+0006
+
+Telefone:
+
+(13)3202-6363
+
+e-mail:
+
+fiscal@contglobal.com.br
+
+Dados do Tomador de Serviços
+Razão Social/Nome
+CNPJ/CPF
+
+TRACEMED SERVICOS MEDICOS E CLINICAS EM GERAL LTDA
+
+08.784.226/0001-32
+
+Endereço e CEP
+
+Inscrição Municipal
+
+1768875
+
+Município
+
+SANTOS - SP
+
+ITORORÓ ,36 - CENTRO CEP: 11010-070
+
+Complemento:
+
+0000 / ANDAR 1 E 2
+
+Telefone:
+
+(13)3361-6112
+
+e-mail:
+
+fiscal@marcosspolaor.com.br
+
+Discriminação dos Serviços
+SERVIÇOS MÉDICO PRESTADO.
+Valor Aproximado dos Tributos: 13,45%
+
+Código do Serviço / Atividade
+4.01 / 863050101 - atividade médica ambulatorial com recursos para realização de procedimentos cirúrgicos - clínicas of
+
+Detalhamento Específico da Construção Civil
+Código da Obra
+
+Código ART
+
+Tributos Federais
+PIS
+
+6,76
+
+COFINS
+
+Detalhamento de Valores - Prestador dos Serviços
+Valor dos Serviços
+
+R$
+
+1.040,00
+
+(-) Desconto Incondicionado
+
+IR(R$)
+
+15,60
+
+Natureza Operação
+
+Regime especial Tributação
+63,96
+
+Outras Retenções
+
+0-Nenhum
+Opção Simples Nacional
+
+(-) ISS Retido
+
+20,80
+
+INSS(R$)
+
+Outras Retenções
+
+1-Tributação no município
+
+(-) Desconto Condicionado
+(-) Retenções Federais
+
+31,20
+
+2 - Não
+
+CSLL(R$)
+
+10,40
+
+Cálculo do ISSQN devido no Município
+Valor dos Serviços R$
+
+1.040,00
+
+(-) Deduções permitidas em lei
+(-) Desconto Incondicionado
+Base de Cálculo
+
+1.040,00
+
+(x) Alíquota %
+
+2,00
+
+ISS a reter:
+
+(X) Sim () Não
+
+Incentivador Cultura
+(=) Valor Líquido
+
+R$
+
+955,24
+
+(=) Valor do ISS:
+
+R$
+
+2-Não
+1- Uma via desta Nota Fiscal será enviada através do e-mail fornecido pelo Tomador dos Serviços.
+2- A autenticidade desta Nota Fiscal poderá ser verificada no site, santos.ginfes.com.br com a utilização do Código de Verificação.
+
+Avisos
+
+20,80
+
+')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 14:08:24 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 14:09:00 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 14:09:39 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+CRITICAL - 2023-06-21 14:09:39 --> number_format(): Argument #1 ($num) must be of type float, string given
+in APPPATH\Controllers\Base.php on line 141.
+ 1 APPPATH\Controllers\Base.php(141): number_format('', 2, '.', '')
+ 2 APPPATH\Controllers\Base.php(57): App\Controllers\Base->extractFields('PREFEITURA MUNICIPAL DE SANTOS
+
+Data e Hora da Emissão
+
+SECRETARIA MUNICIPAL DE FINANÇAS
+
+Número da
+NFS-e
+
+NOTA FISCAL DE SERVIÇO ELETRÔNICA - NFS-e
+
+2653
+
+30/05/2023 16:39:16
+
+Competência
+
+Código de Verificação
+
+30/5/2023
+
+No. da NFS-e substituída
+
+Número do RPS
+
+1D7YIO7FG
+
+Local da Prestação
+
+SANTOS - SP
+
+Dados do Prestador de Serviços
+Razão Social/Nome
+
+DR. BOIS CLINICA E CIRURGIA DE OLHOS LTDA
+
+Nome Fantasia
+CNPJ/CPF
+
+10.962.904/0001-51
+
+Endereço e Cep
+
+Inscrição Municipal
+
+1884063
+
+Município
+
+SANTOS - SP
+
+AVENIDA MARECHAL DEODORO ,5 - GONZAGA CEP: 11060-401
+
+Complemento:
+
+0006
+
+Telefone:
+
+(13)3202-6363
+
+e-mail:
+
+fiscal@contglobal.com.br
+
+Dados do Tomador de Serviços
+Razão Social/Nome
+CNPJ/CPF
+
+TRACEMED SERVICOS MEDICOS E CLINICAS EM GERAL LTDA
+
+08.784.226/0001-32
+
+Endereço e CEP
+
+Inscrição Municipal
+
+1768875
+
+Município
+
+SANTOS - SP
+
+ITORORÓ ,36 - CENTRO CEP: 11010-070
+
+Complemento:
+
+0000 / ANDAR 1 E 2
+
+Telefone:
+
+(13)3361-6112
+
+e-mail:
+
+fiscal@marcosspolaor.com.br
+
+Discriminação dos Serviços
+SERVIÇOS MÉDICO PRESTADO.
+Valor Aproximado dos Tributos: 13,45%
+
+Código do Serviço / Atividade
+4.01 / 863050101 - atividade médica ambulatorial com recursos para realização de procedimentos cirúrgicos - clínicas of
+
+Detalhamento Específico da Construção Civil
+Código da Obra
+
+Código ART
+
+Tributos Federais
+PIS
+
+6,76
+
+COFINS
+
+Detalhamento de Valores - Prestador dos Serviços
+Valor dos Serviços
+
+R$
+
+1.040,00
+
+(-) Desconto Incondicionado
+
+IR(R$)
+
+15,60
+
+Natureza Operação
+
+Regime especial Tributação
+63,96
+
+Outras Retenções
+
+0-Nenhum
+Opção Simples Nacional
+
+(-) ISS Retido
+
+20,80
+
+INSS(R$)
+
+Outras Retenções
+
+1-Tributação no município
+
+(-) Desconto Condicionado
+(-) Retenções Federais
+
+31,20
+
+2 - Não
+
+CSLL(R$)
+
+10,40
+
+Cálculo do ISSQN devido no Município
+Valor dos Serviços R$
+
+1.040,00
+
+(-) Deduções permitidas em lei
+(-) Desconto Incondicionado
+Base de Cálculo
+
+1.040,00
+
+(x) Alíquota %
+
+2,00
+
+ISS a reter:
+
+(X) Sim () Não
+
+Incentivador Cultura
+(=) Valor Líquido
+
+R$
+
+955,24
+
+(=) Valor do ISS:
+
+R$
+
+2-Não
+1- Uma via desta Nota Fiscal será enviada através do e-mail fornecido pelo Tomador dos Serviços.
+2- A autenticidade desta Nota Fiscal poderá ser verificada no site, santos.ginfes.com.br com a utilização do Código de Verificação.
+
+Avisos
+
+20,80
+
+')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 14:10:58 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+CRITICAL - 2023-06-21 14:10:58 --> number_format(): Argument #1 ($num) must be of type float, string given
+in APPPATH\Controllers\Base.php on line 147.
+ 1 APPPATH\Controllers\Base.php(147): number_format('', 2, '.', '')
+ 2 APPPATH\Controllers\Base.php(57): App\Controllers\Base->extractFields('PREFEITURA MUNICIPAL DE SANTOS
+
+Data e Hora da Emissão
+
+SECRETARIA MUNICIPAL DE FINANÇAS
+
+Número da
+NFS-e
+
+NOTA FISCAL DE SERVIÇO ELETRÔNICA - NFS-e
+
+2653
+
+30/05/2023 16:39:16
+
+Competência
+
+Código de Verificação
+
+30/5/2023
+
+No. da NFS-e substituída
+
+Número do RPS
+
+1D7YIO7FG
+
+Local da Prestação
+
+SANTOS - SP
+
+Dados do Prestador de Serviços
+Razão Social/Nome
+
+DR. BOIS CLINICA E CIRURGIA DE OLHOS LTDA
+
+Nome Fantasia
+CNPJ/CPF
+
+10.962.904/0001-51
+
+Endereço e Cep
+
+Inscrição Municipal
+
+1884063
+
+Município
+
+SANTOS - SP
+
+AVENIDA MARECHAL DEODORO ,5 - GONZAGA CEP: 11060-401
+
+Complemento:
+
+0006
+
+Telefone:
+
+(13)3202-6363
+
+e-mail:
+
+fiscal@contglobal.com.br
+
+Dados do Tomador de Serviços
+Razão Social/Nome
+CNPJ/CPF
+
+TRACEMED SERVICOS MEDICOS E CLINICAS EM GERAL LTDA
+
+08.784.226/0001-32
+
+Endereço e CEP
+
+Inscrição Municipal
+
+1768875
+
+Município
+
+SANTOS - SP
+
+ITORORÓ ,36 - CENTRO CEP: 11010-070
+
+Complemento:
+
+0000 / ANDAR 1 E 2
+
+Telefone:
+
+(13)3361-6112
+
+e-mail:
+
+fiscal@marcosspolaor.com.br
+
+Discriminação dos Serviços
+SERVIÇOS MÉDICO PRESTADO.
+Valor Aproximado dos Tributos: 13,45%
+
+Código do Serviço / Atividade
+4.01 / 863050101 - atividade médica ambulatorial com recursos para realização de procedimentos cirúrgicos - clínicas of
+
+Detalhamento Específico da Construção Civil
+Código da Obra
+
+Código ART
+
+Tributos Federais
+PIS
+
+6,76
+
+COFINS
+
+Detalhamento de Valores - Prestador dos Serviços
+Valor dos Serviços
+
+R$
+
+1.040,00
+
+(-) Desconto Incondicionado
+
+IR(R$)
+
+15,60
+
+Natureza Operação
+
+Regime especial Tributação
+63,96
+
+Outras Retenções
+
+0-Nenhum
+Opção Simples Nacional
+
+(-) ISS Retido
+
+20,80
+
+INSS(R$)
+
+Outras Retenções
+
+1-Tributação no município
+
+(-) Desconto Condicionado
+(-) Retenções Federais
+
+31,20
+
+2 - Não
+
+CSLL(R$)
+
+10,40
+
+Cálculo do ISSQN devido no Município
+Valor dos Serviços R$
+
+1.040,00
+
+(-) Deduções permitidas em lei
+(-) Desconto Incondicionado
+Base de Cálculo
+
+1.040,00
+
+(x) Alíquota %
+
+2,00
+
+ISS a reter:
+
+(X) Sim () Não
+
+Incentivador Cultura
+(=) Valor Líquido
+
+R$
+
+955,24
+
+(=) Valor do ISS:
+
+R$
+
+2-Não
+1- Uma via desta Nota Fiscal será enviada através do e-mail fornecido pelo Tomador dos Serviços.
+2- A autenticidade desta Nota Fiscal poderá ser verificada no site, santos.ginfes.com.br com a utilização do Código de Verificação.
+
+Avisos
+
+20,80
+
+')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 14:11:31 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 14:12:09 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 14:13:10 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 14:13:56 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 14:14:28 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 14:15:11 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 14:16:34 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 14:17:50 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 14:19:18 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 14:19:24 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 14:19:30 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 14:19:36 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 14:20:11 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 14:43:11 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 14:44:30 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 47.
+ 1 APPPATH\Controllers\Base.php(47): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 14:45:09 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 14:45:18 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 14:46:10 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 14:46:33 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 14:47:15 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 14:47:51 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 14:48:12 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 14:48:37 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 14:49:02 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 14:52:37 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 14:52:45 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 14:53:35 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 14:54:30 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+CRITICAL - 2023-06-21 14:54:30 --> Undefined variable $valorServicos
+in APPPATH\Controllers\Base.php on line 107.
+ 1 APPPATH\Controllers\Base.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $valorServicos', 'C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\app\\Controllers\\Base.php', 107)
+ 2 APPPATH\Controllers\Base.php(57): App\Controllers\Base->extractFields('PREFEITURA MUNICIPAL DE SANTOS
+
+Data e Hora da Emissão
+
+SECRETARIA MUNICIPAL DE FINANÇAS
+
+Número da
+NFS-e
+
+NOTA FISCAL DE SERVIÇO ELETRÔNICA - NFS-e
+
+2653
+
+30/05/2023 16:39:16
+
+Competência
+
+Código de Verificação
+
+30/5/2023
+
+No. da NFS-e substituída
+
+Número do RPS
+
+1D7YIO7FG
+
+Local da Prestação
+
+SANTOS - SP
+
+Dados do Prestador de Serviços
+Razão Social/Nome
+
+DR. BOIS CLINICA E CIRURGIA DE OLHOS LTDA
+
+Nome Fantasia
+CNPJ/CPF
+
+10.962.904/0001-51
+
+Endereço e Cep
+
+Inscrição Municipal
+
+1884063
+
+Município
+
+SANTOS - SP
+
+AVENIDA MARECHAL DEODORO ,5 - GONZAGA CEP: 11060-401
+
+Complemento:
+
+0006
+
+Telefone:
+
+(13)3202-6363
+
+e-mail:
+
+fiscal@contglobal.com.br
+
+Dados do Tomador de Serviços
+Razão Social/Nome
+CNPJ/CPF
+
+TRACEMED SERVICOS MEDICOS E CLINICAS EM GERAL LTDA
+
+08.784.226/0001-32
+
+Endereço e CEP
+
+Inscrição Municipal
+
+1768875
+
+Município
+
+SANTOS - SP
+
+ITORORÓ ,36 - CENTRO CEP: 11010-070
+
+Complemento:
+
+0000 / ANDAR 1 E 2
+
+Telefone:
+
+(13)3361-6112
+
+e-mail:
+
+fiscal@marcosspolaor.com.br
+
+Discriminação dos Serviços
+SERVIÇOS MÉDICO PRESTADO.
+Valor Aproximado dos Tributos: 13,45%
+
+Código do Serviço / Atividade
+4.01 / 863050101 - atividade médica ambulatorial com recursos para realização de procedimentos cirúrgicos - clínicas of
+
+Detalhamento Específico da Construção Civil
+Código da Obra
+
+Código ART
+
+Tributos Federais
+PIS
+
+6,76
+
+COFINS
+
+Detalhamento de Valores - Prestador dos Serviços
+Valor dos Serviços
+
+R$
+
+1.040,00
+
+(-) Desconto Incondicionado
+
+IR(R$)
+
+15,60
+
+Natureza Operação
+
+Regime especial Tributação
+63,96
+
+Outras Retenções
+
+0-Nenhum
+Opção Simples Nacional
+
+(-) ISS Retido
+
+20,80
+
+INSS(R$)
+
+Outras Retenções
+
+1-Tributação no município
+
+(-) Desconto Condicionado
+(-) Retenções Federais
+
+31,20
+
+2 - Não
+
+CSLL(R$)
+
+10,40
+
+Cálculo do ISSQN devido no Município
+Valor dos Serviços R$
+
+1.040,00
+
+(-) Deduções permitidas em lei
+(-) Desconto Incondicionado
+Base de Cálculo
+
+1.040,00
+
+(x) Alíquota %
+
+2,00
+
+ISS a reter:
+
+(X) Sim () Não
+
+Incentivador Cultura
+(=) Valor Líquido
+
+R$
+
+955,24
+
+(=) Valor do ISS:
+
+R$
+
+2-Não
+1- Uma via desta Nota Fiscal será enviada através do e-mail fornecido pelo Tomador dos Serviços.
+2- A autenticidade desta Nota Fiscal poderá ser verificada no site, santos.ginfes.com.br com a utilização do Código de Verificação.
+
+Avisos
+
+20,80
+
+')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 14:55:19 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 14:56:19 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 14:56:36 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 14:57:08 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+CRITICAL - 2023-06-21 14:57:08 --> Undefined variable $valorServicos
+in APPPATH\Controllers\Base.php on line 137.
+ 1 APPPATH\Controllers\Base.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $valorServicos', 'C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\app\\Controllers\\Base.php', 137)
+ 2 APPPATH\Controllers\Base.php(57): App\Controllers\Base->extractFields('PREFEITURA MUNICIPAL DE SANTOS
+
+Data e Hora da Emissão
+
+SECRETARIA MUNICIPAL DE FINANÇAS
+
+Número da
+NFS-e
+
+NOTA FISCAL DE SERVIÇO ELETRÔNICA - NFS-e
+
+2653
+
+30/05/2023 16:39:16
+
+Competência
+
+Código de Verificação
+
+30/5/2023
+
+No. da NFS-e substituída
+
+Número do RPS
+
+1D7YIO7FG
+
+Local da Prestação
+
+SANTOS - SP
+
+Dados do Prestador de Serviços
+Razão Social/Nome
+
+DR. BOIS CLINICA E CIRURGIA DE OLHOS LTDA
+
+Nome Fantasia
+CNPJ/CPF
+
+10.962.904/0001-51
+
+Endereço e Cep
+
+Inscrição Municipal
+
+1884063
+
+Município
+
+SANTOS - SP
+
+AVENIDA MARECHAL DEODORO ,5 - GONZAGA CEP: 11060-401
+
+Complemento:
+
+0006
+
+Telefone:
+
+(13)3202-6363
+
+e-mail:
+
+fiscal@contglobal.com.br
+
+Dados do Tomador de Serviços
+Razão Social/Nome
+CNPJ/CPF
+
+TRACEMED SERVICOS MEDICOS E CLINICAS EM GERAL LTDA
+
+08.784.226/0001-32
+
+Endereço e CEP
+
+Inscrição Municipal
+
+1768875
+
+Município
+
+SANTOS - SP
+
+ITORORÓ ,36 - CENTRO CEP: 11010-070
+
+Complemento:
+
+0000 / ANDAR 1 E 2
+
+Telefone:
+
+(13)3361-6112
+
+e-mail:
+
+fiscal@marcosspolaor.com.br
+
+Discriminação dos Serviços
+SERVIÇOS MÉDICO PRESTADO.
+Valor Aproximado dos Tributos: 13,45%
+
+Código do Serviço / Atividade
+4.01 / 863050101 - atividade médica ambulatorial com recursos para realização de procedimentos cirúrgicos - clínicas of
+
+Detalhamento Específico da Construção Civil
+Código da Obra
+
+Código ART
+
+Tributos Federais
+PIS
+
+6,76
+
+COFINS
+
+Detalhamento de Valores - Prestador dos Serviços
+Valor dos Serviços
+
+R$
+
+1.040,00
+
+(-) Desconto Incondicionado
+
+IR(R$)
+
+15,60
+
+Natureza Operação
+
+Regime especial Tributação
+63,96
+
+Outras Retenções
+
+0-Nenhum
+Opção Simples Nacional
+
+(-) ISS Retido
+
+20,80
+
+INSS(R$)
+
+Outras Retenções
+
+1-Tributação no município
+
+(-) Desconto Condicionado
+(-) Retenções Federais
+
+31,20
+
+2 - Não
+
+CSLL(R$)
+
+10,40
+
+Cálculo do ISSQN devido no Município
+Valor dos Serviços R$
+
+1.040,00
+
+(-) Deduções permitidas em lei
+(-) Desconto Incondicionado
+Base de Cálculo
+
+1.040,00
+
+(x) Alíquota %
+
+2,00
+
+ISS a reter:
+
+(X) Sim () Não
+
+Incentivador Cultura
+(=) Valor Líquido
+
+R$
+
+955,24
+
+(=) Valor do ISS:
+
+R$
+
+2-Não
+1- Uma via desta Nota Fiscal será enviada através do e-mail fornecido pelo Tomador dos Serviços.
+2- A autenticidade desta Nota Fiscal poderá ser verificada no site, santos.ginfes.com.br com a utilização do Código de Verificação.
+
+Avisos
+
+20,80
+
+')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 14:57:28 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+INFO - 2023-06-21 14:58:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 14:58:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 14:58:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 14:58:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-21 14:58:43 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 14:59:47 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 14:59:56 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+INFO - 2023-06-21 15:00:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-21 15:00:15 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+INFO - 2023-06-21 15:00:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-21 15:01:21 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 15:01:48 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 15:03:13 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 15:03:46 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 15:04:11 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 15:04:17 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 15:05:01 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 15:05:42 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 15:05:56 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 15:39:40 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 15:41:47 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 15:42:46 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 15:43:31 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 15:44:37 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 15:45:14 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 15:46:20 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 15:46:32 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 15:47:05 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 15:47:13 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+CRITICAL - 2023-06-21 15:48:33 --> syntax error, unexpected token ","
+in APPPATH\Controllers\Base.php on line 101.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('base/convertPdfToText')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('base/convertPdfToText')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('base/convertPdfToText')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 15:48:50 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 15:49:27 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 15:49:49 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 15:50:11 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 15:50:50 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 15:57:42 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+INFO - 2023-06-21 16:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-21 16:05:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-21 16:05:56 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 16:07:52 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 16:09:14 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 16:11:40 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 16:11:53 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+INFO - 2023-06-21 16:12:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-21 16:13:42 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 16:14:29 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 16:14:40 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 16:15:15 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 16:16:17 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 16:17:14 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 16:17:24 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 16:19:00 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+INFO - 2023-06-21 16:19:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-21 16:19:09 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+INFO - 2023-06-21 16:19:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-21 16:19:17 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 16:19:42 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 16:22:22 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 16:22:56 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 16:24:02 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 16:24:30 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+WARNING - 2023-06-21 16:24:53 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+INFO - 2023-06-21 16:24:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-21 16:25:05 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+INFO - 2023-06-21 16:25:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-21 16:25:26 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 49.
+ 1 APPPATH\Controllers\Base.php(49): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')

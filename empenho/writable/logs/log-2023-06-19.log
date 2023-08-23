@@ -1,0 +1,649 @@
+INFO - 2023-06-19 11:40:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-19 11:40:35 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'scsport_jean'@'187.74.170.54' (using password: YES) in C:\Users\NOTE-JEAN\Documents\Empenho\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\Users\NOTE-JEAN\Documents\Empenho\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('50.116.86.134', 'scsport_jean', Object(SensitiveParameterValue), 'scsport_empenho', 3306, '', 0)
+#1 C:\Users\NOTE-JEAN\Documents\Empenho\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\NOTE-JEAN\Documents\Empenho\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\NOTE-JEAN\Documents\Empenho\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\NOTE-JEAN\Documents\Empenho\vendor\codeigniter4\framework\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\NOTE-JEAN\Documents\Empenho\vendor\codeigniter4\framework\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\Users\NOTE-JEAN\Documents\Empenho\app\Models\UsuarioModel.php(48): CodeIgniter\BaseModel->first()
+#7 C:\Users\NOTE-JEAN\Documents\Empenho\app\Controllers\Home.php(22): App\Models\UsuarioModel->getUser('jean', '123')
+#8 C:\Users\NOTE-JEAN\Documents\Empenho\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Home->login()
+#9 C:\Users\NOTE-JEAN\Documents\Empenho\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\Users\NOTE-JEAN\Documents\Empenho\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\NOTE-JEAN\Documents\Empenho\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\NOTE-JEAN\Documents\Empenho\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-J...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'187.74.170.54' (using password: YES) in C:\Users\NOTE-JEAN\Documents\Empenho\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\Users\NOTE-JEAN\Documents\Empenho\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\NOTE-JEAN\Documents\Empenho\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\NOTE-JEAN\Documents\Empenho\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\NOTE-JEAN\Documents\Empenho\vendor\codeigniter4\framework\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\NOTE-JEAN\Documents\Empenho\vendor\codeigniter4\framework\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 C:\Users\NOTE-JEAN\Documents\Empenho\app\Models\UsuarioModel.php(48): CodeIgniter\BaseModel->first()
+#6 C:\Users\NOTE-JEAN\Documents\Empenho\app\Controllers\Home.php(22): App\Models\UsuarioModel->getUser('jean', '123')
+#7 C:\Users\NOTE-JEAN\Documents\Empenho\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Home->login()
+#8 C:\Users\NOTE-JEAN\Documents\Empenho\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\Users\NOTE-JEAN\Documents\Empenho\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\NOTE-JEAN\Documents\Empenho\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\NOTE-JEAN\Documents\Empenho\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-J...')
+#12 {main}
+CRITICAL - 2023-06-19 11:40:35 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'187.74.170.54' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `LOGIN`
+WHERE `USERNAME` = :USERNAME:
+AND `PASSWORD` = :PASSWORD:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Models\UsuarioModel.php(48): CodeIgniter\BaseModel->first()
+ 6 APPPATH\Controllers\Home.php(22): App\Models\UsuarioModel->getUser('jean', '123')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho\\public\\index.php')
+INFO - 2023-06-19 11:41:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 11:41:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 11:41:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 12:37:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 12:38:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 12:40:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 12:40:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 12:40:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 12:40:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 12:45:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 12:45:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 12:45:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 12:45:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 12:51:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 12:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 12:51:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-19 14:28:11 --> number_format(): Argument #1 ($num) must be of type float, string given
+in APPPATH\Controllers\Base.php on line 177.
+ 1 APPPATH\Controllers\Base.php(177): number_format('', 2, '.', '')
+ 2 APPPATH\Controllers\Base.php(54): App\Controllers\Base->extractFields('Competência	Código de Verificação	
+Número do RPS	No. da NFS-e substituída
+Dados do Prestador de Serviços	
+Razão Social/Nome
+Complemento:	Telefone:	e-mail:	
+Dados do Tomador de Serviços	
+Razão Social/Nome
+CNPJ/CPF	Inscrição Municipal	Município	
+Endereço e CEP
+Complemento:	Telefone:	e-mail:	
+Discriminação dos Serviços
+Código do Serviço / Atividade	
+Detalhamento Específico da Construção Civil	
+Código da Obra	Código ART	
+Tributos Federais	
+PIS	COFINS	IR(R$)	INSS(R$)	CSLL(R$)	
+Detalhamento de Valores - Prestador dos Serviços	Outras Retenções	Cálculo do ISSQN devido no Município	
+NOTA FISCAL DE SERVIÇO ELETRÔNICA - NFS-e	
+Data e Hora da Emissão
+Valor dos Serviços    R$
+(-) Desconto Incondicionado
+(-) Desconto Condicionado
+(-) Retenções Federais
+Outras Retenções
+(-) ISS Retido
+(=)  Valor Líquido        R$	
+Regime especial Tributação
+Opção Simples Nacional
+Incentivador Cultura	
+Endereço e Cep
+CNPJ/CPF	Inscrição Municipal	Município	
+Número da	
+NFS-e	
+PREFEITURA MUNICIPAL DE SANTOS	
+SECRETARIA MUNICIPAL DE FINANÇAS	
+2653	
+30/05/2023 16:39:16	30/5/2023	1D7YIO7FG	
+10.962.904/0001-51	1884063	SANTOS - SP	
+AVENIDA MARECHAL DEODORO ,5 - GONZAGA CEP: 11060-401	
+0006	(13)3202-6363	fiscal@contglobal.com.br	
+TRACEMED SERVICOS MEDICOS E CLINICAS EM GERAL LTDA	
+1768875	SANTOS - SP	
+(13)3361-6112	fiscal@marcosspolaor.com.br	
+
+
+	
+4.01 / 863050101 - atividade médica ambulatorial com recursos para realização de procedimentos cirúrgicos - clínicas of	
+SERVIÇOS MÉDICO PRESTADO.Valor Aproximado dos Tributos: 13,45%	
+10,40	6,76	31,20	15,60	
+1.040,00
+63,96
+955,24	
+0-Nenhum
+2 - Não
+2-Não	
+DR. BOIS CLINICA E CIRURGIA DE OLHOS LTDA
+20,80	
+Natureza Operação	
+1-Tributação no município	
+08.784.226/0001-32
+ITORORÓ ,36 - CENTRO CEP: 11010-070
+0000  / ANDAR 1 E 2	
+Local da Prestação	SANTOS - SP	
+Nome Fantasia	
+(=) Valor do ISS:      R$
+(x) Alíquota  %
+ISS a reter:
+(-)  Desconto Incondicionado
+(-)  Deduções permitidas em lei
+Base de Cálculo
+Valor dos Serviços   R$	
+20,80	
+(X) Sim () Não	
+2,00
+1.040,00
+1.040,00	
+Avisos	
+1- Uma via desta Nota Fiscal será enviada através do e-mail fornecido pelo Tomador dos Serviços.2- A autenticidade desta Nota Fiscal poderá ser verificada no site, santos.ginfes.com.br com a utilização do Código de Verificação.')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho\\public\\index.php')
+CRITICAL - 2023-06-19 14:29:01 --> number_format(): Argument #1 ($num) must be of type float, string given
+in APPPATH\Controllers\Base.php on line 187.
+ 1 APPPATH\Controllers\Base.php(187): number_format('Não encontrado', 2, '.', '')
+ 2 APPPATH\Controllers\Base.php(54): App\Controllers\Base->extractFields('Competência	Código de Verificação	
+Número do RPS	No. da NFS-e substituída
+Dados do Prestador de Serviços	
+Razão Social/Nome
+Complemento:	Telefone:	e-mail:	
+Dados do Tomador de Serviços	
+Razão Social/Nome
+CNPJ/CPF	Inscrição Municipal	Município	
+Endereço e CEP
+Complemento:	Telefone:	e-mail:	
+Discriminação dos Serviços
+Código do Serviço / Atividade	
+Detalhamento Específico da Construção Civil	
+Código da Obra	Código ART	
+Tributos Federais	
+PIS	COFINS	IR(R$)	INSS(R$)	CSLL(R$)	
+Detalhamento de Valores - Prestador dos Serviços	Outras Retenções	Cálculo do ISSQN devido no Município	
+NOTA FISCAL DE SERVIÇO ELETRÔNICA - NFS-e	
+Data e Hora da Emissão
+Valor dos Serviços    R$
+(-) Desconto Incondicionado
+(-) Desconto Condicionado
+(-) Retenções Federais
+Outras Retenções
+(-) ISS Retido
+(=)  Valor Líquido        R$	
+Regime especial Tributação
+Opção Simples Nacional
+Incentivador Cultura	
+Endereço e Cep
+CNPJ/CPF	Inscrição Municipal	Município	
+Número da	
+NFS-e	
+PREFEITURA MUNICIPAL DE SANTOS	
+SECRETARIA MUNICIPAL DE FINANÇAS	
+2653	
+30/05/2023 16:39:16	30/5/2023	1D7YIO7FG	
+10.962.904/0001-51	1884063	SANTOS - SP	
+AVENIDA MARECHAL DEODORO ,5 - GONZAGA CEP: 11060-401	
+0006	(13)3202-6363	fiscal@contglobal.com.br	
+TRACEMED SERVICOS MEDICOS E CLINICAS EM GERAL LTDA	
+1768875	SANTOS - SP	
+(13)3361-6112	fiscal@marcosspolaor.com.br	
+
+
+	
+4.01 / 863050101 - atividade médica ambulatorial com recursos para realização de procedimentos cirúrgicos - clínicas of	
+SERVIÇOS MÉDICO PRESTADO.Valor Aproximado dos Tributos: 13,45%	
+10,40	6,76	31,20	15,60	
+1.040,00
+63,96
+955,24	
+0-Nenhum
+2 - Não
+2-Não	
+DR. BOIS CLINICA E CIRURGIA DE OLHOS LTDA
+20,80	
+Natureza Operação	
+1-Tributação no município	
+08.784.226/0001-32
+ITORORÓ ,36 - CENTRO CEP: 11010-070
+0000  / ANDAR 1 E 2	
+Local da Prestação	SANTOS - SP	
+Nome Fantasia	
+(=) Valor do ISS:      R$
+(x) Alíquota  %
+ISS a reter:
+(-)  Desconto Incondicionado
+(-)  Deduções permitidas em lei
+Base de Cálculo
+Valor dos Serviços   R$	
+20,80	
+(X) Sim () Não	
+2,00
+1.040,00
+1.040,00	
+Avisos	
+1- Uma via desta Nota Fiscal será enviada através do e-mail fornecido pelo Tomador dos Serviços.2- A autenticidade desta Nota Fiscal poderá ser verificada no site, santos.ginfes.com.br com a utilização do Código de Verificação.')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho\\public\\index.php')
+CRITICAL - 2023-06-19 14:29:44 --> number_format(): Argument #1 ($num) must be of type float, string given
+in APPPATH\Controllers\Base.php on line 201.
+ 1 APPPATH\Controllers\Base.php(201): number_format('INSS(R$)', 2, '.', '')
+ 2 APPPATH\Controllers\Base.php(54): App\Controllers\Base->extractFields('Competência	Código de Verificação	
+Número do RPS	No. da NFS-e substituída
+Dados do Prestador de Serviços	
+Razão Social/Nome
+Complemento:	Telefone:	e-mail:	
+Dados do Tomador de Serviços	
+Razão Social/Nome
+CNPJ/CPF	Inscrição Municipal	Município	
+Endereço e CEP
+Complemento:	Telefone:	e-mail:	
+Discriminação dos Serviços
+Código do Serviço / Atividade	
+Detalhamento Específico da Construção Civil	
+Código da Obra	Código ART	
+Tributos Federais	
+PIS	COFINS	IR(R$)	INSS(R$)	CSLL(R$)	
+Detalhamento de Valores - Prestador dos Serviços	Outras Retenções	Cálculo do ISSQN devido no Município	
+NOTA FISCAL DE SERVIÇO ELETRÔNICA - NFS-e	
+Data e Hora da Emissão
+Valor dos Serviços    R$
+(-) Desconto Incondicionado
+(-) Desconto Condicionado
+(-) Retenções Federais
+Outras Retenções
+(-) ISS Retido
+(=)  Valor Líquido        R$	
+Regime especial Tributação
+Opção Simples Nacional
+Incentivador Cultura	
+Endereço e Cep
+CNPJ/CPF	Inscrição Municipal	Município	
+Número da	
+NFS-e	
+PREFEITURA MUNICIPAL DE SANTOS	
+SECRETARIA MUNICIPAL DE FINANÇAS	
+2653	
+30/05/2023 16:39:16	30/5/2023	1D7YIO7FG	
+10.962.904/0001-51	1884063	SANTOS - SP	
+AVENIDA MARECHAL DEODORO ,5 - GONZAGA CEP: 11060-401	
+0006	(13)3202-6363	fiscal@contglobal.com.br	
+TRACEMED SERVICOS MEDICOS E CLINICAS EM GERAL LTDA	
+1768875	SANTOS - SP	
+(13)3361-6112	fiscal@marcosspolaor.com.br	
+
+
+	
+4.01 / 863050101 - atividade médica ambulatorial com recursos para realização de procedimentos cirúrgicos - clínicas of	
+SERVIÇOS MÉDICO PRESTADO.Valor Aproximado dos Tributos: 13,45%	
+10,40	6,76	31,20	15,60	
+1.040,00
+63,96
+955,24	
+0-Nenhum
+2 - Não
+2-Não	
+DR. BOIS CLINICA E CIRURGIA DE OLHOS LTDA
+20,80	
+Natureza Operação	
+1-Tributação no município	
+08.784.226/0001-32
+ITORORÓ ,36 - CENTRO CEP: 11010-070
+0000  / ANDAR 1 E 2	
+Local da Prestação	SANTOS - SP	
+Nome Fantasia	
+(=) Valor do ISS:      R$
+(x) Alíquota  %
+ISS a reter:
+(-)  Desconto Incondicionado
+(-)  Deduções permitidas em lei
+Base de Cálculo
+Valor dos Serviços   R$	
+20,80	
+(X) Sim () Não	
+2,00
+1.040,00
+1.040,00	
+Avisos	
+1- Uma via desta Nota Fiscal será enviada através do e-mail fornecido pelo Tomador dos Serviços.2- A autenticidade desta Nota Fiscal poderá ser verificada no site, santos.ginfes.com.br com a utilização do Código de Verificação.')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho\\public\\index.php')
+CRITICAL - 2023-06-19 14:30:21 --> number_format(): Argument #1 ($num) must be of type float, string given
+in APPPATH\Controllers\Base.php on line 183.
+ 1 APPPATH\Controllers\Base.php(183): number_format('Não encontrado', 2, '.', '')
+ 2 APPPATH\Controllers\Base.php(54): App\Controllers\Base->extractFields('Competência	Código de Verificação	
+Número do RPS	No. da NFS-e substituída
+Dados do Prestador de Serviços	
+Razão Social/Nome
+Complemento:	Telefone:	e-mail:	
+Dados do Tomador de Serviços	
+Razão Social/Nome
+CNPJ/CPF	Inscrição Municipal	Município	
+Endereço e CEP
+Complemento:	Telefone:	e-mail:	
+Discriminação dos Serviços
+Código do Serviço / Atividade	
+Detalhamento Específico da Construção Civil	
+Código da Obra	Código ART	
+Tributos Federais	
+PIS	COFINS	IR(R$)	INSS(R$)	CSLL(R$)	
+Detalhamento de Valores - Prestador dos Serviços	Outras Retenções	Cálculo do ISSQN devido no Município	
+NOTA FISCAL DE SERVIÇO ELETRÔNICA - NFS-e	
+Data e Hora da Emissão
+Valor dos Serviços    R$
+(-) Desconto Incondicionado
+(-) Desconto Condicionado
+(-) Retenções Federais
+Outras Retenções
+(-) ISS Retido
+(=)  Valor Líquido        R$	
+Regime especial Tributação
+Opção Simples Nacional
+Incentivador Cultura	
+Endereço e Cep
+CNPJ/CPF	Inscrição Municipal	Município	
+Número da	
+NFS-e	
+PREFEITURA MUNICIPAL DE SANTOS	
+SECRETARIA MUNICIPAL DE FINANÇAS	
+2653	
+30/05/2023 16:39:16	30/5/2023	1D7YIO7FG	
+10.962.904/0001-51	1884063	SANTOS - SP	
+AVENIDA MARECHAL DEODORO ,5 - GONZAGA CEP: 11060-401	
+0006	(13)3202-6363	fiscal@contglobal.com.br	
+TRACEMED SERVICOS MEDICOS E CLINICAS EM GERAL LTDA	
+1768875	SANTOS - SP	
+(13)3361-6112	fiscal@marcosspolaor.com.br	
+
+
+	
+4.01 / 863050101 - atividade médica ambulatorial com recursos para realização de procedimentos cirúrgicos - clínicas of	
+SERVIÇOS MÉDICO PRESTADO.Valor Aproximado dos Tributos: 13,45%	
+10,40	6,76	31,20	15,60	
+1.040,00
+63,96
+955,24	
+0-Nenhum
+2 - Não
+2-Não	
+DR. BOIS CLINICA E CIRURGIA DE OLHOS LTDA
+20,80	
+Natureza Operação	
+1-Tributação no município	
+08.784.226/0001-32
+ITORORÓ ,36 - CENTRO CEP: 11010-070
+0000  / ANDAR 1 E 2	
+Local da Prestação	SANTOS - SP	
+Nome Fantasia	
+(=) Valor do ISS:      R$
+(x) Alíquota  %
+ISS a reter:
+(-)  Desconto Incondicionado
+(-)  Deduções permitidas em lei
+Base de Cálculo
+Valor dos Serviços   R$	
+20,80	
+(X) Sim () Não	
+2,00
+1.040,00
+1.040,00	
+Avisos	
+1- Uma via desta Nota Fiscal será enviada através do e-mail fornecido pelo Tomador dos Serviços.2- A autenticidade desta Nota Fiscal poderá ser verificada no site, santos.ginfes.com.br com a utilização do Código de Verificação.')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho\\public\\index.php')
+CRITICAL - 2023-06-19 14:31:14 --> number_format(): Argument #1 ($num) must be of type float, string given
+in APPPATH\Controllers\Base.php on line 192.
+ 1 APPPATH\Controllers\Base.php(192): number_format('INSS(R$)', 2, '.', '')
+ 2 APPPATH\Controllers\Base.php(54): App\Controllers\Base->extractFields('Competência	Código de Verificação	
+Número do RPS	No. da NFS-e substituída
+Dados do Prestador de Serviços	
+Razão Social/Nome
+Complemento:	Telefone:	e-mail:	
+Dados do Tomador de Serviços	
+Razão Social/Nome
+CNPJ/CPF	Inscrição Municipal	Município	
+Endereço e CEP
+Complemento:	Telefone:	e-mail:	
+Discriminação dos Serviços
+Código do Serviço / Atividade	
+Detalhamento Específico da Construção Civil	
+Código da Obra	Código ART	
+Tributos Federais	
+PIS	COFINS	IR(R$)	INSS(R$)	CSLL(R$)	
+Detalhamento de Valores - Prestador dos Serviços	Outras Retenções	Cálculo do ISSQN devido no Município	
+NOTA FISCAL DE SERVIÇO ELETRÔNICA - NFS-e	
+Data e Hora da Emissão
+Valor dos Serviços    R$
+(-) Desconto Incondicionado
+(-) Desconto Condicionado
+(-) Retenções Federais
+Outras Retenções
+(-) ISS Retido
+(=)  Valor Líquido        R$	
+Regime especial Tributação
+Opção Simples Nacional
+Incentivador Cultura	
+Endereço e Cep
+CNPJ/CPF	Inscrição Municipal	Município	
+Número da	
+NFS-e	
+PREFEITURA MUNICIPAL DE SANTOS	
+SECRETARIA MUNICIPAL DE FINANÇAS	
+2653	
+30/05/2023 16:39:16	30/5/2023	1D7YIO7FG	
+10.962.904/0001-51	1884063	SANTOS - SP	
+AVENIDA MARECHAL DEODORO ,5 - GONZAGA CEP: 11060-401	
+0006	(13)3202-6363	fiscal@contglobal.com.br	
+TRACEMED SERVICOS MEDICOS E CLINICAS EM GERAL LTDA	
+1768875	SANTOS - SP	
+(13)3361-6112	fiscal@marcosspolaor.com.br	
+
+
+	
+4.01 / 863050101 - atividade médica ambulatorial com recursos para realização de procedimentos cirúrgicos - clínicas of	
+SERVIÇOS MÉDICO PRESTADO.Valor Aproximado dos Tributos: 13,45%	
+10,40	6,76	31,20	15,60	
+1.040,00
+63,96
+955,24	
+0-Nenhum
+2 - Não
+2-Não	
+DR. BOIS CLINICA E CIRURGIA DE OLHOS LTDA
+20,80	
+Natureza Operação	
+1-Tributação no município	
+08.784.226/0001-32
+ITORORÓ ,36 - CENTRO CEP: 11010-070
+0000  / ANDAR 1 E 2	
+Local da Prestação	SANTOS - SP	
+Nome Fantasia	
+(=) Valor do ISS:      R$
+(x) Alíquota  %
+ISS a reter:
+(-)  Desconto Incondicionado
+(-)  Deduções permitidas em lei
+Base de Cálculo
+Valor dos Serviços   R$	
+20,80	
+(X) Sim () Não	
+2,00
+1.040,00
+1.040,00	
+Avisos	
+1- Uma via desta Nota Fiscal será enviada através do e-mail fornecido pelo Tomador dos Serviços.2- A autenticidade desta Nota Fiscal poderá ser verificada no site, santos.ginfes.com.br com a utilização do Código de Verificação.')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho\\public\\index.php')
+CRITICAL - 2023-06-19 14:32:29 --> number_format(): Argument #1 ($num) must be of type float, string given
+in APPPATH\Controllers\Base.php on line 201.
+ 1 APPPATH\Controllers\Base.php(201): number_format('INSS(R$)', 2, '.', '')
+ 2 APPPATH\Controllers\Base.php(54): App\Controllers\Base->extractFields('Competência	Código de Verificação	
+Número do RPS	No. da NFS-e substituída
+Dados do Prestador de Serviços	
+Razão Social/Nome
+Complemento:	Telefone:	e-mail:	
+Dados do Tomador de Serviços	
+Razão Social/Nome
+CNPJ/CPF	Inscrição Municipal	Município	
+Endereço e CEP
+Complemento:	Telefone:	e-mail:	
+Discriminação dos Serviços
+Código do Serviço / Atividade	
+Detalhamento Específico da Construção Civil	
+Código da Obra	Código ART	
+Tributos Federais	
+PIS	COFINS	IR(R$)	INSS(R$)	CSLL(R$)	
+Detalhamento de Valores - Prestador dos Serviços	Outras Retenções	Cálculo do ISSQN devido no Município	
+NOTA FISCAL DE SERVIÇO ELETRÔNICA - NFS-e	
+Data e Hora da Emissão
+Valor dos Serviços    R$
+(-) Desconto Incondicionado
+(-) Desconto Condicionado
+(-) Retenções Federais
+Outras Retenções
+(-) ISS Retido
+(=)  Valor Líquido        R$	
+Regime especial Tributação
+Opção Simples Nacional
+Incentivador Cultura	
+Endereço e Cep
+CNPJ/CPF	Inscrição Municipal	Município	
+Número da	
+NFS-e	
+PREFEITURA MUNICIPAL DE SANTOS	
+SECRETARIA MUNICIPAL DE FINANÇAS	
+2653	
+30/05/2023 16:39:16	30/5/2023	1D7YIO7FG	
+10.962.904/0001-51	1884063	SANTOS - SP	
+AVENIDA MARECHAL DEODORO ,5 - GONZAGA CEP: 11060-401	
+0006	(13)3202-6363	fiscal@contglobal.com.br	
+TRACEMED SERVICOS MEDICOS E CLINICAS EM GERAL LTDA	
+1768875	SANTOS - SP	
+(13)3361-6112	fiscal@marcosspolaor.com.br	
+
+
+	
+4.01 / 863050101 - atividade médica ambulatorial com recursos para realização de procedimentos cirúrgicos - clínicas of	
+SERVIÇOS MÉDICO PRESTADO.Valor Aproximado dos Tributos: 13,45%	
+10,40	6,76	31,20	15,60	
+1.040,00
+63,96
+955,24	
+0-Nenhum
+2 - Não
+2-Não	
+DR. BOIS CLINICA E CIRURGIA DE OLHOS LTDA
+20,80	
+Natureza Operação	
+1-Tributação no município	
+08.784.226/0001-32
+ITORORÓ ,36 - CENTRO CEP: 11010-070
+0000  / ANDAR 1 E 2	
+Local da Prestação	SANTOS - SP	
+Nome Fantasia	
+(=) Valor do ISS:      R$
+(x) Alíquota  %
+ISS a reter:
+(-)  Desconto Incondicionado
+(-)  Deduções permitidas em lei
+Base de Cálculo
+Valor dos Serviços   R$	
+20,80	
+(X) Sim () Não	
+2,00
+1.040,00
+1.040,00	
+Avisos	
+1- Uma via desta Nota Fiscal será enviada através do e-mail fornecido pelo Tomador dos Serviços.2- A autenticidade desta Nota Fiscal poderá ser verificada no site, santos.ginfes.com.br com a utilização do Código de Verificação.')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho\\public\\index.php')
+INFO - 2023-06-19 14:45:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 14:45:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 14:45:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 14:45:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 14:46:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 14:46:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 14:46:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 14:46:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 14:46:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 18:04:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 18:04:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 18:05:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 18:05:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 18:05:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 18:05:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 18:46:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 18:46:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 18:46:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 18:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 19:16:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 19:16:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 19:16:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 19:18:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 19:19:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 19:25:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 19:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 19:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 19:25:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 20:37:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 20:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 20:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 20:37:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 20:41:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 20:41:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 20:41:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 20:41:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 20:46:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 20:47:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 20:49:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 20:49:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 20:49:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 20:50:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 20:50:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 20:50:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 20:50:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 20:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 20:52:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 20:52:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 20:52:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 20:52:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-19 20:54:52 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 47.
+ 1 APPPATH\Controllers\Base.php(47): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
+INFO - 2023-06-19 20:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 20:55:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-19 20:55:13 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Base.php on line 47.
+ 1 APPPATH\Controllers\Base.php(47): strpos(null, 'Error')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Base->convertPdfToText()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Base))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\NOTE-JEAN\\Documents\\Empenho - Copia\\public\\index.php')
