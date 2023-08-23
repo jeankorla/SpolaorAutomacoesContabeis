@@ -9,7 +9,7 @@ class Home extends BaseController
     public function index()
     {   
         echo view('common/header');
-        echo view('login');
+        echo view('Login');
         echo view('common/footer');
 
         //teste
