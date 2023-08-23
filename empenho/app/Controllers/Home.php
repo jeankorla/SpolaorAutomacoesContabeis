@@ -11,6 +11,8 @@ class Home extends BaseController
         echo view('common/header');
         echo view('login');
         echo view('common/footer');
+
+        //teste
     }
     public function login()
     {
