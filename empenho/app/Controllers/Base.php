@@ -22,9 +22,7 @@ class Base extends BaseController
 
     public function fiscal()
     {
-        echo view('common/header');
-        echo view('pdf_upload');
-        echo view('common/footer');
+        return redirect()->to('http://192.168.6.100:8082');
     }
      public function manutencao()
     {
