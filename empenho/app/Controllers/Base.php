@@ -66,13 +66,13 @@ public function convertPdfToText()
             $command = 'pdftotext ' . escapeshellarg($newName) . ' ' . escapeshellarg($textFileName) . ' 2>&1';
             shell_exec($command);
           
-            dd($textFileName);
+            // dd($textFileName);
 
             if (file_exists($textFileName)) {
                 $extractedText = file_get_contents($textFileName);
                 $fields = $this->extractFields($extractedText);
                 $fieldsArr[] = $fields;
-                //dd($extractedText);
+                dd($extractedText);
             } else {
                 return view('pdf_error', ['error' => 'Failed to extract text.']);
             }
