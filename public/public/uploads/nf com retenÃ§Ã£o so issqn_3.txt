@@ -1,0 +1,186 @@
+PREFEITURA MUNICIPAL DE SANTOS
+
+Data e Hora da Emissão
+
+SECRETARIA MUNICIPAL DE FINANÇAS
+
+Número da
+NFS-e
+
+NOTA FISCAL DE SERVIÇO ELETRÔNICA - NFS-e
+
+53742
+
+06/06/2023 11:39:46
+
+Competência
+
+Código de Verificação
+
+6/6/2023
+
+No. da NFS-e substituída
+
+Número do RPS
+
+DQ1TFBFBT
+
+Local da Prestação
+
+SANTOS - SP
+
+Dados do Prestador de Serviços
+Razão Social/Nome
+
+ANGIOCORPORE - INSTITUTO DE MEDICINA CARDIOVASCULAR LTDA
+
+Nome Fantasia
+CNPJ/CPF
+
+66.499.658/0001-06
+
+Endereço e Cep
+Complemento:
+
+Inscrição Municipal
+
+1246232
+
+Município
+
+SANTOS - SP
+
+AVENIDA ANA COSTA ,361 - GONZAGA CEP: 11060-003
+0000 / 33 E
+
+Telefone:
+
+(13)3221-8447
+
+e-mail:
+
+fiscal@angiocorpore.com.br
+
+Dados do Tomador de Serviços
+Razão Social/Nome
+CNPJ/CPF
+
+TRACE IMAGEM DIAGNOSTIGOS MEDICOS LTDA
+
+08.784.226/0001-32
+
+Endereço e CEP
+Complemento:
+
+Inscrição Municipal
+
+1768875
+
+Município
+
+SANTOS - SP
+
+RUA ITORORÓ ,36 - CENTRO CEP: 11010-070
+ANDAR 1/2 SLS 11 12 13
+
+Telefone:
+
+(13)3349-9015
+
+e-mail:
+
+financeiro@tracemed.com.br
+
+Discriminação dos Serviços
+SERVIÇOS MÉDICOS PRESTADOS
+
+Código do Serviço / Atividade
+4.02 / 8630502 - atividade médica ambulatorial com recursos para realização de exames complementares
+
+Detalhamento Específico da Construção Civil
+Código da Obra
+
+Código ART
+
+Tributos Federais
+PIS
+
+COFINS
+
+Detalhamento de Valores - Prestador dos Serviços
+Valor dos Serviços
+
+R$
+
+1.840,00
+
+(-) Desconto Incondicionado
+
+Natureza Operação
+
+Regime especial Tributação
+0,00
+
+Outras Retenções
+
+0-Nenhum
+Opção Simples Nacional
+
+(-) ISS Retido
+
+36,80
+
+INSS(R$)
+
+Outras Retenções
+
+1-Tributação no município
+
+(-) Desconto Condicionado
+(-) Retenções Federais
+
+IR(R$)
+
+2 - Não
+
+CSLL(R$)
+Cálculo do ISSQN devido no Município
+
+Valor dos Serviços R$
+
+1.840,00
+
+(-) Deduções permitidas em lei
+(-) Desconto Incondicionado
+Base de Cálculo
+
+1.840,00
+
+(x) Alíquota %
+
+2,00
+
+ISS a reter:
+
+(X) Sim () Não
+
+Incentivador Cultura
+(=) Valor Líquido
+
+R$
+
+1.803,20
+
+(=) Valor do ISS:
+
+R$
+
+2-Não
+1- Uma via desta Nota Fiscal será enviada através do e-mail fornecido pelo Tomador dos Serviços.
+2- A autenticidade desta Nota Fiscal poderá ser verificada no site, santos.ginfes.com.br com a utilização do Código de Verificação.
+
+Avisos
+
+36,80
+
+
