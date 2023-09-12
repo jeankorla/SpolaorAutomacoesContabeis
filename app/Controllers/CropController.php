@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use App\Controllers\BaseController;
+use thiagoalessio\TesseractOCR\TesseractOCR;
 
 class CropController extends BaseController
 {
@@ -13,15 +14,22 @@ class CropController extends BaseController
 
     public function crop()
     {
+      $startTime = microtime(true);
+
+      set_time_limit(100000);
+
       //função para eu recortar varios pedaços
       function cropAndSave($image, $cropSettings, $outputName) {
         $croppedImage = imagecrop($image, $cropSettings);
         imagejpeg($croppedImage, $outputName);
       }
 
+      
       //Buscando os arquivos(NFSE) enviados 
       $crop_file = $this->request->getFiles();
-        
+      echo "Tempo após a operação request: " . (microtime(true) - $startTime) . " segundos.<br>";
+      
+      
       //se tiver arquivo(NFSE) na variavel retorna TRUE e starta o IF
       if($crop_file){
         // Crie a pasta mãe com um nome aleatório
@@ -31,9 +39,14 @@ class CropController extends BaseController
           mkdir($motherFolderPath, 0777, true);
         }
 
+        echo "Tempo após a operação criação da pasta mãe: " . (microtime(true) - $startTime) . " segundos.<br>";
+
         //Instancio o Array em outra variavel usando o Foreach
         foreach($crop_file['crop_file'] as $files){
-             
+          $allResults = [];
+
+          echo "Tempo após a operação instaciando array crop_file: " . (microtime(true) - $startTime) . " segundos.<br>";
+
           //Verificação de se os arquivos foram validos E for diferente 
           if($files->isValid() && !$files->hasMoved()) {
 
@@ -44,11 +57,21 @@ class CropController extends BaseController
             $pdfPath = '../writable/temp/' . $tempName;
             $baseNameWithoutExtension = pathinfo($tempName, PATHINFO_FILENAME);
 
+
+            echo "Tempo após pegar o arquivo pdf e enviar para temp com nome aleatorio: " . (microtime(true) - $startTime) . " segundos.<br>";
+
             // Crie uma pasta filho para cada imagem convertida
             $childFolderPath = $motherFolderPath . $baseNameWithoutExtension . '/';
+
+            
+
+            
             if(!is_dir($childFolderPath)) {
               mkdir($childFolderPath, 0777, true);
             }
+
+            echo "Tempo após a operação criando pasta filho: " . (microtime(true) - $startTime) . " segundos.<br>";
+
 
             $convertedImgName = $baseNameWithoutExtension . '.jpg';
             $outputPath = $childFolderPath . $convertedImgName;
@@ -57,6 +80,8 @@ class CropController extends BaseController
             exec($command);
 
             $img = imagecreatefromjpeg($outputPath . "-1.jpg");
+
+            echo "Tempo após converter pdf em jpg: " . (microtime(true) - $startTime) . " segundos.<br>";
 
             // CNPJ TOMADOR
             $cropSettings1 = ['x' => 155, 'y' => 548, 'width' => 192, 'height' => 34];
@@ -133,8 +158,70 @@ class CropController extends BaseController
             $codAtiv = $childFolderPath . 'CodAtiv.jpg';
             cropAndSave($img, $cropSettings15, $codAtiv);
 
+            echo "Tempo após recortar todos os pedaços: " . (microtime(true) - $startTime) . " segundos.<br>";
+
+            // echo (new TesseractOCR($childFolderPath . '.jpg'))
+            // ->run();
+             $orderedFiles = [
+              'CnpjTomador.jpg',
+              'NumeroNota.jpg',
+              'CnpjPrestador.jpg',
+              'Data.jpg',
+              'ValorServico.jpg',
+              'BaseCalculo.jpg',
+              'Aliquota.jpg',
+              'ISS.jpg',
+              'PIS.jpg',
+              'COFINS.jpg',
+              'IR.jpg',
+              'INSS.jpg',
+              'CSLL.jpg',
+              'ValorLiquido.jpg',
+              // Adicione mais nomes conforme necessário
+            ];
+
+            // Construa seu resultado como você fez antes
+              $output = [];
+
+              foreach ($orderedFiles as $file) {
+              try {
+                  $ocrResult = (new TesseractOCR($childFolderPath . $file))->run();
+                  $output[] = "$ocrResult";
+                  
+                  if ($file === 'ValorLiquido.jpg') {
+                      $output[] = "\n";  // Adiciona uma quebra de linha após processar o arquivo ValorLiquido.jpg
+                  }
+                  
+              } catch (\thiagoalessio\TesseractOCR\UnsuccessfulCommandException $e) {
+                  $output[] = "";
+              }
           }
+
+              $resultString = implode(",", $output);
+              $allResults[] = $resultString;
+
+              echo "Tempo após pegar os resultados em string das imagens: " . (microtime(true) - $startTime) . " segundos.<br>";
         }
+
+        // var_dump($allResults);
+
+        //  Construir o conteúdo do arquivo XML
+        //       var_dump($crop_file);
+              // $xmlContent = implode("\n", $allResults); // Separa cada linha por uma quebra de linha
+             
+              // echo "Tempo após construir o XML: " . (microtime(true) - $startTime) . " segundos.<br>";
+              // // Defina os cabeçalhos para forçar o download do arquivo XML
+              // header('Content-Type: application/xml');
+              // header('Content-Disposition: attachment; filename="result.xml"');
+
+              // // Retorne o conteúdo
+              // echo $xmlContent;
+
+              $endTime = microtime(true);
+              $totalTime = $endTime - $startTime;
+              echo "Tempo total de execução: $totalTime segundos.<br>";
+               
+          }
       }
     }
 }
