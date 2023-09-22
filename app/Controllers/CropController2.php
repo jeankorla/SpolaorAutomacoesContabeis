@@ -29,7 +29,7 @@ class CropController2 extends BaseController
             $this->convert($crop_file, $motherFolderPath, $allResults);
         }
 
-        $this->xmlConstruct($allResults);
+        $this->xmlConstruct($allResults, $motherFolderName);
     }
 
 
@@ -137,7 +137,7 @@ class CropController2 extends BaseController
         return floatval($value);  
         } 
 
-  public function xmlConstruct($allResults)
+  public function xmlConstruct($allResults, $motherFolderName)
     {
         $xmlContentLines = [];
 
@@ -898,5 +898,22 @@ class CropController2 extends BaseController
         header('Content-Type: application/xml');
         header('Content-Disposition: attachment; filename="result.xml"');
         echo $xmlContent;
+
+        // Exclua a pasta mãe após enviar o XML
+        $motherFolderPath = '../writable/crop/' . $motherFolderName . '/';
+        $this->deleteFolder($motherFolderPath);
+    }
+
+    public function deleteFolder($path) {
+    if (is_dir($path)) {
+        $files = array_diff(scandir($path), ['.', '..']);
+        
+        foreach ($files as $file) {
+            (is_dir("$path/$file")) ? $this->deleteFolder("$path/$file") : unlink("$path/$file");
+        }
+
+        return rmdir($path);
+    }
+    return false;
     }
 }
