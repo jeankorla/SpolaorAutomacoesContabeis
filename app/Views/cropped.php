@@ -7,7 +7,7 @@
 </head>
 <body>
 
-    <form action="<?php echo site_url('CropController/crop')?>" method="post" enctype="multipart/form-data">
+    <form action="<?php echo site_url('CropController2/upload')?>" method="post" enctype="multipart/form-data">
 
     <label for="crop_file"></label>
     <input type="file" id="crop_file" name="crop_file[]" accept=".pdf" multiple>

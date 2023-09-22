@@ -5,266 +5,143 @@ namespace App\Controllers;
 use App\Controllers\BaseController;
 use thiagoalessio\TesseractOCR\TesseractOCR;
 
-class CropController extends BaseController
+class CropController2 extends BaseController
 {
     public function index()
     {
         return view ('cropped');
     } 
 
-    public function crop()
+    public function upload()
     {
-      $startTime = microtime(true);
+        $allResults = [];
+        $crop_file = $this->request->getFiles();
+        
 
-      set_time_limit(100000);
+        if($crop_file) {
+            $motherFolderName = bin2hex(random_bytes(10));
+            $motherFolderPath = '../writable/crop/' . $motherFolderName . '/';
 
-      //função para eu recortar varios pedaços
-      function cropAndSave($image, $cropSettings, $outputName) {
-        $croppedImage = imagecrop($image, $cropSettings);
-        imagejpeg($croppedImage, $outputName);
-      }
-
-      
-      //Buscando os arquivos(NFSE) enviados 
-      $crop_file = $this->request->getFiles();
-    
-      
-      
-      //se tiver arquivo(NFSE) na variavel retorna TRUE e starta o IF
-      if($crop_file){
-        // Crie a pasta mãe com um nome aleatório
-        $motherFolderName = bin2hex(random_bytes(10)); // nome aleatório para a pasta mãe
-        $motherFolderPath = '../writable/crop/' . $motherFolderName . '/';
-        if(!is_dir($motherFolderPath)) {
-          mkdir($motherFolderPath, 0777, true);
-        }
-
-
-
-         // Mova esta função para fora do loop
-          function formatToFloat($value) {
-              $value = str_replace('.', '', $value);  
-              $value = str_replace(',', '.', $value); 
-              return floatval($value);  
-          }
-
-         $allResults = [];
-
-         
-
-        //Instancio o Array em outra variavel usando o Foreach
-        foreach($crop_file['crop_file'] as $files){
-         
-            $singleFileResults = [];
-
-          //Verificação de se os arquivos foram validos E for diferente 
-          if($files->isValid() && !$files->hasMoved()) {
-
-            $tempName = $files->getRandomName();
-           
-            $files->move('../writable/temp/', $tempName);
-
-            $pdfPath = '../writable/temp/' . $tempName;
-            $baseNameWithoutExtension = pathinfo($tempName, PATHINFO_FILENAME);
-
-
-            
-            // Crie uma pasta filho para cada imagem convertida
-            $childFolderPath = $motherFolderPath . $baseNameWithoutExtension . '/';
-
-            
-
-            
-            if(!is_dir($childFolderPath)) {
-              mkdir($childFolderPath, 0777, true);
+            if(!is_dir($motherFolderPath)) {
+                mkdir($motherFolderPath, 0777, true);
             }
 
-           
-
-
-            $convertedImgName = $baseNameWithoutExtension . '.jpg';
-            $outputPath = $childFolderPath . $convertedImgName;
-
-            $command = "pdftoppm -jpeg \"$pdfPath\" \"$outputPath\"";
-            exec($command);
-
-            $img = imagecreatefromjpeg($outputPath . "-1.jpg");
-
-          
-
-            // CNPJ TOMADOR
-            $cropSettings1 = ['x' => 155, 'y' => 548, 'width' => 192, 'height' => 34];
-            $cnpjTomador = $childFolderPath . 'CnpjTomador.jpg';
-            cropAndSave($img, $cropSettings1, $cnpjTomador);
-
-            // Recorte Numero nota fiscal
-            $cropSettings2 = ['x' => 913, 'y' => 98, 'width' => 104, 'height' => 58];
-            $numeroNota = $childFolderPath . 'NumeroNota.jpg';
-            cropAndSave($img, $cropSettings2, $numeroNota);
-
-            // CNPJ PRESTADOR
-            $cropSettings3 = ['x' => 275, 'y' => 366, 'width' => 170, 'height' => 38];
-            $cnpjPrestador = $childFolderPath . 'CnpjPrestador.jpg';
-            cropAndSave($img, $cropSettings3, $cnpjPrestador);
-
-            // Data
-            $cropSettings4 = ['x' => 664, 'y' => 172, 'width' => 90, 'height' => 40];
-            $dataCompetencia = $childFolderPath . 'Data.jpg';
-            cropAndSave($img, $cropSettings4, $dataCompetencia);
-
-            // Valor do Serviço
-            $cropSettings5 = ['x' => 332, 'y' => 1190, 'width' => 95, 'height' => 30];
-            $valorServico = $childFolderPath . 'ValorServico.jpg';
-            cropAndSave($img, $cropSettings5, $valorServico);
-
-            // Base de Calculo
-            $cropSettings6 = ['x' => 1048, 'y' => 1315, 'width' => 95, 'height' => 30];
-            $baseCalculo = $childFolderPath . 'BaseCalculo.jpg';
-            cropAndSave($img, $cropSettings6, $baseCalculo);
-
-            // Aliquota %
-            $cropSettings7 = ['x' => 1051, 'y' => 1357, 'width' => 95, 'height' => 30];
-            $aliquota = $childFolderPath . 'Aliquota.jpg';
-            cropAndSave($img, $cropSettings7, $aliquota);
-
-            // ISS
-            $cropSettings8 = ['x' => 1045, 'y' => 1443, 'width' => 95, 'height' => 50];
-            $iss = $childFolderPath . 'ISS.jpg';
-            cropAndSave($img, $cropSettings8, $iss);
-
-            // PIS
-            $cropSettings9 = ['x' => 211, 'y' => 1097, 'width' => 95, 'height' => 50];
-            $pis = $childFolderPath . 'PIS.jpg';
-            cropAndSave($img, $cropSettings9, $pis);
-
-            // COFINS
-            $cropSettings10 = ['x' => 409, 'y' => 1097, 'width' => 95, 'height' => 50];
-            $cofins = $childFolderPath . 'COFINS.jpg';
-            cropAndSave($img, $cropSettings10, $cofins);
-
-            // IR
-            $cropSettings11 = ['x' => 613, 'y' => 1097, 'width' => 95, 'height' => 50];
-            $ir = $childFolderPath . 'IR.jpg';
-            cropAndSave($img, $cropSettings11, $ir);
-
-            // INSS
-            $cropSettings12 = ['x' => 809, 'y' => 1097, 'width' => 95, 'height' => 50];
-            $inss = $childFolderPath . 'INSS.jpg';
-            cropAndSave($img, $cropSettings12, $inss);
-
-             // CSLL
-            $cropSettings13 = ['x' => 1007, 'y' => 1097, 'width' => 192, 'height' => 50];
-            $csll = $childFolderPath . 'CSLL.jpg';
-            cropAndSave($img, $cropSettings13, $csll);
-
-            // Valor liquido
-            $cropSettings14 = ['x' => 326, 'y' => 1443, 'width' => 95, 'height' => 50];
-            $valorLiquido = $childFolderPath . 'ValorLiquido.jpg';
-            cropAndSave($img, $cropSettings14, $valorLiquido);
-
-            // Codigo de serviço / Atividade
-            $cropSettings15 = ['x' => 25, 'y' => 931, 'width' => 1150, 'height' => 50];
-            $codAtiv = $childFolderPath . 'CodAtiv.jpg';
-            cropAndSave($img, $cropSettings15, $codAtiv);
-            
+            $this->convert($crop_file, $motherFolderPath, $allResults);
         }
-         $orderedFiles = [
-              'CnpjTomador.jpg',
-              'NumeroNota.jpg',
-              'CnpjPrestador.jpg',
-              'Data.jpg',
-              'ValorServico.jpg',
-              'BaseCalculo.jpg',
-              'Aliquota.jpg',
-              'ISS.jpg',
-              'PIS.jpg',
-              'COFINS.jpg',
-              'IR.jpg',
-              'INSS.jpg',
-              'CSLL.jpg',
-              'ValorLiquido.jpg',
-              // Adicione mais nomes conforme necessário
-            ];
 
-            // Construa seu resultado como você fez antes
-              $output = [];
-
-              $singleFileResults = [];
-
-              foreach ($orderedFiles as $file) {
-              try {
-                  $ocrResult = (new TesseractOCR($childFolderPath . $file))->run();
-                  $output[] = "$ocrResult";
-
-
-                   if ($file === 'CnpjTomador.jpg') {
-                      $singleFileResults['CnpjTomador'] = $ocrResult;           
-                      } elseif ($file === 'NumeroNota.jpg') {
-                          $singleFileResults['NumeroNota'] = $ocrResult;
-                      } elseif ($file === 'CnpjPrestador.jpg') {
-                          $singleFileResults['CnpjPrestador'] = $ocrResult;
-                      } elseif ($file === 'Data.jpg') {
-                          $singleFileResults['Data'] = $ocrResult;
-                      } elseif ($file === 'ValorServico.jpg') {
-                          $singleFileResults['ValorServico'] = $ocrResult;
-                      } elseif ($file === 'BaseCalculo.jpg') {
-                          $singleFileResults['BaseCalculo'] = $ocrResult;
-                      } elseif ($file === 'Aliquota.jpg') {
-                          $singleFileResults['Aliquota'] = $ocrResult;
-                      } elseif ($file === 'ISS.jpg') {
-                          $singleFileResults['ISS'] = $ocrResult;
-                      } elseif ($file === 'PIS.jpg') {
-                          $singleFileResults['PIS'] = $ocrResult;
-                      } elseif ($file === 'COFINS.jpg') {
-                          $singleFileResults['COFINS'] = $ocrResult;
-                      } elseif ($file === 'IR.jpg') {
-                          $singleFileResults['IR'] = $ocrResult;
-                      } elseif ($file === 'INSS.jpg') {
-                          $singleFileResults['INSS'] = $ocrResult;
-                      } elseif ($file === 'CSLL.jpg') {
-                          $singleFileResults['CSLL'] = $ocrResult;
-                      } elseif ($file === 'ValorLiquido.jpg') {
-                          $singleFileResults['ValorLiquido'] = $ocrResult;
-                      }
-                      
-
-              } catch (\thiagoalessio\TesseractOCR\UnsuccessfulCommandException $e) {
-                  $output[] = "";
-              }
-                 
-          }
-                        if (!empty($singleFileResults)) {
-                            $allResults[] = $singleFileResults;
-                        }
-              
-      
-          }
+        $this->xmlConstruct($allResults);
+    }
 
 
 
-            $simplesNacional = [
-                    "09.163.898/0001-93"
-                ];
+    public function convert($crop_file, $motherFolderPath, &$allResults)
+    {
+        foreach($crop_file['crop_file'] as $files){
 
-                $lucroPresumido = [
-                    "36.064.463/0001-64"
-                ];
+            if($files->isValid() && !$files->hasMoved()) {
 
-                $lucroReal = [
-                    "60.011.343/0001-83"  
-                ];
+                $tempName = $files->getRandomName();
+
+                $files->move('../writable/temp/', $tempName);                     //Move o arquivo para um diretório temporário.
+
+                $pdfPath = '../writable/temp/' . $tempName;                       //Define o caminho completo do arquivo no diretório temporário e obtém o nome base do arquivo sem sua extensão.
+                $baseNameWithoutExtension = pathinfo($tempName, PATHINFO_FILENAME);
+
+                $childFolderPath = $motherFolderPath . $baseNameWithoutExtension . '/';    //Cria o caminho de uma pasta "filho" dentro da pasta "mãe" usando o nome base do arquivo.
+
+                    if(!is_dir($childFolderPath)){
+                    mkdir($childFolderPath, 0777, true);                         //Verifica se a pasta filho já existe. Se não existir, ela é criada.
+                    }
+
+                $convertedImgName = $baseNameWithoutExtension . '.jpg';          //Define o nome da imagem convertida e o caminho de saída completo.
+                $outputPath = $childFolderPath . $convertedImgName;
+                
+                $command = "pdftoppm -jpeg \"$pdfPath\" \"$outputPath\"";       //Cria um comando para converter um PDF em uma imagem JPG usando a ferramenta pdftoppm. Depois, o comando é executado.
+                exec($command);
+
+                $img = imagecreatefromjpeg($outputPath . "-1.jpg");
+
+                $this->crop($img, $childFolderPath, $allResults);
+
+                unlink($pdfPath);
+            }
+        }
+    }
+
+    public function cropAndSave($image, $cropSettings, $outputName) {
+        $croppedImage = imagecrop($image, $cropSettings);
+        imagejpeg($croppedImage, $outputName);
+    }
+
+    public function crop($img, $childFolderPath, &$allResults)
+    {
+        
+        $cropSettings = [
+        'CnpjTomador' => ['x' => 155, 'y' => 548, 'width' => 192, 'height' => 34],
+        'NumeroNota' => ['x' => 913, 'y' => 98, 'width' => 104, 'height' => 58],
+        'CnpjPrestador' => ['x' => 275, 'y' => 366, 'width' => 170, 'height' => 38],
+        'Data' => ['x' => 664, 'y' => 172, 'width' => 90, 'height' => 40],
+        'ValorServico' => ['x' => 332, 'y' => 1190, 'width' => 95, 'height' => 30],
+        'BaseCalculo' => ['x' => 1048, 'y' => 1315, 'width' => 95, 'height' => 30],                  //Informando coordenas da imagem a serem recortadas
+        'Aliquota' => ['x' => 1051, 'y' => 1357, 'width' => 95, 'height' => 30],
+        'ISS' => ['x' => 1045, 'y' => 1443, 'width' => 95, 'height' => 50],
+        'PIS' => ['x' => 211, 'y' => 1097, 'width' => 95, 'height' => 50],
+        'COFINS' => ['x' => 409, 'y' => 1097, 'width' => 95, 'height' => 50],
+        'IR' => ['x' => 613, 'y' => 1097, 'width' => 95, 'height' => 50],
+        'INSS' => ['x' => 809, 'y' => 1097, 'width' => 95, 'height' => 50],
+        'CSLL' => ['x' => 1007, 'y' => 1097, 'width' => 192, 'height' => 50],
+        'ValorLiquido' => ['x' => 326, 'y' => 1443, 'width' => 95, 'height' => 50],
+        'CodAtiv' => ['x' => 25, 'y' => 931, 'width' => 1150, 'height' => 50]
+    ];
+
+       foreach ($cropSettings as $cropKey => $cropSetting) {
+        $path = $childFolderPath . $cropKey . '.jpg';                                               //Recortando e salvando imagens
+        $this->cropAndSave($img, $cropSetting, $path);
+    }
+
+ 
+
+    $this->performOCR($cropSettings, $childFolderPath, $allResults);
+
+    }
 
 
 
-        $empresaCodigo = ''; // Inicializa a variável
+    public function performOCR($cropSettings, $childFolderPath, &$allResults)
+    {
 
-         // Agora fora dos loops, você coleta todas as informações e prepara o arquivo XML
+        $singleFileResults = []; 
+        $output = [];
+    
+    foreach ($cropSettings as $ocrKey => $ocrSetting) {
+
+        $file = $ocrKey . '.jpg';
+        try {
+            $ocrResult = (new TesseractOCR($childFolderPath . $file))->run();
+            $output[] = $ocrResult;
+            $singleFileResults[$ocrKey] = $ocrResult;                                                       //Lendo cada pedacinho da imagem recortada;
+        } catch (\thiagoalessio\TesseractOCR\UnsuccessfulCommandException $e) {
+            $output[] = "";
+        }
+    }
+
+    if (!empty($singleFileResults)) {           
+        $allResults[] = $singleFileResults;
+    }
+
+  } 
+
+     function formatToFloat($value) {
+        $value = str_replace('.', '', $value);  
+        $value = str_replace(',', '.', $value); 
+        return floatval($value);  
+        } 
+
+  public function xmlConstruct($allResults)
+    {
         $xmlContentLines = [];
 
-
-
-
-  foreach ($allResults as $singleFileResults) {
+    foreach ($allResults as $singleFileResults) {
       $cnpjToma = $singleFileResults['CnpjTomador'] ?? '';
       $numeroNota = $singleFileResults['NumeroNota'] ?? '';
       $cnpjPresta = $singleFileResults['CnpjPrestador'] ?? '';
@@ -279,36 +156,22 @@ class CropController extends BaseController
       $ValorINSS = $singleFileResults['INSS'] ?? '';
       $ValorCSLL = $singleFileResults['CSLL'] ?? '';
       $valorLiquido = $singleFileResults['ValorLiquido'] ?? '';
-
+     
         // Exemplo de uso
-        $valorServicos = formatToFloat($valorServico);  // Será convertido para float
-        $valorIR = formatToFloat($ValorIR);            // Será convertido para float
-        $valorINSS = formatToFloat($ValorINSS);        // Será convertido para float
-        $valorPIS = formatToFloat($ValorPIS);          // Será convertido para float
-        $valorCofins = formatToFloat($ValorCOFINS);    // Será convertido para float
-        $valorCSLL = formatToFloat($ValorCSLL);        // Será convertido para float
-        $valorISSRetido = formatToFloat($ValorISSRetido);  // Será convertido para float
+        $valorServicos = $this->formatToFloat($valorServico);  // Será convertido para float
+        $valorIR = $this->formatToFloat($ValorIR);            // Será convertido para float
+        $valorINSS = $this->formatToFloat($ValorINSS);        // Será convertido para float
+        $valorPIS = $this->formatToFloat($ValorPIS);          // Será convertido para float
+        $valorCofins = $this->formatToFloat($ValorCOFINS);    // Será convertido para float
+        $valorCSLL = $this->formatToFloat($ValorCSLL);        // Será convertido para float
+        $valorISSRetido = $this->formatToFloat($ValorISSRetido);  // Será convertido para float
+        $codigoServico = null;
+        $zero = "0.00";
+        $aliquotaIR = ($valorIR != 0 && $valorServicos != 0) ? ($valorIR / $valorServicos) * 100 : 0;
+        $null = null;   
 
-      
-    if (in_array($cnpjToma, $simplesNacional)) {
-        $empresaCodigo = '99';
-    } elseif (in_array($cnpjToma, $lucroPresumido)) {
-        $empresaCodigo = '98';
-    } elseif (in_array($cnpjToma, $lucroReal)) {
-        $empresaCodigo = '70';
-    }
-
-    $codigoServico = null;
-
-
-      $zero = "0.00";
-      $aliquotaIR = ($valorIR != 0 && $valorServicos != 0) ? ($valorIR / $valorServicos) * 100 : 0;
-      $null = null;
-
-//                 1       2        3   4   5      6           7         8   9   10           11     12   13  14  15          16
-  // $customString = ",$CnpjPrestador,5321,SP,$Data,$NumeroNota,$NumeroNota,NFSE,,$ValorServico,$zero,$zero,$zero,,$ValorServico,$AliquotaIR,$IR,,,,$null,$zero,$zero   "; 
-
-// Campo 1 - Número da chave da importação, neste caso estamos apenas usando um número aleatório
+    $fields = [];
+        // Campo 1 - Número da chave da importação, neste caso estamos apenas usando um número aleatório
     $fields[] = rand(1, 999999);
 
     // Campo 2 - Código, CNPJ, CPF ou apelido do cliente
@@ -773,8 +636,8 @@ class CropController extends BaseController
     // Campo 154 - Valor do Pis
     $fields[] = number_format($zero, 2, '.', '');
 
-    // Campo 155 -  CTS do Pis 
-    $fields[] = $empresaCodigo;
+    // // Campo 155 -  CTS do Pis 
+    // $fields[] = $empresaCodigo;
 
     // Campo 156 - Base do Pis importação
     $fields[] = number_format($zero, 2, '.', '');
@@ -794,8 +657,8 @@ class CropController extends BaseController
     // Campo 161 - Valor do Cofins
     $fields[] = number_format($zero, 2, '.', '');
 
-    // Campo 162 - CST do Cofins  
-    $fields[] = $empresaCodigo;
+    // // Campo 162 - CST do Cofins  
+    // $fields[] = $empresaCodigo;
 
     // Campo 163 - Base do Cofins importação
     $fields[] = number_format($zero, 2, '.', '');
@@ -1022,22 +885,18 @@ class CropController extends BaseController
     // Campo 236 -Indicador da origem do crédito ----------------------------------
     $fields[] = "0";
 
+        $customString = implode(",", $fields);
+
+        $xmlContentLines[] = $customString;
+
+        // var_dump($xmlContentLines);
 
 
+        }
 
-$customString = implode(",", $fields);
-
-  $xmlContentLines[] = $customString;
-}
-
-$xmlContent = implode("\n", $xmlContentLines);  // Junta todas as linhas em uma única string
-
-header('Content-Type: application/xml');
-header('Content-Disposition: attachment; filename="result.xml"');
-echo $xmlContent;  // Finalmente, envia o conteúdo
-
-      }
-     
+        $xmlContent = implode("\n", $xmlContentLines);
+        header('Content-Type: application/xml');
+        header('Content-Disposition: attachment; filename="result.xml"');
+        echo $xmlContent;
     }
-    
 }
