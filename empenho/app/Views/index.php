@@ -74,15 +74,23 @@ a:hover{
 
 <div>
     
-      <a class="left-button-sc" style="cursor: pointer; text-decoration: none;"
+      <!-- <a class="left-button-sc" style="cursor: pointer; text-decoration: none;"
       href="manutencao"
-      >Conciliação Contábil</a>
-    
+      >Conciliação Contábil</a> -->
+<!-- 
       <a class="right-button-sc" style="cursor: pointer; text-decoration: none;"
+      href="fiscal"
+      >Coversor de PDF para XML</a> -->
+
+      <a class="left-button-sc" style="cursor: pointer; text-decoration: none;"
       href="fiscal"
       >Coversor de PDF para XML</a>
 
-      <a class="button-gerador" style="cursor: pointer; text-decoration: none;"
+      <a class="right-button-sc" style="cursor: pointer; text-decoration: none;"
       href="<?= base_url('UploadController') ?>"
       >Gerador de Link</a>
+
+      <!-- <a class="button-gerador" style="cursor: pointer; text-decoration: none;"
+      href="<?= base_url('UploadController') ?>"
+      >Gerador de Link</a> -->
 </div>
