@@ -11,7 +11,7 @@ Ao examinar as diferentes branches deste repositório, você notará a evoluçã
 Este projeto foi implementado usando **Codeigniter 4**, um popular framework PHP. Embora o projeto tenha evoluído ao longo do tempo, experimentando com **Python** e diversas outras bibliotecas, a versão apresentada aqui é a que ofereceu os melhores resultados e atendeu às necessidades específicas do projeto.
 
 ## Bibliotecas Utilizadas
-Espaço reservado para listar e explicar as bibliotecas e ferramentas específicas que você utilizou. Você pode fornecer uma breve descrição e talvez um link para a documentação ou repositório de cada biblioteca para que os interessados possam explorar mais.
+"colocar bibliotecas e descreve-las, ja faço isso kk"
 
 ## Como Contribuir
 Estou aberto a sugestões e contribuições. Se você tiver ideias, feedback ou quiser colaborar em recursos específicos, sinta-se à vontade para abrir uma issue ou enviar um pull request.
