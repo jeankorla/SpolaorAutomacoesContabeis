@@ -179,10 +179,10 @@
         <div class="error"><?= session()->getFlashdata('error') ?></div>
       <?php endif; ?>
 
-      <?= form_open_multipart('base/convertPdfToText', ['class' => 'upload', 'id' => 'fileUploadForm']) ?>
+      <?= form_open_multipart('base/upload', ['class' => 'upload', 'id' => 'fileUploadForm']) ?>
         <p>Envie seus arquivos
           <span class="upload__button">
-            <input type="file" name="pdf_file[]" id="fileInput" multiple style="display:none;">
+            <input type="file" name="crop_file[]" name="crop_file[]" id="fileInput" multiple style="display:none;">
             Procurar
           </span>
         </p>
