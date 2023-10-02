@@ -163,7 +163,8 @@ class Base extends BaseController
             if ($dateObj) {
                 $dataHoraEmissao = $dateObj->format('Ymd');
             } 
-        }
+        }   
+          $CodServico  = $singleFileResults['CodAtiv'] ?? '';
           $valorServico = $singleFileResults['ValorServico'] ?? '';
           $baseCalculo = $singleFileResults['BaseCalculo'] ?? '';
           $aliquota = $singleFileResults['Aliquota'] ?? '';
@@ -174,6 +175,11 @@ class Base extends BaseController
           $ValorINSS = $singleFileResults['INSS'] ?? '';
           $ValorCSLL = $singleFileResults['CSLL'] ?? '';
           $valorLiquido = $singleFileResults['ValorLiquido'] ?? '';
+
+
+            // Extrair o código do serviço do valor
+            $partes = explode('/', $CodServico);
+            $codigoServico = trim($partes[0]) ?? null;
          
             // Exemplo de uso
             $valorServicos = $this->formatToFloat($valorServico);  // Será convertido para float
@@ -183,9 +189,10 @@ class Base extends BaseController
             $valorCofins = $this->formatToFloat($ValorCOFINS);    // Será convertido para float
             $valorCSLL = $this->formatToFloat($ValorCSLL);        // Será convertido para float
             $valorISSRetido = $this->formatToFloat($ValorISSRetido);  // Será convertido para float
-            $codigoServico = null;
             $zero = "0.00";
             $aliquotaIR = ($valorIR != 0 && $valorServicos != 0) ? ($valorIR / $valorServicos) * 100 : 0;
+            $aliquotaISS = ($valorISSRetido != 0 && $valorServicos != 0) ? ($valorISSRetido / $valorServicos) * 100 : 0;
+            $aliquotaPIS = ($valorPIS != 0 && $valorServicos != 0) ? ($valorPIS / $valorServicos) * 100 : 0;
             $null = null;   
             
 
@@ -422,10 +429,10 @@ class Base extends BaseController
         $fields[] = rand(1, 999999);
     
         // Campo 2 - Código, CNPJ, CPF ou apelido do cliente
-        $fields[] = $cnpjToma;
+        $fields[] = $cnpjPresta;
     
         // Campo 3 - Código da cidade. Neste exemplo, deixamos em branco
-        $fields[] = '5321';
+        $fields[] = '7071';
     
         // Campo 4 - Estado do destinatário da nota. Neste exemplo, deixamos em branco
         $fields[] = 'SP';
@@ -450,21 +457,21 @@ class Base extends BaseController
     
          // Campo 11 - Valor do Calculo ISS
         //$fields[] = number_format($valorBase, 2, '.', '');
-        $fields[] = number_format($zero, 2, '.', '');
+        $fields[] = number_format($valorServicos, 2, '.', '');
     
         // Campo 12 - Valor Aliquota
         //$fields[] = number_format($valorAliquota, 2, '.', '');
-        $fields[] = number_format($zero, 2, '.', '');
+        $fields[] = number_format($aliquotaISS, 2, '.', '');
     
         // Campo 13 - Valor ISS calculado
         //$fields[] = number_format($valorIss, 2, '.', '');
-        $fields[] = number_format($zero, 2, '.', '');
+        $fields[] = number_format($valorISSRetido, 2, '.', '');
     
         // Campo 14 - Observação, neste exemplo estamos deixando em branco
         $fields[] = '';
     
         // Campo 15 - Valor contábil da nota (Valor base de cálculo do imposto de renda retido na fonte)
-        $fields[] = number_format($valorServicos);
+        $fields[] = number_format($valorServicos, 2, '.', '');
     
         // Campo 16 - Alíquota do I.R.R.F 
        $fields[] = number_format($aliquotaIR, 2, '.', '');
@@ -548,7 +555,8 @@ class Base extends BaseController
         $fields[] = number_format($valorINSS, 2, '.', '');
     
         // Campo 43 - Tipo de Prestação de Serviço 
-        $fields[] = $codigoServico;
+        // $fields[] = $codigoServico;
+        $fields[] = '';
     
         // Campo 44 - Tipo de recolhimento do ISSQN para cidades 
         $fields[] = '';
@@ -716,7 +724,7 @@ class Base extends BaseController
         $fields[] = 'F';
     
         // Campo 99 - Código da natureza de operação -----------------------------------------------------------------
-        $fields[] = '1933000';
+        $fields[] = "1933000";
     
         // Campo 100 - Valor da Retenção do PIS
         $fields[] = number_format($valorPIS, 2, '.', '');
@@ -875,13 +883,13 @@ class Base extends BaseController
         $fields[] = $dataHoraEmissao;
     
         // Campo 152 - Base do Pis
-        $fields[] = number_format($zero, 2, '.', '');
+        $fields[] = number_format($valorServicos, 2, '.', '');
     
         // Campo 153 - Aliquota do Pis
-        $fields[] = number_format($zero, 2, '.', '');
+        $fields[] = number_format($aliquotaPIS, 2, '.', '');
     
         // Campo 154 - Valor do Pis
-        $fields[] = number_format($zero, 2, '.', '');
+        $fields[] = number_format($valorPIS, 2, '.', '');;
     
         // Campo 155 -  CTS do Pis 
         $fields[] = $empresaCodigo;
