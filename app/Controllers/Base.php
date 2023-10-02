@@ -25,6 +25,8 @@ class Base extends BaseController
     
         public function upload()
         {
+            set_time_limit(50000);
+
             $allResults = [];
             $crop_file = $this->request->getFiles();
             
@@ -47,6 +49,8 @@ class Base extends BaseController
     
         public function convert($crop_file, $motherFolderPath, &$allResults)
         {
+            set_time_limit(50000);
+
             foreach($crop_file['crop_file'] as $files){
     
                 if($files->isValid() && !$files->hasMoved()) {
@@ -80,12 +84,19 @@ class Base extends BaseController
         }
     
         public function cropAndSave($image, $cropSettings, $outputName) {
+            set_time_limit(50000);
+
             $croppedImage = imagecrop($image, $cropSettings);
+            
+            // Aumentar o contraste. -100 para o máximo contraste.
+            imagefilter($croppedImage, IMG_FILTER_CONTRAST, -200);
+            
             imagejpeg($croppedImage, $outputName);
         }
     
         public function crop($img, $childFolderPath, &$allResults)
         {
+            set_time_limit(50000);
             
             $cropSettings = [
             'CnpjTomador' => ['x' => 155, 'y' => 548, 'width' => 192, 'height' => 34],
@@ -120,6 +131,8 @@ class Base extends BaseController
     
         public function performOCR($cropSettings, $childFolderPath, &$allResults)
         {
+
+            set_time_limit(50000);
     
             $singleFileResults = []; 
             $output = [];
@@ -150,6 +163,9 @@ class Base extends BaseController
     
       public function xmlConstruct($allResults, $motherFolderName)
         {
+
+            set_time_limit(50000);
+
             $xmlContentLines = [];
             
         foreach ($allResults as $singleFileResults) {
@@ -177,9 +193,10 @@ class Base extends BaseController
           $valorLiquido = $singleFileResults['ValorLiquido'] ?? '';
 
 
-            // Extrair o código do serviço do valor
-            $partes = explode('/', $CodServico);
-            $codigoServico = trim($partes[0]) ?? null;
+         // Extrair o código do serviço do valor antes de " /§{|!(+}) "
+            $delimitadores = '[\/§{|!(+})]';
+            $partes = preg_split("/$delimitadores/", $CodServico);
+            $codigoServico = preg_replace("/[a-zA-Z\s]/", "", $partes[0]);
          
             // Exemplo de uso
             $valorServicos = $this->formatToFloat($valorServico);  // Será convertido para float
@@ -194,6 +211,10 @@ class Base extends BaseController
             $aliquotaISS = ($valorISSRetido != 0 && $valorServicos != 0) ? ($valorISSRetido / $valorServicos) * 100 : 0;
             $aliquotaPIS = ($valorPIS != 0 && $valorServicos != 0) ? ($valorPIS / $valorServicos) * 100 : 0;
             $null = null;   
+
+
+            // var_dump($CodServico);
+            // var_dump($codigoServico);
             
 
     
@@ -1160,6 +1181,8 @@ class Base extends BaseController
         }
     
         public function deleteFolder($path) {
+            set_time_limit(50000);
+
         if (is_dir($path)) {
             $files = array_diff(scandir($path), ['.', '..']);
             
