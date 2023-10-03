@@ -89,7 +89,7 @@ class Base extends BaseController
             $croppedImage = imagecrop($image, $cropSettings);
             
             // Aumentar o contraste. -100 para o máximo contraste.
-            imagefilter($croppedImage, IMG_FILTER_CONTRAST, -200);
+            imagefilter($croppedImage, IMG_FILTER_CONTRAST, -100);
             
             imagejpeg($croppedImage, $outputName);
         }
