@@ -22,7 +22,7 @@ class Base extends BaseController
 
     public function fiscal()
     {
-        return redirect()->to('http://192.168.6.100:8082/index.php/base/fiscal');
+        return redirect()->to('http://192.168.6.234:8082/index.php/base/fiscal');
     }
      public function manutencao()
     {
