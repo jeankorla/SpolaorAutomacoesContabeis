@@ -84,7 +84,7 @@ a:hover{
 
       <a class="left-button-sc" style="cursor: pointer; text-decoration: none;"
       href="fiscal"
-      >Coversorrrrrrrrrrrrrr de PDF para XML</a>
+      >Coversor de PDF para XML</a>
 
       <a class="right-button-sc" style="cursor: pointer; text-decoration: none;"
       href="<?= base_url('UploadController') ?>"
