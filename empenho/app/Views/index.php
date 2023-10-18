@@ -74,9 +74,9 @@ a:hover{
 
 <div>
     
-      <!-- <a class="left-button-sc" style="cursor: pointer; text-decoration: none;"
-      href="manutencao"
-      >Conciliação Contábil</a> -->
+       <a class="left-button-sc" style="cursor: pointer; text-decoration: none;"
+      href="http://192.168.6.234:8082/Conciliacao"
+      >Conciliação Contábil Por NFSE</a> 
 <!-- 
       <a class="right-button-sc" teste style="cursor: pointer; text-decoration: none;"
       href="fiscal"
