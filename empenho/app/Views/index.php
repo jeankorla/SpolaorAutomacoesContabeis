@@ -77,20 +77,13 @@ a:hover{
        <a class="left-button-sc" style="cursor: pointer; text-decoration: none;"
       href="http://192.168.6.234:8082/Conciliacao"
       >Conciliação Contábil Por NFSE</a> 
-<!-- 
-      <a class="right-button-sc" teste style="cursor: pointer; text-decoration: none;"
-      href="fiscal"
-      >Coversor de PDF para XML</a> -->
 
-      <a class="left-button-sc" style="cursor: pointer; text-decoration: none;"
+      <a class="right-button-sc" style="cursor: pointer; text-decoration: none;"
       href="fiscal"
       >Coversor de PDF para XML</a>
 
-      <a class="right-button-sc" style="cursor: pointer; text-decoration: none;"
+      <a class="button-gerador" style="cursor: pointer; text-decoration: none;"
       href="<?= base_url('UploadController') ?>"
       >Gerador de Link</a>
 
-      <!-- <a class="button-gerador" style="cursor: pointer; text-decoration: none;"
-      href="<?= base_url('UploadController') ?>"
-      >Gerador de Link</a> -->
 </div>
